@@ -63,10 +63,16 @@ CSV: |
     Text files where the values are separated with commas (Comma Separated Values = CSV). These files have the file extension .csv
 Cumulative Distribution Function: |
   A cumulative distribution function (CDF) tells us the probability that a random variable takes on a value less than or equal to x. (<a href="https://www.statology.org/cdf-vs-pdf/">Statology</a>) It sums all parts of the distribution, replacing a lot of calculus work. The CDF takes in a value and returns the probability of getting that value or lower. (BF, Chap.13) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
+Data Tables: |
+   Data Tables are --- in contrast to Display Tables --- for analysis and not for presentation. Another purpose of Data Tables is to store, retrieve and share information digitally. In R they are tibbles, data.frames etc.
 Dispersion Matrix: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
+Display Tables: |
+  Display Tables are in constrast to Data Tables. You would find them in a web page, a journal article, or in a magazine. Such tables are for presentation, often to facilitate the construction of “Table 1”, i.e., baseline characteristics table commonly found in research papers. (<a href= "https://gt.rstudio.com/articles/gt.html">Introduction to Creating gt Tables</a>)
 Dummy Data: |
   Simulated data are called dummy data to indicate that it is a stand-in for actual data. (SR2, p.62)
+EDA: |
+  Explorative Data Analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. (<a href="https://en.wikipedia.org/wiki/Exploratory_data_analysis">Wikipedia</a>)
 ECDF: |
   In statistics, an empirical distribution function (commonly also called an empirical cumulative distribution function, eCDF) is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value. (<a href="https://en.wikipedia.org/wiki/Empirical_distribution_function">Wikipedia</a>) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 Event Set: |
@@ -153,10 +159,12 @@ Monomial: |
   A monomial is an algebraic expression that has just one term. For example, \[3x\] and \[-5y^2\] are both monomials. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
-NIMBLE: |
-  NIMBLE is a system for building and sharing analysis methods for statistical models, especially for hierarchical models and computationally-intensive methods. Other packages that use the BUGS language are only for Markov chain Monte Carlo (MCMC). With NIMBLE, you can turn BUGS code into model objects and use them for whatever algorithm you want. (<a href="https://r-nimble.org/">r-nimble.org</a>)
 Negation: |
   The probability of X and the negation of the probability of X sum to 1 (in other words, values are either X, or not X). The ¬ symbol means “negation” or “not.” (BF, Chap.2)
+NIMBLE: |
+  NIMBLE is a system for building and sharing analysis methods for statistical models, especially for hierarchical models and computationally-intensive methods. Other packages that use the BUGS language are only for Markov chain Monte Carlo (MCMC). With NIMBLE, you can turn BUGS code into model objects and use them for whatever algorithm you want. (<a href="https://r-nimble.org/">r-nimble.org</a>)
+NHANES: |
+  The National Health and Nutrition Examination Survey (NHANES) is a program of studies designed to assess the health and nutritional status of adults and children in the United States. The survey is unique in that it combines interviews and physical examinations. (<a href="https://www.cdc.gov/nchs/nhanes/about_nhanes.htm">NHANES</a>)
 Non-informative Prior: |
   A prior distribution which is specified in an attempt to be non commital about a parameter, for example, a uniform distribution. (The Cambridge Dictionary of Statistics, CDS, p.303)
 NUTS: |
