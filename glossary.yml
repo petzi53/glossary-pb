@@ -1,7 +1,13 @@
 ACSPRI: |
   Australian Consortium for Social and Political Research Inc. oganizes conferences and delivers course. (<a href="https://www.acspri.org.au/">ACSPRI</a>)
+API: |
+  An API, or application programming interface, is a set of defined rules that enable different applications to communicate with each other. It acts as an intermediary layer that processes data transfers between systems, letting companies open their application data and functionality to external third-party developers, business partners, and internal departments within their companies. (<a href="https://www.ibm.com/topics/api">IBM</a>)
 Arithmetic Mean: |
   The arithmetic mean, also known as "arithmetic average", is the sum of the values divided by the number of values. If the data set were based on a series of observations obtained by sampling from a statistical population, the arithmetic mean is the sample mean $\overline{x}$ (pronounced x-bar) to distinguish it from the mean, or expected value, of the underlying distribution, the population mean $\mu$ (pronounced /'mjuː/). ([Wikipedia](https://en.wikipedia.org/wiki/Mean))
+Backtick: |
+  The backtick ` is a typographical mark used mainly in computing. It is also known as backquote, grave, or grave accent. (<a href="https://en.wikipedia.org/wiki/Backtick">Wikipedia</a>)
+Bar Charts: |
+  Bar charts are visual displays of data often used to examine similarities and differences across categories of things; bars can represent frequencies, percentages, means, or other statistics. (SwR, Glossary)
 Basis Function: |
   B-Splines invent a series of entirely new, synthetic predictor variables. Each of these synthetic variables exists only to gradually turn a specific parameter on and off within a specific range of the real predictor variable. Each of the synthetic variables is called a basis function. (Chap.4)
 Bayes Factor: |
@@ -22,6 +28,8 @@ Binomial Coefficient: |
   The binomial coefficient is the number of ways of picking *k* unordered outcomes from *n* possibilities, also known as a combination or combinatorial number. (<a href="https://mathworld.wolfram.com/BinomialCoefficient.html>Wolfram Mathoworld</a>)
 Binomial Distribution: |
   It is used to calculate the probability of a certain number of successful outcomes, given a number of trials and the probability of the successful outcome. The “bi” in the term binomial refers to the two possible outcomes: an event happening and an event not happening. (BF, Chap.4)
+BRFSS: |
+  The Behavioral Risk Factor Surveillance System (BRFSS) is a system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world. (<a href="https://www.cdc.gov/brfss/index.html">BRFSS</a>)
 brms: |
   brms stands for Bayesina Regression Models using Stan. brms provides an interface to fit Bayesian generalized (non-)linear multivariate multilevel models using Stan. The formula syntax is very similar to that of the package lme4 to provide a familiar and simple interface for performing regression analyses. (<a href="https://paul-buerkner.github.io/brms/">brms website</a>)
 BUGS: |
@@ -31,10 +39,14 @@ B-Spline: |
   There are many types of splines, especially the common-place 'B-splines': The 'B' stands for 'basis,' which just means 'component.' B-splines build up wiggly functions from simpler less-wiggly components. Those components are called basis functions. B-splines force you to make a number of choices that other types of splines automate. (Chap.4)
 CE/AD: |
   CE is an abbreviation for Common Era. It means the same as AD (Anno Domini) and represents the time from year 1 and onward. (<a href="https://www.timeanddate.com/calendar/ce-bce-what-do-they-mean.html">timeanddate</a>)
+CDC: |
+  CDC is the U.S. leading science-based, data-driven, service organization that protects the public’s health. (<a href="https://www.cdc.gov/about/">CDC</a>)
 CDF: |
   A cumulative distribution function (CDF) tells us the probability that a random variable takes on a value less than or equal to x. (<a href="https://www.statology.org/cdf-vs-pdf/">Statoloy</a>) It sums all parts of the distribution, replacing a lot of calculus work. The CDF takes in a value and returns the probability of getting that value or lower. (BF, Chap.13) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 Centering: |
   Substracting the means leads to a lack of covariance among the parameters. In centering, you are changing the values but not the scale.  So a predictor that is centered at the mean has new values–the entire scale has shifted so that the mean now has a value of 0, but one unit is still one unit.  The intercept will change, but the regression coefficient for that variable will not.  Since the regression coefficient is interpreted as the effect on the mean of Y for each one unit difference in X, it doesn’t change when X is centered.([The Analysis Factor](https://www.theanalysisfactor.com/centering-and-standardizing-predictors/)) (SR Chap.4)
+Cisgender: |
+  People whose gender identity matches their biological sex. Contrast: Transgender (SwR, Glossary)
 Coefficient: |
   In mathematics, a coefficient is a multiplicative factor involved in some term. It may be a number (= numerical factor) or it may be a constant with units of measurement (= constant multiplier). (<a href="https://en.wikipedia.org/wiki/Coefficient">Wikipedia</a>)
 Combination: |
@@ -65,6 +77,10 @@ Cumulative Distribution Function: |
   A cumulative distribution function (CDF) tells us the probability that a random variable takes on a value less than or equal to x. (<a href="https://www.statology.org/cdf-vs-pdf/">Statology</a>) It sums all parts of the distribution, replacing a lot of calculus work. The CDF takes in a value and returns the probability of getting that value or lower. (BF, Chap.13) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 Data Tables: |
    Data Tables are --- in contrast to Display Tables --- for analysis and not for presentation. Another purpose of Data Tables is to store, retrieve and share information digitally. In R they are tibbles, data.frames etc.
+Data Visualization: |
+  Using visual tools to examine or communicate about characteristics of data is called Data Visualization: Graphs are visual displays of data. (SwR, Glossary)
+Deviation Scores: |
+  Deviation scores show the difference from some value like the mean; for example, z-scores show the deviation from the mean in standard deviation units
 Dispersion Matrix: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
 Display Tables: |
@@ -86,8 +102,12 @@ False Negative (Rate): |
   A false negative is when a test returns negative while the truth is positive. A false negative rate is the probability of a false negative if the truth is positive. (Bayesian Thinking, Chap.1)
 False Positive (Rate): |
   A false positive is when a test returns postive while the truth is negative. A false negative rate is the probability of a false negative if the truth is positive. (Bayesian Thinking, Chap.1)
+Frequencies: |
+  Frequencies are the number of times particular valuee of a variable occur. (SwR, Glossary)
 Frequentist Statistics: |
   Also known as frequentist interference, is a type of statistical approach where conclusions are made based on the frequency of an event. This statistical approach determines the probability of a long-term experiment, meaning the experiment is repeated under the same set of conditions to obtain an outcome. In frequentist statistics the population parameters are fixed, but unknown, and the data observed in experiments are random. (<a href="https://deepai.org/machine-learning-glossary-and-terms/frequentist-statistics">deepai.org</a>)
+Gender Nonconforming: |
+  Gender nonconforming means not adhering to society's gender norms. People may describe themselves as gender nonconforming if they don't conform to the gender expression, presentation, behaviors, roles, or expectations that society sees as the norm for their gender. ([APA Guidelines - PDF](https://www.apa.org/practice/guidelines/transgender.pdf))
 Gaussian Distribution: |
   A Gaussian distribution, also referred to as a normal distribution, is a type of continuous probability distribution that is symmetrical about its mean; most observations cluster around the mean, and the further away an observation is from the mean, the lower its probability of occurring. Like other probability distributions, the Gaussian distribution describes how the outcomes of a random variable are distributed. (<a href="https://www.math.net/gaussian-distribution">MATH.net</a>)
 GAM: |
@@ -109,24 +129,36 @@ HMC: |
   Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) method that uses the derivatives of the density function being sampled to generate efficient transitions spanning the posterior. It uses an approximate Hamiltonian dynamics simulation based on numerical integration which is then corrected by performing a Metropolis acceptance step. ([Stan Reference Manual](https://mc-stan.org/docs/reference-manual/hamiltonian-monte-carlo.html))
 HPDI: |
   Highest Posterior Density Interval (HPDI) is the Highest Density Interval (HDI) or Highest Density Region (HDR) of all possible regions of probability coverage, the HDR has the smallest region possible in the sample space. For a unimodal distribution it will include the mode (the maximum a posteriori, or MAP). (<a href="https://stats.stackexchange.com/a/464155/207389">Cross Validated</a>).
+HTTP: |
+  The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. (<a href="https://en.wikipedia.org/wiki/HTTP">Wikipedia</a>)
 Hypothesis: |
   A hypothesis is a model about how the world works that makes a prediction. All of our basic beliefs about the world are hypotheses. (BF, Chap.1)
 i.i.d.: |
   independent and identically distributed. Random variables are independent and identically distributed if each random variable has the same probability distribution as the others and all are mutually independent. This property is usually abbreviated as i.i.d., iid, or IID. (<a href="https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables">Wikipedia</a>) Example: Succession of fair coins throws are independent as the coin has no memory, so all thorws are independent. And every throw is 50:50 (heads:tails), so the coin is and stays fair - the distribution from which every throw is drawn, so to speak, is and stays the same: "identically distributed". (<a href="https://stats.stackexchange.com/a/17392/207389">Cross Validated</a>)
+Index of Qualitative Variation: |
+  The index of qualitative variation (IQV) is a type of statistic used to measure variation for nominal variables, which is often computed by examining how spread out observations are among the groups. (SwR, Glossary)
 Inferential Statistics: |
   Statistical inference is the process of using data analysis to infer properties of an underlying distribution of probability. It makes propositions about a population, using data drawn from the population with some form of sampling. Given a hypothesis about a population, for which we wish to draw inferences, statistical inference consists of (first) selecting a statistical model of the process that generates the data and (second) deducing propositions from the model. Inferential statistics can be contrasted with descriptive statistics. (<a href="https://en.wikipedia.org/wiki/Statistical_inference">Wikipedia</a>)
 Interaction: |
   The importance of one variable depends upon another. For example, plants benefit from both light and water. But in the absence of either, the other is no benefit at all. If variable interact than effective inference about one variable will depend upon consideration of others. (Chap.5)
 Intercept: |
   The intercept is the value of the dependent variables if all independent variables have the value zero. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_1486">Intercept, Slope in Regression</a>)
+IQR: |
+  The interquartile range (IQR) is the upper and lower boundaries around the middle 50\% of the data in a numeric variable or the difference between the upper and lower boundaries around the middle 50\% of the data in a numeric variable. (SwR, Glossary)
+IQV: |
+    The index of qualitative variation (IQV) is a type of statistic used to measure variation for nominal variables, which is often computed by examining how spread out observations are among the groups. (SwR, Glossary)
 JAGS: |
   JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. (<a href="https://mcmc-jags.sourceforge.io/">JAGS</a>)
 Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
 Knots: |
   B-splines divide the full range of some predictor variable into parts called knots. Knots are cutpoints that defines different regions (or partitions) for a variable. In each regions, a fitting must occurs. The definition of different regions is a way to stay local in the fitting process. ([DataCademia | Statistics Knots (Cut Points)](https://datacadamia.com/data_mining/knot)) (Chap.4)
+Kurtosis: |
+  Kurtosis is a measure of how many observations are in the tails of a distribution; distributions that look bell-shaped, but have a lot of observations in the tails (platykurtic) or very few observations in the tails (leptokurtic) (SwR, Glossary)
 Labelled Data: |
   Labelled data (or labelled vectors) is a common data structure in other statistical environments to store meta-information about variables, like variable names, value labels or multiple defined missing values. (<a href="https://strengejacke.github.io/sjlabelled/articles/intro_sjlabelled.html">sjlabelled</a>)
+Leptokurtic: |
+  Leptokurtic is a distribution of a numeric variable that has many values clustered around the middle of the distribution; leptokurtic distributions often appear tall and pointy compared to mesokurtic or platykurtic distributions. (SwR, Glossary)
 Linear Model: |
   A linear model specifies a linear relationship between a dependent variable and n independent variables. It conforms to a mathematical model represented by a linear equation of the form Y = b_{1}X_{1} + b_{2}X_{2} + … + b_{n}X_{n}. ([Oxford Reference](https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100107198))
 Linear Regression: |
@@ -145,8 +177,14 @@ Markov Chain: |
   A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. Informally, this may be thought of as, "What happens next depends only on the state of affairs now." ([Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)) For example, if you made a Markov chain model of a baby's behavior, you might include "playing," "eating", "sleeping," and "crying" as states, which together with other behaviors could form a 'state space': a list of all possible states. In addition, on top of the state space, a Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state---e.g., the chance that a baby currently playing will fall asleep in the next five minutes without crying first. ([Explained visually](https://setosa.io/ev/markov-chains/))
 MCMC: |
   Markov chain Monte Carlo (MCMC) methods comprise a class of algorithms for sampling from a probability distribution. By constructing a MARKOV CHAIN that has the desired distribution as its equilibrium distribution, one can obtain a sample of the desired distribution by recording states from the chain. The more steps that are included, the more closely the distribution of the sample matches the actual desired distribution. Various algorithms exist for constructing chains. (<a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Wikipedia</a>)
+MDN: |
+  MDN Web Docs, previously Mozilla Developer Network and formerly Mozilla Developer Center, is a documentation repository and learning resource for web developers. MDN Web Docs content is maintained by Mozilla, Google employees, and volunteers (community of developers and technical writers). It also contains content contributed by Microsoft, Google, and Samsung. Topics include HTML5, JavaScript, CSS, Web APIs, Django, Node.js, WebExtensions, MathML, and others. (<a href="https://en.wikipedia.org/wiki/MDN_Web_Docs">Wikipedia</a>)
 Mean Absolute Deviation: |
   The mean absolute deviation (MAD) also known as the mean deviation and average absolute deviation is a measure of variability that indicates the average distance between observations and their mean. MAD uses the original units of the data, which simplifies interpretation. Larger values signify that the data points spread out further from the average. Conversely, lower values correspond to data points bunching closer to it. (<a href="https://statisticsbyjim.com/basics/mean-absolute-deviation/">Statistics by Jim</a>). The R base function `mad()` stands for the median absolute deviation.
+Median: |
+  Median is the middle value, or the mean of the two middle values, for a variable. (SwR, Glossary)
+Mesokurtic: |
+  Mesokurtic are distributions that are neither platykurtic nor leptokurtic are mesokurtic; a normal distribution is a common example of a mesokurtic distribution. (SwR, Glossary)
 Metropolis Algorithm: |
   The Metropolis Algorithm often also called Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method for obtaining a sequence of random samples from a probability distribution from which direct sampling is difficult. This sequence can be used to approximate the distribution (e.g. to generate a histogram) or to compute an integral (e.g. an expected value). (a href="https://en.wikipedia.org/w/index.php?title=Metropolis%E2%80%93Hastings_algorithm&oldid=1172902257">Wikipedia</a>)
 Metropolis–Hastings Algorithm: |
@@ -155,12 +193,16 @@ Microdata: |
   Microdata are unit-level data obtained from sample surveys, censuses, and administrative systems. They provide information about characteristics of individual people or entities such as households, business enterprises, facilities, farms or even geographical areas such as villages or towns. They allow in-depth understanding of socio-economic issues by studying relationships and interactions among phenomena. Microdata are thus key to designing projects and formulating policies, targeting interventions and monitoring and measuring the impact and results of projects, interventions and policies. ([The World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/228873-what-do-we-mean-by-microdata))
 MLE: |
   Maximum likelihood estimation (MLE) is a method of estimating the parameters of an assumed probability distribution, given some observed data. This is achieved by maximizing a likelihood function so that, under the assumed statistical model, the observed data is most probable. The point in the parameter space that maximizes the likelihood function is called the maximum likelihood estimate. (<a href="https://en.wikipedia.org/w/index.php?title=Maximum_likelihood_estimation&oldid=1178502960">Wkipedia</a>)
+Mode xy: |
+  Mode is the most common value of a variable. (SwR, Glossary)
 Monomial: |
   A monomial is an algebraic expression that has just one term. For example, \[3x\] and \[-5y^2\] are both monomials. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
 Negation: |
   The probability of X and the negation of the probability of X sum to 1 (in other words, values are either X, or not X). The ¬ symbol means “negation” or “not.” (BF, Chap.2)
+Negatively Skewed: |
+  A distribution is negatively skewed when it has extreme values in the left-hand-side tail, toward the negative numbers on the number line; negative skew is also known as left skew. (SwR, Glossary)
 NIMBLE: |
   NIMBLE is a system for building and sharing analysis methods for statistical models, especially for hierarchical models and computationally-intensive methods. Other packages that use the BUGS language are only for Markov chain Monte Carlo (MCMC). With NIMBLE, you can turn BUGS code into model objects and use them for whatever algorithm you want. (<a href="https://r-nimble.org/">r-nimble.org</a>)
 NHANES: |
@@ -175,24 +217,34 @@ One-to-one Function: |
   A one-to-one function is a function in which each output value corresponds to exactly one input value. (Precalculus, p.21)
 p-hacking: |
   P-hacking is a set of statistical decisions and methodology choices during research that artificially produces statistically significant results. These decisions increase the probability of false positives—where the study indicates an effect exists when it actually does not. P-hacking is also known as data dredging, data fishing, and data snooping. (<a href="https://statisticsbyjim.com/hypothesis-testing/p-hacking/">Statistics by Jim</a>)
+p-value: |
+  The p-value is the probability that the test statistic is at least as big as it is under the null hypothesis (SwR, Glossary)
 Parameter: |
   Unobserved variables are usually called Parameters. (SR2, Chap.2) A parameter is an unknown numerical characteristics of a population that must be estimated. (CDS). They are also numbers that govern statistical models ([stats.stackexchange](https://stats.stackexchange.com/a/255994/207389))
 PDF: |
   A probability densitiy function (PDF) describes a probability distribution for a random, continuous variable. Use a probability density function to find the chances that the value of a random variable will occur within a range of values that you specify. More specifically, a PDF is a function where its integral for an interval provides the probability of a value occurring in that interval. (<a href="https://statisticsbyjim.com/probability/probability-density-function/">Statistics By Jim</a>)
+Percentages: |
+  Percentages are a relative values indicating hundredth parts of any quantity. (<a href="https://www.britannica.com/topic/percentage">Britannica</a>)
 Percentile: |
   The set of divisions that produce exactly 100 equal parts in a series of continuous values, such as blood pressure, weight, height, etc. Thus a person with blood pressure above the 80th percentile has a greater blood pressure value than over 80% of the other recorded values.” (CDS, p.323)
 Permutation: |
   A mathematical technique that determines the number of possible arrangements in a set when the order (in contrast to COMBINATION) matters. The study of permutations is an important topic in the fields of COMBINATORICS.
 PI: |
   PERCENTILE intervals (PI) assign equal mass to each tail. I uses for the computation QUANTILEs. (<a href = "https://rdrr.io/github/rmcelreath/rethinking/man/HPDI.html">Help for HPDI {rethinking}</a>)
+Platykurtic: |
+  Platykurtic is a distribution of a numeric variable that has more observations in the tails than a normal distribution would have; platykurtic distributions often look flatter than a normal distribution. (SwR, Glossary)
 PMF: |
   A probability mass function (PMF) is a mathematical function that calculates the probability a discrete random variable will be a specific value. PMFs also describe the probability distribution for the full range of values for a discrete variable. Probability mass functions find the LIKELIHOOD of a particular outcome. Using a PMF to calculate the likelihoods for all possible values of the discrete variable produces its PROBABILITY DISTRIBUTION.(<a href="https://statisticsbyjim.com/probability/probability-mass-function/">Statistics By Jim</a>)
+Point Charts: |
+  Point charts are charts that show summary values for a numeric variable, typically across groups; for example, a point chart could be used in place of a bar graph to show mean or median across groups. (SwR, Glossary)
 Polynomials: |
   Polynomials are algebraic expression made up of one or more terms. MONOMIALS and BINOMIALS are both types of polynomials. Other examples include \[2x^2+3x+1\] and \[-5y^3+2y^2-6y+8\]. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
 Polynomial Degree: |
   The degree of a polynomial term is the sum of the exponents of the variables that appear in it. (<a href="https://en.wikipedia.org/wiki/Degree_of_a_polynomial">Wikipedia</a>)
 Polynomial Regression: |
   It is a form of regression analysis in which the relationship between the independent variable `x` and the dependent variable `y` is modelled as an nth degree polynomial in `x`. Polynomial regression fits a nonlinear relationship between the value of `x` and the corresponding conditional mean of `y`. Although polynomial regression fits a nonlinear model to the data, as a statistical estimation problem it is linear. What “linear” means in this context is that $\mu_{i}$ is a linear function of any single parameter. For this reason, polynomial regression is considered to be a special case of multiple linear regression. ([Wikipedia](https://en.wikipedia.org/wiki/Polynomial_regression)) (Chap.4)
+Positively Skewed: |
+  A distribution is positively skewed when it has some extreme large positive values relative to the rest of the values in the distribution, making the tail of the distribution extend to the right or in the direction of larger positive numbers; this type of skew is also known as right skew (SwR, Glossary)
 Posterior Distribution: |
   Given prior information combined with data from observations or experiments, the posterior summarizes all you know after factoring in that new evidence. It provides estimates of parameters like intervals or points as well as predictions about future data outcomes through probabilistic evaluations to help inform decisions under uncertain conditions. (a href="https://www.statisticshowto.com/posterior-distribution-probability/">Statistics HowTo</a>)
 Posterior Odds: |
@@ -220,11 +272,15 @@ Probability Distribution: |
 Probability Mass Function: |
   A probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value. Sometimes it is also known as probability function, frequency function or discrete probability density function. (<a href="https://en.wikipedia.org/wiki/Probability_mass_function">Wikipedia</a>)
 Prolog: |
-  A set of comments at the top of a code file that provides information about what is in the file (Harries, SWR)
+  A set of comments at the top of a code file that provides information about what is in the file (SwR, Glossary)
 Proportional Operator: |
   The proportional symbol (`∝`) is pronounced als "varies as" or "is proportional to". ([UEfAP](http://www.uefap.com/speaking/symbols/symbols.htm)) It is produced in Markdown with `$\propto$`. (<a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols">List of LaTeX mathematical symbols</a>)
+Protocol: |
+  A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol. (<a href="https://developer.mozilla.org/en-US/docs/Glossary/Protocol">MDN web docs</a>)
 Random Variables: |
   A statistical term for variables that associate different numeric values with each of the possible outcomes of some random process. By random here we do not mean the colloquial use of this term to mean something that is entirely unpredictable. A random process is simply a process whose outcome cannot be perfectly known ahead of time (it may nonetheless be quite predictable). (Chap.3)
+Range: |
+  Range is the highest and lowest values of a variable, showing the full spread of values; the range can also be reported as a single number computed by taking the difference between the highest and lowest values of the variable. (SwR, Glossary)
 Slope: |
   The slope is the increase in the dependent variable when the independent variable increases with one unit and all other independent variables remain the same. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_1486">Intercept, Slope in Regression</a>)
 Quantile: |
@@ -235,12 +291,16 @@ Sample Space: |
   The collection of all outcomes that are possible is the sample space. (Albert and Hu, 2019, p. 27)
 Sampling Distribution: |
   “The most commonly used measure of the spread of a set of observations. Equal to the square root of the variance.” (CDS, p. 409)
+Scientific Notation: |
+  Scientific notation is a way to display very large or very small numbers by multiplying the number by the value of 10 to some power to move the decimal to the left or right; for example, 1,430,000,000 could be displayed as 1.43 × 10^9 in scientific notation. (SwR, Glossary)
 Sensitivity: |
   The true positive rate (one minus the false negative rate), is referred to as sensitivity, recall, or probability of detection. (Bayesian Thinking, Chap.1)
 Similar Operator: |
   The tilde ('~') in R formulae signifies a stochastic relationship. This is in contrast to the "=" symbol which means a deterministic relationship or definiton. (more details in [R Intro](https://cran.r-project.org/doc/manuals/R-intro.html#Statistical-models-in-R)), The [similar operator](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/tilde) is used to separate the left- and right-hand sides in a model [formula]. It can be pronounced as "is modelled by". In Markdown it is produced with $\sim$.
 Simulation: |
   Simulation is a way to model random events, such that simulated outcomes closely match real-world outcomes. By observing simulated outcomes, researchers gain insight on the real world. (<a href="https://stattrek.com/experiments/simulation#">Stat Trek</a>)
+Skewness: |
+  Skewness is the extent to which a variable has extreme values in one of the two tails of its distribution (SwR, Glossary)
 Specifity: |
   The true negative rate (one minus the false positive rate), is referred to as specificity. (Bayesian Thinking, Chap.1)
 Stan Platform: |
@@ -248,7 +308,7 @@ Stan Platform: |
 Standard Deviation: |
   The standard deviation is a measure of the amount of variation or dispersion of a set of values. A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) of the set, while a high standard deviation indicates that the values are spread out over a wider range. The standard deviation is the square root of its variance. A useful property of the standard deviation is that, unlike the variance, it is expressed in the same unit as the data. Standard deviation may be abbreviated SD, and is most commonly represented in mathematical texts and equations by the lower case Greek letter $\sigma$ (sigma), for the population standard deviation, or the Latin letter $s$ for the sample standard deviation. ([Wikipedia](https://en.wikipedia.org/wiki/Standard_deviation))
 Standard Error: |
-  The standard error (SE) of a statistic (usually an estimate of a PARAMETER) is the STANDARD DEVIATION of its sampling distribution or an estimate of that standard deviation. … The standard error is a key ingredient in producing CONFIDENCE INTERVALs. (<a href="https://en.wikipedia.org/w/index.php?title=Standard_error&oldid=1178567098">Wikipedia</a>)
+  The standard error (se) is a measure of variability that estimates how much variability there is in a population based on the variability in the sample and the size of the sample. (SwR, Glossary)
 Standardization: |
   In statistics, standardization (also called Normalizing) is the process of putting different variables on the same scale. This process allows you to compare scores between different types of variables. Typically, to standardize variables, you calculate the mean and standard deviation for a variable. Then, for each observed value of the variable, you subtract the mean and divide by the standard deviation. ([Statistics by Jim](https://statisticsbyjim.com/glossary/standardization/)) See `scale()` in R.  (Chap.4)
 Statistical Model: |
@@ -257,17 +317,33 @@ Statistics Discipline: |
   Statistics is the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data. Two main statistical methods are used in data analysis: descriptive statistics, which summarize data from a sample using, and inferential statistics, which draw conclusions from data.
 Stochastic: |
   A stochastic relationship is a mapping of a variable or parameter onto a distribution. It is said to be "stochastic" because no single instance of the variable on the left of the equation is known with certainty. Instead, the mapping is probabilistic: Some values are more plausible than others, but very many different values are plausible under any model. (Chap.4)
+Table 1: |
+  Descriptive statistics are often displayed in the first table in a published article or report and are therefore often called <i>Table 1 statistics</i> or the <i>descriptives</i>. (SwR)
+Tail: |
+  The values to the far right and far left of a distribution are called the 'tail' of the distribution. (SwR, GLossary)
 T-Test: |
   A t-test is a type of statistical analysis used to compare the averages of two groups and determine whether the differences between them are more likely to arise from random chance. (<a href="https://en.wikipedia.org/wiki/Student%27s_t-test">Wikipedia</a>)
+Tibble: |
+  A tibble or tbl_df, is a modern reimagining of the data.frame. It never changes the type of the inputs (e.g. it never converts strings to factors!), it never changes the names of variables, and it never creates row names. It’s possible for a tibble to have column names that are not valid R variable names, aka non-syntactic names. Tibbles have a refined print method that shows only the first 10 rows, and all the columns that fit on screen. (<a href="https://r4ds.had.co.nz/tibbles.html">R4DS</a>)
 Tilde Operator: |
   See SIMILAR OPERATOR
 Trace Rank Plot: |
   See: Trank Plot.
 Trace Plot: |
   A trace plot is a chain visualization that plots the samples in sequential order, joined by a line. A trace plot isn’t the last thing analysts do to inspect MCMC output. But it’s often the first. A healty trace plot is not a guarantee that you have a functioning Markov chain. (Chap.9)
+Transgender: |
+  People whose biological sex is not consistent with their gender. Contrast: Cisgender (SwR, Glossary)
 Trank Plot: |
   Trace Rank Plot or as McElreath's suggest a Trank Plot visualizes the chains as a distribution of the ranked samples. What this means is to take all the samples for each individual parameter and rank them. The lowest sample gets rank 1. The largest gets the maximum rank (the number of samples across all chains). Then we draw a histogram of these ranks for each individual chain. Why do this? Because if the chains are exploring the same space efficiently, the histograms should be similar to one another and largely overlapping. (Chap.9)
+UCR: |
+  The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
+Uniform Crime Reporting: |
+  The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
 Variance var: |
   Variance is the squared deviation from the mean of a random variable. The variance is also often defined as the square of the standard deviation. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. It is the second central moment of a distribution, and the covariance of the random variable with itself, and it is often represented by `σ`, `σ^2`, VAR(x), var(x) or V(x). ([Wikipedia](https://en.wikipedia.org/wiki/Variance))
+Waffle Chart: |
+  A Waffle Chart is a visual display of data that shows the parts of a whole similar to a pie chart; waffle charts are generally preferred over pie charts. (SwR, Glossary)
+xpt: |
+  .xpt is a file extension indicating that the file is a transport file from the SAS (Statistical Analysis System) statistical software program (SwR, Glossary)
 Z-score: |
   A z-score (also called a standard score) gives you an idea of how far from the mean a data point is. But more technically it’s a measure of how many standard deviations below or above the population mean a raw score is. (<a href="https://www.statisticshowto.com/probability-and-statistics/z-score/#Whatisazscore">StatisticsHowTo</a>)
