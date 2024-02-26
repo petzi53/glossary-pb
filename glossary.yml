@@ -3,7 +3,9 @@ ACSPRI: |
 API: |
   An API, or application programming interface, is a set of defined rules that enable different applications to communicate with each other. It acts as an intermediary layer that processes data transfers between systems, letting companies open their application data and functionality to external third-party developers, business partners, and internal departments within their companies. (<a href="https://www.ibm.com/topics/api">IBM</a>)
 Arithmetic Mean: |
-  The arithmetic mean, also known as "arithmetic average", is the sum of the values divided by the number of values. If the data set were based on a series of observations obtained by sampling from a statistical population, the arithmetic mean is the sample mean $\overline{x}$ (pronounced x-bar) to distinguish it from the mean, or expected value, of the underlying distribution, the population mean $\mu$ (pronounced /'mjuː/). ([Wikipedia](https://en.wikipedia.org/wiki/Mean))
+  The arithmetic mean, also known as "arithmetic average", is the sum of the values divided by the number of values. If the data set were based on a series of observations obtained by sampling from a statistical population, the arithmetic mean is the sample mean $\overline{x}$ (pronounced x-bar) to distinguish it from the mean, or expected value, of the underlying distribution, the population mean $\mu$ (pronounced /'mjuː/). (<a href="https://en.wikipedia.org/wiki/Mean">Wikipedia</a>)
+ATF Agency: |
+  Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF): ATF’s responsibilities include the investigation and prevention of federal offenses involving the unlawful use, manufacture, and possession of firearms and explosives; acts of arson and bombings; and illegal trafficking of alcohol and tobacco products. The ATF also regulates, via licensing, the sale, possession, and transportation of firearms, ammunition, and explosives in interstate commerce. (<a href="https://www.atf.gov/about/what-we-do">ATF</a>)
 Backtick: |
   The backtick ` is a typographical mark used mainly in computing. It is also known as backquote, grave, or grave accent. (<a href="https://en.wikipedia.org/wiki/Backtick">Wikipedia</a>)
 Bar Charts: |
@@ -28,6 +30,8 @@ Binomial Coefficient: |
   The binomial coefficient is the number of ways of picking *k* unordered outcomes from *n* possibilities, also known as a combination or combinatorial number. (<a href="https://mathworld.wolfram.com/BinomialCoefficient.html>Wolfram Mathoworld</a>)
 Binomial Distribution: |
   It is used to calculate the probability of a certain number of successful outcomes, given a number of trials and the probability of the successful outcome. The “bi” in the term binomial refers to the two possible outcomes: an event happening and an event not happening. (BF, Chap.4)
+Boxplots: |
+  Boxplots are a visual representation of data that shows central tendency (usually the median) and spread (usually the interquartile range) of a numeric variable for one or more groups; boxplots are often used to compare the distribution of a continuous variable across several groups. (SwR, Glossary)
 BRFSS: |
   The Behavioral Risk Factor Surveillance System (BRFSS) is a system of health-related telephone surveys that collect state data about U.S. residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Established in 1984 with 15 states, BRFSS now collects data in all 50 states as well as the District of Columbia and three U.S. territories. BRFSS completes more than 400,000 adult interviews each year, making it the largest continuously conducted health survey system in the world. (<a href="https://www.cdc.gov/brfss/index.html">BRFSS</a>)
 brms: |
@@ -43,12 +47,16 @@ CDC: |
   CDC is the U.S. leading science-based, data-driven, service organization that protects the public’s health. (<a href="https://www.cdc.gov/about/">CDC</a>)
 CDF: |
   A cumulative distribution function (CDF) tells us the probability that a random variable takes on a value less than or equal to x. (<a href="https://www.statology.org/cdf-vs-pdf/">Statoloy</a>) It sums all parts of the distribution, replacing a lot of calculus work. The CDF takes in a value and returns the probability of getting that value or lower. (BF, Chap.13) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
+CVD: |
+  Color vision deficiency (CVD) or color blindness (also spelled colour blindness) includes a wide range of causes and conditions and is actually quite complex. It's a condition characterized by an inability or difficulty in perceiving and differentiating certain colors due to abnormalities in the three color-sensing pigments of the cones in the retina. (<a href="https://enchroma.com/pages/types-of-color-blindness">EnChroma</a>)
 Centering: |
   Substracting the means leads to a lack of covariance among the parameters. In centering, you are changing the values but not the scale.  So a predictor that is centered at the mean has new values–the entire scale has shifted so that the mean now has a value of 0, but one unit is still one unit.  The intercept will change, but the regression coefficient for that variable will not.  Since the regression coefficient is interpreted as the effect on the mean of Y for each one unit difference in X, it doesn’t change when X is centered.([The Analysis Factor](https://www.theanalysisfactor.com/centering-and-standardizing-predictors/)) (SR Chap.4)
 Cisgender: |
   People whose gender identity matches their biological sex. Contrast: Transgender (SwR, Glossary)
 Coefficient: |
   In mathematics, a coefficient is a multiplicative factor involved in some term. It may be a number (= numerical factor) or it may be a constant with units of measurement (= constant multiplier). (<a href="https://en.wikipedia.org/wiki/Coefficient">Wikipedia</a>)
+Color blindness: |
+  Color blindness (also spelled colour blindness) or color vision deficiency (CVD) or  includes a wide range of causes and conditions and is actually quite complex. It's a condition characterized by an inability or difficulty in perceiving and differentiating certain colors due to abnormalities in the three color-sensing pigments of the cones in the retina. (<a href="https://enchroma.com/pages/types-of-color-blindness">EnChroma</a>)
 Combination: |
   The number of possible arrangements in a collection of items where the order (in contrast to PERMUTATION) does not matter (<a href="https://corporatefinanceinstitute.com/resources/data-science/combination/" target="_blank">Coporate Finance Institute, CFI</(a>))
 Combinatorics: |
@@ -79,12 +87,16 @@ Data Tables: |
    Data Tables are --- in contrast to Display Tables --- for analysis and not for presentation. Another purpose of Data Tables is to store, retrieve and share information digitally. In R they are tibbles, data.frames etc.
 Data Visualization: |
   Using visual tools to examine or communicate about characteristics of data is called Data Visualization: Graphs are visual displays of data. (SwR, Glossary)
+Density Plots: |
+  Density plots are used for examining the distribution of a variable measured along a continuum; density plots are similar to histograms but are smoothed and may not show existing gaps in data (SwR, Glossary)
 Deviation Scores: |
   Deviation scores show the difference from some value like the mean; for example, z-scores show the deviation from the mean in standard deviation units
 Dispersion Matrix: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
 Display Tables: |
   Display Tables are in constrast to Data Tables. You would find them in a web page, a journal article, or in a magazine. Such tables are for presentation, often to facilitate the construction of “Table 1”, i.e., baseline characteristics table commonly found in research papers. (<a href= "https://gt.rstudio.com/articles/gt.html">Introduction to Creating gt Tables</a>)
+Donut Charts: |
+  Donut or doughnut charts (sometimes also called ring charts) are an alternative chart for pie charts, which have a hole in the middle, making them cleaner to read than pie charts. (<a href="https://r-charts.com/part-whole/donut-chart/">R Charts</a>)
 Dummy Data: |
   Simulated data are called dummy data to indicate that it is a stand-in for actual data. (SR2, p.62)
 EDA: |
@@ -121,10 +133,14 @@ Golem: |
   A golem (goh-lem) is a clay robot from Jewish folklore. It is used in SR2 as a methapher for a statistical model. (SR, Chap.1)
 Grid Approcimation: |
   One of the simplest conditioning techniques is grid approximation. While most parameters are continuous, capable of taking on an infinite number of values, it turns out that we can achieve an excellent approximation of the continuous posterior distribution by considering only a finite grid of parameter values. (SR2, Chap.2)
+Grouped Bar Chart: |
+  A grouped bar chart is a data visualization that shows two categorical variables in a bar chart where one group is shown along the x-axis for vertical bars or y-axis for horizontal bars and the other grouping is shown as separate bars within each of the first grouping variable categories; the bars are often different colors to distinguish the groups. (SwR, Glossary)
 GSS: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
 HDCI: |
   Highest-density *continuous* interval, also known as the shortest probability interval. The same as HPDI. (tidybayes/<a href="https://mjskay.github.io/ggdist/reference/point_interval.html">ggdist</a>)
+Histograms: |
+  Histograms are visual displays of data used to examine the distribution of a numeric variable. (SwR, Glossary)
 HMC: |
   Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) method that uses the derivatives of the density function being sampled to generate efficient transitions spanning the posterior. It uses an approximate Hamiltonian dynamics simulation based on numerical integration which is then corrected by performing a Metropolis acceptance step. ([Stan Reference Manual](https://mc-stan.org/docs/reference-manual/hamiltonian-monte-carlo.html))
 HPDI: |
@@ -151,6 +167,8 @@ JAGS: |
   JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. (<a href="https://mcmc-jags.sourceforge.io/">JAGS</a>)
 Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
+Kernel Density Estimation: |
+  Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
 Knots: |
   B-splines divide the full range of some predictor variable into parts called knots. Knots are cutpoints that defines different regions (or partitions) for a variable. In each regions, a fitting must occurs. The definition of different regions is a way to stay local in the fitting process. ([DataCademia | Statistics Knots (Cut Points)](https://datacadamia.com/data_mining/knot)) (Chap.4)
 Kurtosis: |
@@ -163,6 +181,8 @@ Linear Model: |
   A linear model specifies a linear relationship between a dependent variable and n independent variables. It conforms to a mathematical model represented by a linear equation of the form Y = b_{1}X_{1} + b_{2}X_{2} + … + b_{n}X_{n}. ([Oxford Reference](https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100107198))
 Linear Regression: |
   Linear regression is used to predict the value of an outcome variable Y based on one or more input predictor variables X. The aim is to establish a linear relationship (a mathematical formula) between the predictor variable(s) and the response variable, so that, we can use this formula to estimate the value of the response Y, when only the predictors (Xs) values are known. ([r-statistics.co](https://r-statistics.co/Linear-Regression.html)) (Chap.4)
+Line Graph: |
+  A line graph is a visual display of data often used to examine the relationship between two continuous variables or for something measured over time. (SwR, Glossary)
 Likelihood: |
   The likelihood function (often simply called the likelihood) is the joint probability (or probability density) of observed data viewed as a function of the parameters of a statistical model. (<a href="https://en.wikipedia.org/wiki/Likelihood_function">Wikipedia</a>) It indicates how likely a particular population is to produce an observed sample. (<a href="https://www.statistics.com/glossary/likelihood-function/>statistics.com</a>) It is the probability of the data given our beliefs about the data: P(data | belief). (BF, Chap.8)
 Literate Programming: |
@@ -197,6 +217,8 @@ Mode xy: |
   Mode is the most common value of a variable. (SwR, Glossary)
 Monomial: |
   A monomial is an algebraic expression that has just one term. For example, \[3x\] and \[-5y^2\] are both monomials. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
+Mosaic Plots: |
+  Mosaic plots are visual representations of data to show the relationship between two categorical variables; useful primarily when both variables have few categories. (SwR, Glossary)
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
 Negation: |
@@ -231,6 +253,8 @@ Permutation: |
   A mathematical technique that determines the number of possible arrangements in a set when the order (in contrast to COMBINATION) matters. The study of permutations is an important topic in the fields of COMBINATORICS.
 PI: |
   PERCENTILE intervals (PI) assign equal mass to each tail. I uses for the computation QUANTILEs. (<a href = "https://rdrr.io/github/rmcelreath/rethinking/man/HPDI.html">Help for HPDI {rethinking}</a>)
+Pie Charts: |
+  Pie charts are used to show parts of a whole; pie charts get their name from looking like a pie with pieces representing different groups, and they are not recommended for most situations because they can be difficult to interpret
 Platykurtic: |
   Platykurtic is a distribution of a numeric variable that has more observations in the tails than a normal distribution would have; platykurtic distributions often look flatter than a normal distribution. (SwR, Glossary)
 PMF: |
@@ -291,6 +315,8 @@ Sample Space: |
   The collection of all outcomes that are possible is the sample space. (Albert and Hu, 2019, p. 27)
 Sampling Distribution: |
   “The most commonly used measure of the spread of a set of observations. Equal to the square root of the variance.” (CDS, p. 409)
+Scatterplot: |
+  A scatterplot is a graph that shows one dot for each observation in the data set (SwR, Glossary)
 Scientific Notation: |
   Scientific notation is a way to display very large or very small numbers by multiplying the number by the value of 10 to some power to move the decimal to the left or right; for example, 1,430,000,000 could be displayed as 1.43 × 10^9 in scientific notation. (SwR, Glossary)
 Sensitivity: |
@@ -303,6 +329,10 @@ Skewness: |
   Skewness is the extent to which a variable has extreme values in one of the two tails of its distribution (SwR, Glossary)
 Specifity: |
   The true negative rate (one minus the false positive rate), is referred to as specificity. (Bayesian Thinking, Chap.1)
+Statista: |
+  Statista is a global data and business intelligence platform with an extensive collection of statistics, reports, and insights on over 80,000 topics from 22,500 sources in 170 industries. Established in Germany in 2007, Statista operates in 13 locations worldwide and employs around 1,100 professionals. (<a href="https://www.statista.com/aboutus/">statista</a>)
+Stacked Bar Chart: |
+  A stacked bar chart is a data visualization that shows parts of a whole in a bar chart format; this type of chart can be used to examine two categorical variables together by showing the categories of one variable as the bars and the categories of the other variable as different colors within each bar. (SwR, Glossary)
 Stan Platform: |
   Stan is a state-of-the-art platform for statistical modeling and high-performance statistical computation. Stan interfaces with the most popular data analysis languages (R, Python, shell, MATLAB, Julia, Stata) and runs on all major platforms (Linux, Mac, Windows). Users specify log density functions in Stan’s probabilistic programming language and get (a) full Bayesian statistical inference with MCMC sampling (NUTS, HMC), (b) approximate Bayesian inference with variational inference (ADVI), (c) penalized maximum likelihood estimation with optimization (L-BFGS). Stan is named in honor of Stanislaw Ulam (1909-1984), co-inventor of the Monte Carlo method. (<a href="https://mc-stan.org/">STAN website</a> and <a href="https://www.r-bloggers.com/2019/01/an-introduction-to-stan-with-r/">R-Bloggers</a>)
 Standard Deviation: |
@@ -327,6 +357,8 @@ Tibble: |
   A tibble or tbl_df, is a modern reimagining of the data.frame. It never changes the type of the inputs (e.g. it never converts strings to factors!), it never changes the names of variables, and it never creates row names. It’s possible for a tibble to have column names that are not valid R variable names, aka non-syntactic names. Tibbles have a refined print method that shows only the first 10 rows, and all the columns that fit on screen. (<a href="https://r4ds.had.co.nz/tibbles.html">R4DS</a>)
 Tilde Operator: |
   See SIMILAR OPERATOR
+Tile Plots: |
+  Tile plots are matrices of tiles. For each tile, either the "width", "height", "area", or squared area is proportional to the corresponding entry. (Help file of `vcd::tile()`)
 Trace Rank Plot: |
   See: Trank Plot.
 Trace Plot: |
@@ -335,14 +367,18 @@ Transgender: |
   People whose biological sex is not consistent with their gender. Contrast: Cisgender (SwR, Glossary)
 Trank Plot: |
   Trace Rank Plot or as McElreath's suggest a Trank Plot visualizes the chains as a distribution of the ranked samples. What this means is to take all the samples for each individual parameter and rank them. The lowest sample gets rank 1. The largest gets the maximum rank (the number of samples across all chains). Then we draw a histogram of these ranks for each individual chain. Why do this? Because if the chains are exploring the same space efficiently, the histograms should be similar to one another and largely overlapping. (Chap.9)
+Trend Line: |
+  A trend line is a line that follows the relationship between variables in a graph, sometimes called the line of best fit (SwR, Glossary).
 UCR: |
   The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
 Uniform Crime Reporting: |
   The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
 Variance var: |
   Variance is the squared deviation from the mean of a random variable. The variance is also often defined as the square of the standard deviation. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. It is the second central moment of a distribution, and the covariance of the random variable with itself, and it is often represented by `σ`, `σ^2`, VAR(x), var(x) or V(x). ([Wikipedia](https://en.wikipedia.org/wiki/Variance))
-Waffle Chart: |
-  A Waffle Chart is a visual display of data that shows the parts of a whole similar to a pie chart; waffle charts are generally preferred over pie charts. (SwR, Glossary)
+Violin Plots: |
+  Violing plots are visual displays of data that combine features of density plots and boxplots to show the distribution of numeric variables, often across groups. (SwR, Glossary)
+Waffle Charts: |
+  Waffle Charts are visual displays of data that show the parts of a whole similar to a pie chart; waffle charts are generally preferred over pie charts. (SwR, Glossary)
 xpt: |
   .xpt is a file extension indicating that the file is a transport file from the SAS (Statistical Analysis System) statistical software program (SwR, Glossary)
 Z-score: |
