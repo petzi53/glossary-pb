@@ -1,5 +1,7 @@
 ACSPRI: |
   Australian Consortium for Social and Political Research Inc. oganizes conferences and delivers course. (<a href="https://www.acspri.org.au/">ACSPRI</a>)
+amfAR: |
+  amfAR, the Foundation for AIDS Research, known until 2005 as the American Foundation for AIDS Research, is an international nonprofit organization dedicated to the support of AIDS research, HIV prevention, treatment education, and the advocacy of AIDS-related public policy. (<a href="https://en.wikipedia.org/wiki/AmfAR">Wikipedia</a>)
 API: |
   An API, or application programming interface, is a set of defined rules that enable different applications to communicate with each other. It acts as an intermediary layer that processes data transfers between systems, letting companies open their application data and functionality to external third-party developers, business partners, and internal departments within their companies. (<a href="https://www.ibm.com/topics/api">IBM</a>)
 Arithmetic Mean: |
@@ -22,6 +24,8 @@ Bayesian Statistics: |
   Also known as evidential probability, is the process of adding prior probability to a hypothesis and adjusting that probability as new information becomes available. Unlike traditional frequentist probability which only accounts for the previous frequency of an event to predicate and outcome, the Bayesian model begins with an initial set of subjective assumptions (prior probability) and adjusts them accordingly through trial and experimentation (posterior probability). Instead of only rejecting or failing to reject a null hypothesis, Bayesian probability allows someone to quantify how much confidence they should have in a particular result. (<a href"https://deepai.org/machine-learning-glossary-and-terms/bayesian-probability">deepai.org</a>)
 Bayes’ Theorem: |
   This is the theorem that gives Bayesian data analysis its name. But the theorem itself is a trivial implication of probability theory. The mathematical definition of the posterior distribution arises from Bayes' Theorem. The key lesson is that the posterior is proportional to the product of the prior and the probability of the data. (Chap.2)
+Bessel’s Correction: |
+  Bessel's correction is the use of n − 1 instead of n in the formula for the sample variance and sample standard deviation, where n is the number of observations in a sample. This method corrects the bias in the estimation of the population variance. It also partially corrects the bias in the estimation of the population standard deviation. However, the correction often increases the mean squared error in these estimations. This technique is named after Friedrich Bessel. (<a href="https://en.wikipedia.org/wiki/Bessel%27s_correction">Wikipedia</a>)
 Beta Distribution: |
   It is a family of continuous probability distributions defined on the interval [0, 1] in terms of two positive parameters, denoted by alpha (α) and beta (β) that control the shape of the distribution. (<a href="https://en.wikipedia.org/wiki/Beta_distribution">Wikipedia</a>) The Beta distribution is representing a probability distribution of probabilities (<a href="https://stats.stackexchange.com/a/47782/207389">stats.stackexchange</a>) You use the beta distribution to estimate the probability of an event for which you’ve already observed a number of trials and the number of successful outcomes. For example, you would use it to estimate the probability of flipping a heads when so far you have observed 100 tosses of a coin and 40 of those were heads. (BF, Chap.5)
 Binomials: |
@@ -44,13 +48,15 @@ B-Spline: |
 CE/AD: |
   CE is an abbreviation for Common Era. It means the same as AD (Anno Domini) and represents the time from year 1 and onward. (<a href="https://www.timeanddate.com/calendar/ce-bce-what-do-they-mean.html">timeanddate</a>)
 CDC: |
-  CDC is the U.S. leading science-based, data-driven, service organization that protects the public’s health. (<a href="https://www.cdc.gov/about/">CDC</a>)
+  Centers for Disease Control and Preventation (CDC) is the U.S. leading science-based, data-driven, service organization that protects the public’s health. (<a href="https://www.cdc.gov/about/">CDC</a>)
 CDF: |
   A cumulative distribution function (CDF) tells us the probability that a random variable takes on a value less than or equal to x. (<a href="https://www.statology.org/cdf-vs-pdf/">Statoloy</a>) It sums all parts of the distribution, replacing a lot of calculus work. The CDF takes in a value and returns the probability of getting that value or lower. (BF, Chap.13) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 CVD: |
   Color vision deficiency (CVD) or color blindness (also spelled colour blindness) includes a wide range of causes and conditions and is actually quite complex. It's a condition characterized by an inability or difficulty in perceiving and differentiating certain colors due to abnormalities in the three color-sensing pigments of the cones in the retina. (<a href="https://enchroma.com/pages/types-of-color-blindness">EnChroma</a>)
 Centering: |
   Substracting the means leads to a lack of covariance among the parameters. In centering, you are changing the values but not the scale.  So a predictor that is centered at the mean has new values–the entire scale has shifted so that the mean now has a value of 0, but one unit is still one unit.  The intercept will change, but the regression coefficient for that variable will not.  Since the regression coefficient is interpreted as the effect on the mean of Y for each one unit difference in X, it doesn’t change when X is centered.([The Analysis Factor](https://www.theanalysisfactor.com/centering-and-standardizing-predictors/)) (SR Chap.4)
+Central Limit Theorem: |
+  A foundational idea in inferential statistics that shows the mean of a sampling distribution of a variable will be a close approximation to the mean of the variable in the population, regardless of whether the variable is normally distributed. The Central Limit Theorem demonstrates why samples can be used to infer information about the population. (SwR, Glossary)
 Cisgender: |
   People whose gender identity matches their biological sex. Contrast: Transgender (SwR, Glossary)
 Coefficient: |
@@ -62,7 +68,9 @@ Combination: |
 Combinatorics: |
   Combinatorics is an area of mathematics primarily concerned with counting. (BS, Chap.2) One of the basic problems of combinatorics is to determine the number of possible configurations of a given type. (<a href="https://www.britannica.com/science/combinatorics">Britannica</a>)
 Compatibility Interval: |
-  Two parameter values that contain between them a specified amount of posterior probability, a probability mass, is usually known as confidence interval that may instead be called a credible interval. We’re going to call it a compatibility interval instead, in order to avoid the unwarranted implications of "confidence"" and "credibility." What the interval indicates is a range of parameter values compatible with the model and data. The model and data themselves may not inspire confidence, in which case the interval will not either. (Chap.3)
+  Two parameter values that contain between them a specified amount of posterior probability, a probability mass, is usually known as confidence interval that may instead be called a credible interval. We’re going to call it a compatibility interval instead, in order to avoid the unwarranted implications of "confidence"" and "credibility." What the interval indicates is a range of parameter values compatible with the model and data. The model and data themselves may not inspire confidence, in which case the interval will not either. (SR2, Chap.3)
+Confidence Interval: |
+  A range of values around a statistic that suggests where the true or population value of the statistic likely lies with some level of certainty. (SwR, Glossary) But see also the different Bayesian concept of Credible Interval and Compatibility Interval.
 Conditional Probability: |
   In probability theory, conditional probability is a measure of the probability of an event occurring, given that another event (by assumption, presumption, assertion or evidence) has already occurred. <a href="https://en.wikipedia.org/wiki/Conditional_probability">Wikipedia</a>. The mathematical notation uses the pipe symbol ('|') for "conditional on" or "given that".
 Confidence Interval: |
@@ -78,7 +86,9 @@ Covariance cov: |
 CRAN: |
   Comprehensive R Archive Network
 Credible Interval: |
-  Two parameter values that contain between them a specified amount of posterior probability, a probability mass, is usually known as confidence interval in FREQUENTIST STATISTICS and credible interval in BAYESIAN STATISTICS.
+  In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. (a href="https://en.wikipedia.org/wiki/Credible_interval">Wikipedia</a>)
+CSS: |
+  Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. (<a href="https://en.wikipedia.org/wiki/CSS">Wikipedia</a>)
 CSV: |
     Text files where the values are separated with commas (Comma Separated Values = CSV). These files have the file extension .csv
 Cumulative Distribution Function: |
@@ -145,6 +155,8 @@ HMC: |
   Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) method that uses the derivatives of the density function being sampled to generate efficient transitions spanning the posterior. It uses an approximate Hamiltonian dynamics simulation based on numerical integration which is then corrected by performing a Metropolis acceptance step. ([Stan Reference Manual](https://mc-stan.org/docs/reference-manual/hamiltonian-monte-carlo.html))
 HPDI: |
   Highest Posterior Density Interval (HPDI) is the Highest Density Interval (HDI) or Highest Density Region (HDR) of all possible regions of probability coverage, the HDR has the smallest region possible in the sample space. For a unimodal distribution it will include the mode (the maximum a posteriori, or MAP). (<a href="https://stats.stackexchange.com/a/464155/207389">Cross Validated</a>).
+HTML: |
+  HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance. (<a href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a>)
 HTTP: |
   The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. (<a href="https://en.wikipedia.org/wiki/HTTP">Wikipedia</a>)
 Hypothesis: |
@@ -169,6 +181,8 @@ Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
 Kernel Density Estimation: |
   Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
+KFF: |
+  Kaiser Family Foundation (KFF) is a non-partisan organization focused on health policy. It conducts its own research, polling, journalism, and specialized public health information campaigns and its website has been heralded for having the "most up-to-date and accurate information on health policy"[4] and as a "must-read for healthcare devotees." (<a href="https://en.wikipedia.org/wiki/Kaiser_Family_Foundation">Wikipdia</a>)
 Knots: |
   B-splines divide the full range of some predictor variable into parts called knots. Knots are cutpoints that defines different regions (or partitions) for a variable. In each regions, a fitting must occurs. The definition of different regions is a way to stay local in the fitting process. ([DataCademia | Statistics Knots (Cut Points)](https://datacadamia.com/data_mining/knot)) (Chap.4)
 Kurtosis: |
@@ -245,6 +259,8 @@ Parameter: |
   Unobserved variables are usually called Parameters. (SR2, Chap.2) A parameter is an unknown numerical characteristics of a population that must be estimated. (CDS). They are also numbers that govern statistical models ([stats.stackexchange](https://stats.stackexchange.com/a/255994/207389))
 PDF: |
   A probability densitiy function (PDF) describes a probability distribution for a random, continuous variable. Use a probability density function to find the chances that the value of a random variable will occur within a range of values that you specify. More specifically, a PDF is a function where its integral for an interval provides the probability of a value occurring in that interval. (<a href="https://statisticsbyjim.com/probability/probability-density-function/">Statistics By Jim</a>)
+PDMP: |
+  In the United States, prescription monitoring programs (PMPs) or prescription drug monitoring programs (PDMPs) are state-run programs which collect and distribute data about the prescription and dispensation of federally controlled substances and, depending on state requirements, other potentially abusable prescription drugs. PMPs are meant to help prevent adverse drug-related events such as opioid overdoses, drug diversion, and substance abuse by decreasing the amount and/or frequency of opioid prescribing, and by identifying those patients who are obtaining prescriptions from multiple providers (i.e., "doctor shopping") or those physicians overprescribing opioids. (<a href="https://en.wikipedia.org/wiki/Prescription_monitoring_program">Wikipedia</a>)
 Percentages: |
   Percentages are a relative values indicating hundredth parts of any quantity. (<a href="https://www.britannica.com/topic/percentage">Britannica</a>)
 Percentile: |
@@ -314,7 +330,7 @@ Quadratic Approximation: |
 Sample Space: |
   The collection of all outcomes that are possible is the sample space. (Albert and Hu, 2019, p. 27)
 Sampling Distribution: |
-  “The most commonly used measure of the spread of a set of observations. Equal to the square root of the variance.” (CDS, p. 409)
+  A sampling distribution is the distribution of summary statistics, like means, from repeated samples taken from a population. (SwR, Glossary)
 Scatterplot: |
   A scatterplot is a graph that shows one dot for each observation in the data set (SwR, Glossary)
 Scientific Notation: |
@@ -351,6 +367,8 @@ Table 1: |
   Descriptive statistics are often displayed in the first table in a published article or report and are therefore often called <i>Table 1 statistics</i> or the <i>descriptives</i>. (SwR)
 Tail: |
   The values to the far right and far left of a distribution are called the 'tail' of the distribution. (SwR, GLossary)
+T-Statistic: |
+  The T-Statistic is used in a T test when you are deciding if you should support or reject the null hypothesis. It’s very similar to a Z-score and you use it in the same way: find a cut off point, find your t score, and compare the two. You use the t statistic when you have a small sample size, or if you don’t know the population standard deviation. (<a href="https://www.statisticshowto.com/t-statistic/">Statistics How-To</a>)
 T-Test: |
   A t-test is a type of statistical analysis used to compare the averages of two groups and determine whether the differences between them are more likely to arise from random chance. (<a href="https://en.wikipedia.org/wiki/Student%27s_t-test">Wikipedia</a>)
 Tibble: |
@@ -362,8 +380,7 @@ Tile Plots: |
 Trace Rank Plot: |
   See: Trank Plot.
 Trace Plot: |
-  A trace plot is a chain visualization that plots the samples in sequential order, joined by a line. A trace plot isn’t the last thing analysts do to inspect MCMC output. But it’s often the first. A healty trace plot is not a guarantee that you have a functioning Markov chain. (Chap.9)
-Transgender: |
+  A trace plot is a chain visualization that plots the samples in sequential order, joined by a line. A trace plot isn’t the last th
   People whose biological sex is not consistent with their gender. Contrast: Cisgender (SwR, Glossary)
 Trank Plot: |
   Trace Rank Plot or as McElreath's suggest a Trank Plot visualizes the chains as a distribution of the ranked samples. What this means is to take all the samples for each individual parameter and rank them. The lowest sample gets rank 1. The largest gets the maximum rank (the number of samples across all chains). Then we draw a histogram of these ranks for each individual chain. Why do this? Because if the chains are exploring the same space efficiently, the histograms should be similar to one another and largely overlapping. (Chap.9)
@@ -379,6 +396,8 @@ Violin Plots: |
   Violing plots are visual displays of data that combine features of density plots and boxplots to show the distribution of numeric variables, often across groups. (SwR, Glossary)
 Waffle Charts: |
   Waffle Charts are visual displays of data that show the parts of a whole similar to a pie chart; waffle charts are generally preferred over pie charts. (SwR, Glossary)
+XML: |
+  Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium's XML 1.0 Specification of 1998 and several other related specifications —all of them free open standards—define XML. The design goals of XML emphasize simplicity, generality, and usability across the Internet. (<a href="https://en.wikipedia.org/wiki/XML">Wikipedia</a>)
 xpt: |
   .xpt is a file extension indicating that the file is a transport file from the SAS (Statistical Analysis System) statistical software program (SwR, Glossary)
 Z-score: |
