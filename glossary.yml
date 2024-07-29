@@ -4,6 +4,8 @@ Adjusted-count-R2: |
   Adjusted count R-squared is a measure of model fit for binary logistic regression that adjusts the percent correctly predicted (or count R-squared) by the model for the number of people in the largest outcome category. (SwR, Glossary)
 Adjusted-R2: |
   Adjusted R-squared is a measure of model fit for ordinary least squares linear regression that penalizes the R-squared, or percentage of variance explained, for the number of variables in the model (SwR, Glossary)
+Advanced Organizer: |
+  Advance organizers are pedagogic devices that bridge the gap between what learners already know and what learners need to know. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1428-6_157">Encyclopedia of the Science of Learning</a>)
 AIC: |
   Akaike’s information criterion (AIC) compares the quality of a set of statistical models to each other. The AIC will take each model and rank them from best to worst, but it won’t say anything about absolute quality. The basic formula is defined as AIC = -2(log-likelihood) + 2K. (<a href="https://www.statisticshowto.com/akaikes-information-criterion/"Statistics How-To</a>)
 Alpha: |
@@ -52,6 +54,8 @@ Binomial Coefficient: |
   The binomial coefficient is the number of ways of picking *k* unordered outcomes from *n* possibilities, also known as a combination or combinatorial number. (<a href="https://mathworld.wolfram.com/BinomialCoefficient.html>Wolfram Mathoworld</a>)
 Binomial Distribution: |
   It is used to calculate the probability of a certain number of successful outcomes, given a number of trials and the probability of the successful outcome. The “bi” in the term binomial refers to the two possible outcomes: an event happening and an event not happening. (BF, Chap.4)
+BHE: |
+  Piketty, T. (2022). A Brief History of Equality (S. Rendall, Trans.). Harvard University Press.
 Bonferroni: |
   Bonferroni post hoc test is a pairwise test used after a statistically significant ANOVA that conducts a t-test for each pair of means but adjusts the threshold for statistical significance to ensure that there is a small enough risk of Type I error; it is generally considered a very conservative post hoc test that only identifies the largest differences between means as statistically significant. (SwR, Glossary)
 Boxplots: |
@@ -120,7 +124,7 @@ Covariance cov: |
 Cramér’s V: |
   Cramér’s V is an effect size to determine the strength of the relationship between two categorical variables; often reported with the results of a chi-squared. (SwR, Glossary)
 CRAN: |
-  Comprehensive R Archive Network
+  Comprehensive R Archive Network (CRAN) is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R. Please use the CRAN mirror nearest to you to minimize network load. [cran.r-project.org](https://cran.r-project.org/)
 Credible Interval: |
   In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. (a href="https://en.wikipedia.org/wiki/Credible_interval">Wikipedia</a>)
 Cross Validated: |
@@ -261,6 +265,8 @@ IIA: |
   Independence of irrelevant alternatives (IIA) is an assumption of multinomial logistic regression that requires the categories of the outcome to be independent of one another; for a three-category outcome variable with Categories A, B, and C, the probability of being in Category A compared to Category B cannot change because Category C exists. (SwR, Glossary)
 ICU: |
   International Components for Unicode (ICU) is a mature, widely used set of C/C++ and Java libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms and between C/C++ and Java software. ICU is released under a nonrestrictive open source license that is suitable for use with both commercial software and with other open source or free software. (<a href="https://icu.unicode.org/home">ICU</a>)
+iframe: |
+  iframes allow you to embed HTML documents inside another HTML document. They offer a seamless way to integrate content from one source into another, enabling developers to create more dynamic and interactive web pages. ([dev.to](https://dev.to/joanayebola/what-is-iframe-and-how-to-use-them-1c63))
 i.i.d.: |
   independent and identically distributed. Random variables are independent and identically distributed if each random variable has the same probability distribution as the others and all are mutually independent. This property is usually abbreviated as i.i.d., iid, or IID. (<a href="https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables">Wikipedia</a>) Example: Succession of fair coins throws are independent as the coin has no memory, so all thorws are independent. And every throw is 50:50 (heads:tails), so the coin is and stays fair - the distribution from which every throw is drawn, so to speak, is and stays the same: "identically distributed". (<a href="https://stats.stackexchange.com/a/17392/207389">Cross Validated</a>)
 Independent: |
@@ -283,6 +289,8 @@ JAGS: |
   JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. (<a href="https://mcmc-jags.sourceforge.io/">JAGS</a>)
 Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
+JPG: |
+  JPEG (/ˈdʒeɪpɛɡ/ JAY-peg, short for Joint Photographic Experts Group is a commonly used method of lossy compression for digital images. [(Wikipedia](https://en.wikipedia.org/wiki/JPEG))
 Kernel Density Estimation: |
   Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
 KFF: |
@@ -317,6 +325,8 @@ Likelihood: |
   The likelihood function (often simply called the likelihood) is the joint probability (or probability density) of observed data viewed as a function of the parameters of a statistical model. (<a href="https://en.wikipedia.org/wiki/Likelihood_function">Wikipedia</a>) It indicates how likely a particular population is to produce an observed sample. (<a href="https://www.statistics.com/glossary/likelihood-function/>statistics.com</a>) It is the probability of the data given our beliefs about the data: P(data | belief). (BF, Chap.8)
 Likelihood-ratio: |
   The likelihood ratio test is a test that compares two nested binary logistic regression models to determine which is a better fit to the data; the difference between two log-likelihoods follows a chi-squared distribution with a significant result indicating the larger model is a better fitting model. (SwR, Glossary)
+LIS: |
+  The 'Luxembourg Income Study Database' (LIS) is a data archive and research center dedicated to cross-national analysis. It is home to two databases: The Luxembourg Income Study Database (LIS) and Luxembourg Wealth Study Database (LWS). [Lis Data Center](https://www.lisdatacenter.org/about-lis/)
 Literate Programming: |
   Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer.(<a href="https://www-cs-faculty.stanford.edu/~knuth/lp.html">Donald Knuth</a>)
 Loess: |
@@ -339,6 +349,8 @@ Markov Chain: |
   A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. Informally, this may be thought of as, "What happens next depends only on the state of affairs now." ([Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)) For example, if you made a Markov chain model of a baby's behavior, you might include "playing," "eating", "sleeping," and "crying" as states, which together with other behaviors could form a 'state space': a list of all possible states. In addition, on top of the state space, a Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state---e.g., the chance that a baby currently playing will fall asleep in the next five minutes without crying first. ([Explained visually](https://setosa.io/ev/markov-chains/))
 Mean Square: |
   Mean square is the mean of the squared differences between two values; mean squares are used to compute the F-statistic in analysis of variance and linear regression. (Swr, Glossary)
+MER: |
+  The Market Exchange Rate (MER) is the rate at which one currency can be exchanged for another.
 MCMC: |
   Markov chain Monte Carlo (MCMC) methods comprise a class of algorithms for sampling from a probability distribution. By constructing a [markov chain] that has the desired distribution as its equilibrium distribution, one can obtain a sample of the desired distribution by recording states from the chain. The more steps that are included, the more closely the distribution of the sample matches the actual desired distribution. Various algorithms exist for constructing chains. (<a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Wikipedia</a>)
 McNemar’s test: |
@@ -371,6 +383,12 @@ Mosaic Plots: |
   Mosaic plots are visual representations of data to show the relationship between two categorical variables; useful primarily when both variables have few categories. (SwR, Glossary)
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
+National Accounts: |
+  National accounts are a system of accounts and balance sheets that provide a broad and integrated framework to describe an economy, whether a region, a country, or a group of countries such as the European Union (EU). For internationally comparable national accounts this system needs to be based on common concepts, definitions, classifications and accounting rules, in order to arrive at a consistent, reliable and comparable quantitative description of an economy. National accounts provide systematic and detailed economic data useful for economic analysis to support the development and monitoring of policy-making. ([eurostat: Statics explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=National_accounts_-_an_overview))
+National Income: |
+  National income is the sum of all incomes received by individuals residents in a given country over a year. Incomes takes various forms and we typically distinguish two broad sources: incomes stemming from individuals’ labor (e.g. wages or salaries) and incomes stemming from individuals’ wealth (e.g. interest and dividends). (WIR2022, p.20)
+National Wealth: |
+  National wealth is the sum of the value of all assets owned by individuals in a given country. It is stock resulting from capital accumulation (from savings, i.e. income that has not been consumed) and price effects. (WIR2022, p.20)
 Negation: |
   The probability of X and the negation of the probability of X sum to 1 (in other words, values are either X, or not X). The ¬ symbol means “negation” or “not.” (BF, Chap.2)
 NegativeCorr: |
@@ -407,6 +425,8 @@ Outcome: |
   Outcome is the variable being explained or predicted by a model; in linear and logistic regression, the outcome variable is on the left-hand side of the equal sign. (SwR, Glossary)
 Outliers: |
  Outliers are observations with unusual values. (SwR, Glossary). Outliers are observed data points that are far from the least squares line. They have large "errors", where the "error" or residual is the vertical distance from the line to the point. (<a href= "https://openstax.org/books/introductory-statistics/pages/12-6-outliers">Introductory Statistics 12.6</a>)
+OWID: |
+    'Our World In Data' (OWID) is an online publication that focuses on large global problems such as poverty, disease, hunger, climate change, war, existential risks, and inequality. [Wikipedia](https://en.wikipedia.org/wiki/Our_World_in_Data)
 p-hacking: |
   P-hacking is a set of statistical decisions and methodology choices during research that artificially produces statistically significant results. These decisions increase the probability of false positives—where the study indicates an effect exists when it actually does not. P-hacking is also known as data dredging, data fishing, and data snooping. (<a href="https://statisticsbyjim.com/hypothesis-testing/p-hacking/">Statistics by Jim</a>)
 p-value: |
@@ -441,6 +461,8 @@ PI: |
   [Percentile] intervals (PIs) assign equal mass to each tail. They are used for the computation [quantile]s. (<a href = "https://rdrr.io/github/rmcelreath/rethinking/man/HPDI.html">Help for HPDI {rethinking}</a>)
 Pie Charts: |
   Pie charts are used to show parts of a whole; pie charts get their name from looking like a pie with pieces representing different groups, and they are not recommended for most situations because they can be difficult to interpret
+PIP: |
+  The 'Poverty and Inequality Platform' (PIP) is an interactive computational tool that offers users quick access to the World Bank’s estimates of poverty, inequality, and shared prosperity. PIP provides a comprehensive view of global, regional, and country-level trends for more than 160 economies around the world. [The World Bank](https://pip.worldbank.org/about#PIP_AT_A_GLANCE)
 Planned Comparisons: |
   Planned comparisons is a statistical strategy for comparing different groups, often used after a statistically significant analysis of variance to test hypotheses about which group means are statistically significantly different from one another. (SwR, Glossary)
 Platykurtic: |
@@ -475,6 +497,8 @@ Power: |
   Statistical Power is the probability that the results of a test are not a Type II error; it is the probability of finding a relationship when there is a relationship. (SwR, Glossary)
 Power Transformations: |
   Power transformations are transformations of a measure using an exponent like squaring or cubing or taking the square root or cube root; power transformations are nonlinear transformations. (SwR, Glossary)
+PPP: |
+  Purchasing Power Parity (PPP) is the exchange rate that equates the price of a basket of identical traded goods and services in two countries. Converting values to PPP therefore accounts for differences in costs of living between countries, enabling comparisons between income levels in different countries. (<a href="https://wir2022.wid.world/www-site/uploads/2021/12/WIR2022-Technical-Note-Figures-Tables-1.pdf">WIR2022 - Technical Notes</a>, p.6)
 Prediction: |
   Prediction values are values of the outcome variable that were determined by substituting data for the independent variables into a regression model and computing the predicted value of the outcome. (SwR, Glossary)
 Predictor Variable: |
@@ -643,6 +667,10 @@ Welch-T: |
   Welch’s t-test is a variation on the Student’s t-test that does not assume equal variances in group (SwR, Glossary).
 Welch-F: |
   Welch’s F-statistic is an alternate F-statistic used in analysis of variance when the assumption of homogeneity of variance is not met; the calculations for the Welch’s F-statistic use weights to calculate the group means and the grand mean. (SwR, Glossary)
+WID: |
+  The 'World Inequality Database' (WID) aims to provide open and convenient access to the most extensive available database on the historical evolution of the world distribution of income and wealth, both within countries and between countries. [WID.WORLD](https://wid.world/wid-world/)
+WIL: |
+  The 'World Inequality Lab (WIL) is a global research center focused on the study of inequality and public policies that promote social, economic and environmental justice. ([WIL](https://inequalitylab.world/en/our-mission/))
 Wilcoxon: |
   Wilcoxon signed-ranks test is an alternative to the dependent-samples t-test when the continuous variable is not normally distributed; it uses ranks to determine whether the values of a numeric variable are different across two related groups. (SwR, Glossary)
 WLS: |
