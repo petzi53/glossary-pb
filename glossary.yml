@@ -73,6 +73,8 @@ BUGS: |
 B-Spline: |
   The term "spline" refers to a wide class of basis functions that are used in applications requiring data interpolation and/or smoothing. Splines are special function defined piecewise by polynomials, it results to a smooth function built out of smaller, component functions. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when using low degree polynomials, while avoiding big numbers and the problem of oscillation at the edges of intervals of higher degrees. The term "spline" comes from the flexible [spline](https://en.wikipedia.org/wiki/Flat_spline) devices used by shipbuilders and draftsmen to draw smooth shapes. They used a long, thin piece of wood or metal that could be anchored in a few places in order to aid drawing curves.
   There are many types of splines, especially the common-place 'B-splines': The 'B' stands for 'basis,' which just means 'component.' B-splines build up wiggly functions from simpler less-wiggly components. Those components are called basis functions. B-splines force you to make a number of choices that other types of splines automate. (Chap.4)
+Capital Income:
+  Capital income is defined as the sum of property income, including dividends, interest gains, reinvested earnings on foreign direct investment, investment income disbursements and land rents ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 CE/AD: |
   CE is an abbreviation for Common Era. It means the same as AD (Anno Domini) and represents the time from year 1 and onward. (<a href="https://www.timeanddate.com/calendar/ce-bce-what-do-they-mean.html">timeanddate</a>)
 CDC: |
@@ -161,6 +163,8 @@ Diagnostics: |
   Diagnostics in linear and logistic regression are a set of tests to identify outliers and influential values among the observations. (SwR, Glossary)
 Digital Divide: |
   The term "digital divide" refers to the gap between individuals, households, businesses and geographic areas at different socio-economic levels with regard to their opportunities to access information and communication technologies (ICTs). (<a href= "https://www.oecd-ilibrary.org/science-and-technology/understanding-the-digital-divide_236405667766">OECD Library</a>)
+DINAs: |
+  Distributional national accounts (DINAs) aim to gather information on the distribution of the net national income and to explore it over time. ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/))
 Dispersion Matrix: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
 Display Tables: |
@@ -181,6 +185,8 @@ Effect Size: |
   Effect size is a measure of the strength of a relationship; effect sizes are important in inferential statistics in order to determine and communicate whether a statistically significant result has practical importance. (SwR, Glossary)
 Eta-squared: |
   Eta-squared is an [effect size] interpreted as the proportion of variability in the continuous outcome variable that is explained by groups in an analysis of variance; recent research suggests that eta-squared is biased and that [omega-squared] may be a less biased alternative following analysis of variance. (SwR, Glossary)
+EU-SILC:
+  European Survey on Income and Living Conditions (EU-SILC) is a survey on living conditions in the European Union. The survey helps to record living conditions, make poverty visible and monitor household income over the years. ([eurostat](https://ec.europa.eu/eurostat/web/microdata/european-union-statistics-on-income-and-living-conditions/))
 Event Set: |
   In probability theory, we use Ω (the capital Greek letter omega) to indicate the set of all events.
 Explained Variance: |
@@ -235,6 +241,8 @@ Grouped Bar Chart: |
   A grouped bar chart is a data visualization that shows two categorical variables in a bar chart where one group is shown along the x-axis for vertical bars or y-axis for horizontal bars and the other grouping is shown as separate bars within each of the first grouping variable categories; the bars are often different colors to distinguish the groups. (SwR, Glossary)
 GSS: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
+GUI: |
+  A graphical user interface (GUI) is an operating system interface that enables user interactions with an electronic device through icons, images, and other graphical elements ([G2](https://www.g2.com/articles/graphical-user-interface)).
 GVIF: |
   The generalized variance inflation factor (GVIF) is a generalized version of the variance inflation factor (VIF) that is used to identify problems with multicollinearity; the GVIF is used in binary logistic regression. (SwR, Glossary)
 Hausman-McFadden: |
@@ -384,7 +392,7 @@ Mosaic Plots: |
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
 National Accounts: |
-  National accounts are a system of accounts and balance sheets that provide a broad and integrated framework to describe an economy, whether a region, a country, or a group of countries such as the European Union (EU). For internationally comparable national accounts this system needs to be based on common concepts, definitions, classifications and accounting rules, in order to arrive at a consistent, reliable and comparable quantitative description of an economy. National accounts provide systematic and detailed economic data useful for economic analysis to support the development and monitoring of policy-making. ([eurostat: Statics explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=National_accounts_-_an_overview))
+  National accounts are a system of accounts and balance sheets that provide a broad and integrated framework to describe an economy, whether a region, a country, or a group of countries such as the European Union (EU). For internationally comparable national accounts this system needs to be based on common concepts, definitions, classifications and accounting rules, in order to arrive at a consistent, reliable and comparable quantitative description of an economy. National accounts provide systematic and detailed economic data useful for economic analysis to support the development and monitoring of policy-making. ([eurostat: Statics explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=National_accounts_-_an_overview)).
 National Income: |
   National income is the sum of all incomes received by individuals residents in a given country over a year. Incomes takes various forms and we typically distinguish two broad sources: incomes stemming from individuals’ labor (e.g. wages or salaries) and incomes stemming from individuals’ wealth (e.g. interest and dividends). (WIR2022, p.20)
 National Wealth: |
@@ -395,6 +403,8 @@ NegativeCorr: |
   Negative correlation is a statistical relationship where two things move in opposite directions; as one goes up, the other goes down, and vice versa. (SwR, Glossary)
 Negatively Skewed: |
   A distribution is negatively skewed when it has extreme values in the left-hand-side tail, toward the negative numbers on the number line; negative skew is also known as left skew. (SwR, Glossary)
+Net National Income:
+  The net national income equals the gross domestic product (GDP) minus capital depreciation, plus net foreign income. In addition to the income of private households, the national income also includes the income of the other domestic sectors (i.e., the nonfinancial corporations, the financial corporations, the general government, and the nonprofit institutions serving households)([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 NIMBLE: |
   NIMBLE is a system for building and sharing analysis methods for statistical models, especially for hierarchical models and computationally-intensive methods. Other packages that use the BUGS language are only for Markov chain Monte Carlo (MCMC). With NIMBLE, you can turn BUGS code into model objects and use them for whatever algorithm you want. (<a href="https://r-nimble.org/">r-nimble.org</a>)
 NHANES: |
@@ -493,6 +503,8 @@ Posterior Predictive Distribution: |
   An approach to assessing model fit. It is the distribution for future predicted data based on the data you have already seen. Measures of discrepancy between the estimated model and the data are constructed and their posterior predictive distribution compared to the discrepancy observed for the dataset. (CDS, p. 334)
 Posterior Probability: |
   It is the revised or updated probability of an event occurring after taking into consideration new information. ([Investopedia](https://www.investopedia.com/terms/p/posterior-probability.asp)). Posterior probability = prior probability + new evidence (called likelihood). ([Statistics How To](https://www.statisticshowto.com/posterior-distribution-probability/)) The posterior distribution will be a distribution of Gaussian distributions. (SR, Chap.4). It quantifies exactly how much our observed data changes our beliefs: P(belief | data) (BF, Chap.8)
+POTNI:
+  Post-tax National Income (POTNI) adds all other government transfers and deducts all taxes from the PRTNI. Therefore, POTNI includes all social monetary transfers, transfers in-kind and collective consumption. The allocation of all forms of government spending to individuals ensures that the sum of POTNI equals the national income ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 Power: |
   Statistical Power is the probability that the results of a test are not a Type II error; it is the probability of finding a relationship when there is a relationship. (SwR, Glossary)
 Power Transformations: |
@@ -527,6 +539,8 @@ Proportional Operator: |
   The proportional symbol (`∝`) is pronounced als "varies as" or "is proportional to". ([UEfAP](http://www.uefap.com/speaking/symbols/symbols.htm)) It is produced in Markdown with `$\propto$`. (<a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols">List of LaTeX mathematical symbols</a>)
 Protocol: |
   A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol. (<a href="https://developer.mozilla.org/en-US/docs/Glossary/Protocol">MDN web docs</a>)
+PRTNI:
+  Pre-tax National Income (PRTNI) is the sum of all income flows gained by the individual owner of the factors of production, labour and capital, after taking into account the operation of the pension system as well as unemployment insurance system. Accordingly, pensions and unemployment benefits are included ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 Q-Q-Plot: |
   A quantile-quantile plot is a visualization of data using probabilities to show how closely a variable follows a normal distribution. (SwR, Glossary) This plot is made up of points below which a certain percentage of the observations fall. On the x-axis are normally distributed values with a mean of 0 and a standard deviation of 1. On the y-axis are the observations from the data. If the data are normally distributed, the values will form a diagonal line through the graph. (SwR, chapter 6)
 QRP: |
