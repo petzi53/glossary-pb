@@ -44,6 +44,8 @@ Bayes’ Theorem: |
   This is the theorem that gives Bayesian data analysis its name. But the theorem itself is a trivial implication of probability theory. The mathematical definition of the posterior distribution arises from Bayes' Theorem. The key lesson is that the posterior is proportional to the product of the prior and the probability of the data. (Chap.2)
 Bessel’s Correction: |
   Bessel's correction is the use of n − 1 instead of n in the formula for the sample variance and sample standard deviation, where n is the number of observations in a sample. This method corrects the bias in the estimation of the population variance. It also partially corrects the bias in the estimation of the population standard deviation. However, the correction often increases the mean squared error in these estimations. This technique is named after Friedrich Bessel. (<a href="https://en.wikipedia.org/wiki/Bessel%27s_correction">Wikipedia</a>)
+Beta Coefficient: |
+  In finance the beta coefficient is a measure to denote the volatility or systematic risk of a security or portfolio compared to the market, usually the S&P 500 which has a beta of 1.0. Stocks with betas higher than 1.0 are interpreted as more volatile than the S&P 500.
 Beta Distribution: |
   It is a family of continuous probability distributions defined on the interval [0, 1] in terms of two positive parameters, denoted by alpha (α) and beta (β) that control the shape of the distribution. (<a href="https://en.wikipedia.org/wiki/Beta_distribution">Wikipedia</a>) The Beta distribution is representing a probability distribution of probabilities (<a href="https://stats.stackexchange.com/a/47782/207389">stats.stackexchange</a>) You use the beta distribution to estimate the probability of an event for which you’ve already observed a number of trials and the number of successful outcomes. For example, you would use it to estimate the probability of flipping a heads when so far you have observed 100 tosses of a coin and 40 of those were heads. (BF, Chap.5)
 BIC: |
@@ -131,6 +133,8 @@ Credible Interval: |
   In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. (a href="https://en.wikipedia.org/wiki/Credible_interval">Wikipedia</a>)
 Cross Validated: |
   Cross Validated is a question and answer site for people interested in statistics, machine learning, data analysis, data mining, and data visualization. It is built and run by you as part of the Stack Exchange network of Q&A sites. (<a href="https://stats.stackexchange.com/tour">StackExchange</a>)
+CSL: |
+  Die Citation Style Language (CSL) ist eine XML-Sprache zur Beschreibung von Formaten für bibliografische Angaben und Zitierstile. ([Wikipedia](https://de.wikipedia.org/wiki/Citation_Style_Language))
 CSS: |
   Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. (<a href="https://en.wikipedia.org/wiki/CSS">Wikipedia</a>)
 CSV: |
@@ -163,7 +167,7 @@ Diagnostics: |
   Diagnostics in linear and logistic regression are a set of tests to identify outliers and influential values among the observations. (SwR, Glossary)
 Digital Divide: |
   The term "digital divide" refers to the gap between individuals, households, businesses and geographic areas at different socio-economic levels with regard to their opportunities to access information and communication technologies (ICTs). (<a href= "https://www.oecd-ilibrary.org/science-and-technology/understanding-the-digital-divide_236405667766">OECD Library</a>)
-DINAs: |
+DINA: |
   Distributional national accounts (DINAs) aim to gather information on the distribution of the net national income and to explore it over time. ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/))
 Dispersion Matrix: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
@@ -171,18 +175,22 @@ Display Tables: |
   Display Tables are in constrast to Data Tables. You would find them in a web page, a journal article, or in a magazine. Such tables are for presentation, often to facilitate the construction of “Table 1”, i.e., baseline characteristics table commonly found in research papers. (<a href= "https://gt.rstudio.com/articles/gt.html">Introduction to Creating gt Tables</a>)
 Donut Charts: |
   Donut or doughnut charts (sometimes also called ring charts) are an alternative chart for pie charts, which have a hole in the middle, making them cleaner to read than pie charts. (<a href="https://r-charts.com/part-whole/donut-chart/">R Charts</a>)
+DPI: |
+  DPI is used to measure the resolution of an image both on screen and in print. It refers to the number of printed dots contained within one inch (2.54cm) of an image printed by a printer.
 Dummy Data: |
   Simulated data are called dummy data to indicate that it is a stand-in for actual data. (SR2, p.62)
 Dunn: |
   Dunn’s post hoc test is a pairwise comparisons to determine which groups are statistically significantly different from one another following a significant [Kruskal-Wallis] test. (SwR, Glossary)
 Durbin-Watson: |
   Durbin-Watson test is a statistical test that is used to check the assumption of independent residuals in linear regression; a Durbin-Watson statistic of 2 indicates that the residuals are independent. (SwR, Glossary)
-ExDA: |
+EDA: |
   Explorative Data Analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. (<a href="https://en.wikipedia.org/wiki/Exploratory_data_analysis">Wikipedia</a>)
 ECDF: |
   In statistics, an empirical distribution function (commonly also called an empirical cumulative distribution function, eCDF) is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value. (<a href="https://en.wikipedia.org/wiki/Empirical_distribution_function">Wikipedia</a>) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 Effect Size: |
   Effect size is a measure of the strength of a relationship; effect sizes are important in inferential statistics in order to determine and communicate whether a statistically significant result has practical importance. (SwR, Glossary)
+EPUB: |
+  EPUB (auch ePUB, Akronym für electronic publication) ist ein offener Standard für E-Books, documents and other digital resources.
 Eta-squared: |
   Eta-squared is an [effect size] interpreted as the proportion of variability in the continuous outcome variable that is explained by groups in an analysis of variance; recent research suggests that eta-squared is biased and that [omega-squared] may be a less biased alternative following analysis of variance. (SwR, Glossary)
 EU-SILC:
@@ -227,6 +235,8 @@ GAM: |
   GAMs relax the restriction that the relationship must be a simple weighted sum, and instead assume that the outcome can be modelled by a sum of arbitrary functions of each feature. ([Medium member story](https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a#c407)) (Chap.4)
 General Social Survey: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
+Gini Index: |
+  The Gini index is a widely used statistical measure to quantify the extent of income or wealth inequality within a population. It ranges from 0 to 1 (or 0% to 100%), with higher values indicating greater inequality. The Gini coefficient is calculated based on the Lorenz curve, which plots the population proportion against the income or wealth share. It was developed by Italian statistician and sociologist Corrado Gini. (misc.)
 GLM: |
   A generalized linear model (GLM) is a flexible generalization of ordinary linear regression. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value. (<a href="https://en.wikipedia.org/w/index.php?title=Generalized_linear_model&oldid=1175448680">Wikipedia</a>). the binary logistic regression model is one example of a generalized linear model. (SwR, Glossary)
 Goodness-of-fit: |
@@ -242,7 +252,7 @@ Grouped Bar Chart: |
 GSS: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
 GUI: |
-  A graphical user interface (GUI) is an operating system interface that enables user interactions with an electronic device through icons, images, and other graphical elements ([G2](https://www.g2.com/articles/graphical-user-interface)).
+  A graphical user interface (GUI) is an operating system interface that enables user interactions with an electronic device through icons, images, and other graphical elements [G2](https://www.g2.com/articles/graphical-user-interface).
 GVIF: |
   The generalized variance inflation factor (GVIF) is a generalized version of the variance inflation factor (VIF) that is used to identify problems with multicollinearity; the GVIF is used in binary logistic regression. (SwR, Glossary)
 Hausman-McFadden: |
@@ -341,6 +351,8 @@ Loess: |
   Loess curve is a graph curve that shows the relationship between two variables without constraining the line to be straight; it can be compared to a linear fit line to determine whether the relationship is close to linear or not (= checking the [linearity] assumption). The procedure originated as LOWESS (LOcally WEighted Scatter-plot Smoother). is a nonparametric method because the linearity assumptions of conventional regression methods have been relaxed. It is called local regression because the fitting at say point x is weighted toward the data nearest to x. (SwR, Glossary and <a href="https://www.statsdirect.com/help/Default.htm#nonparametric_methods/loess.htm">LOESS Curve Fitting (Local Polynomial Regression</a>))
 Logit Transformations: |
   Logit transformations are transformations that takes the log value of p/(1-p); this transformation is often used to normalize percentage data and is used in the logistic model to transform the outcome. (SwR, Glossary)
+Lorenz Curve: |
+  A Lorenz curve, developed by American economist Max Lorenz in 1905, is a graphical representation of income inequality or wealth inequality. The graph plots percentiles of the population on the horizontal axis according to income or wealth and plots cumulative income or wealth on the vertical axis. ([investopedia](https://www.investopedia.com/terms/l/lorenz-curve.asp))
 Loss Function: |
   A loss function is a rule that tells you the cost associated with using any particular point estimate. … The key insight is that *different loss functions imply different point estimates*. (SR2, p.59)
 Mahalanobis: |
@@ -371,6 +383,8 @@ Median: |
   Median is the middle value, or the mean of the two middle values, for a variable. (SwR, Glossary)
 Mesokurtic: |
   Mesokurtic are distributions that are neither platykurtic nor leptokurtic are mesokurtic; a normal distribution is a common example of a mesokurtic distribution. (SwR, Glossary)
+Metadata: |
+  Metadata (or metainformation) is "data that provides information about other data" ([Merriam-Webster](https://www.merriam-webster.com/dictionary/metadata)), but not the content of the data itself, such as the text of a message or the image itself. ([Wikipedia](https://en.wikipedia.org/wiki/Metadata))
 Metropolis Algorithm: |
   The Metropolis Algorithm often also called Metropolis–Hastings algorithm is a Markov chain Monte Carlo (MCMC) method for obtaining a sequence of random samples from a probability distribution from which direct sampling is difficult. This sequence can be used to approximate the distribution (e.g. to generate a histogram) or to compute an integral (e.g. an expected value). (a href="https://en.wikipedia.org/w/index.php?title=Metropolis%E2%80%93Hastings_algorithm&oldid=1172902257">Wikipedia</a>)
 Metropolis–Hastings Algorithm: |
@@ -392,7 +406,7 @@ Mosaic Plots: |
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
 National Accounts: |
-  National accounts are a system of accounts and balance sheets that provide a broad and integrated framework to describe an economy, whether a region, a country, or a group of countries such as the European Union (EU). For internationally comparable national accounts this system needs to be based on common concepts, definitions, classifications and accounting rules, in order to arrive at a consistent, reliable and comparable quantitative description of an economy. National accounts provide systematic and detailed economic data useful for economic analysis to support the development and monitoring of policy-making. ([eurostat: Statics explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=National_accounts_-_an_overview)).
+  National accounts are a system of accounts and balance sheets that provide a broad and integrated framework to describe an economy, whether a region, a country, or a group of countries such as the European Union (EU). For internationally comparable national accounts this system needs to be based on common concepts, definitions, classifications and accounting rules, in order to arrive at a consistent, reliable and comparable quantitative description of an economy. National accounts provide systematic and detailed economic data useful for economic analysis to support the development and monitoring of policy-making. [eurostat - Statistics explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=National_accounts_-_an_overview).
 National Income: |
   National income is the sum of all incomes received by individuals residents in a given country over a year. Incomes takes various forms and we typically distinguish two broad sources: incomes stemming from individuals’ labor (e.g. wages or salaries) and incomes stemming from individuals’ wealth (e.g. interest and dividends). (WIR2022, p.20)
 National Wealth: |
@@ -415,10 +429,16 @@ Non-informative Prior: |
   A prior distribution which is specified in an attempt to be non commital about a parameter, for example, a uniform distribution. (The Cambridge Dictionary of Statistics, CDS, p.303)
 Nonlinear Transformations: |
   Nonlinear transformations are transformations that increases (or decreases) the linear relationship between two variables by applying an exponent (i.e., [power transformation]) or other function to one or both of the variables. (SwR, Glossary)
+NPISH: |
+  Non-Profit Institutions Serving Households (NPISH) refers to a sector in national accounts comprising non-profit institutions that are not mainly financed and controlled by the government. These institutions provide goods or services to households for free or at prices that are not economically significant. In the context of national accounting, NPISH institutions are distinct from government institutions and the private sector. They operate independently, often relying on donations, grants, or membership fees to fund their activities (KI-Brave, Internet)
 Null Hypothesis: |
   The null hypothesis (H0, or simply the Null) is a statement of no difference or no association that is used to guide statistical inference testing (SwR, Glossary)
 NUTS: |
   The abbreviation "NUTS" stands for **No U-Turn Sampler** and is a Hamiltonian Monte Carlo (HMC) Method. This means that it is not a Markov Chain method and thus, this algorithm avoids the random walk part, which is often deemed as inefficient and slow to converge. Instead of doing the random walk, NUTS does jumps of length x. Each jump doubles as the algorithm continues to run. This happens until the trajectory reaches a point where it wants to return to the starting point. ([CrossValidated](https://stats.stackexchange.com/questions/311813/can-somebody-explain-to-me-nuts-in-english)) (Chap.4 in my notes)
+Obsidian: |
+  Obsidian is a personal knowledge base and note-taking software application that operates on Markdown files. It is designed to help users organize and structure their thoughts and knowledge in a flexible, non-linear way. The software is free for personal use, with commercial licenses available for pay. ([Wikipedia](https://en.wikipedia.org/wiki/Obsidian_(software)))
+OCR: |
+  Optical character recognition or optical character reader (OCR) is the electronic or mechanical conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo (for example the text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example: from a television broadcast) ([Wikipedia](Optical character recognition or optical character reader (OCR) is the electronic or mechanical conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo (for example the text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example: from a television broadcast)([Wikipedia](https://en.wikipedia.org/wiki/Optical_character_recognition))
 Odds Ratio: |
   Odds is usually defined in statistics as the probability an event will occur divided by the probability that it will not occur. An odds ratio (OR) is a measure of association between a certain property A and a second property B in a population. Specifically, it tells you how the presence or absence of property A has an effect on the presence or absence of property B. (<a href="https://www.statisticshowto.com/probability-and-statistics/probability-main-index/odds-ratio/">Statistics How To</a>). An odds ratio is a ratio of two ratios. They quantify the strength of the relationship between two conditions. They indicate how likely an outcome is to occur in one context relative to another. (<a href="https://statisticsbyjim.com/probability/odds-ratio/">Statistics by Jim</a>)
 OLS: |
@@ -431,6 +451,8 @@ One-to-one Function: |
   A one-to-one function is a function in which each output value corresponds to exactly one input value. (Precalculus, p.21)
 One-sample: |
   One-sample t-test, also known as the single-parameter t-test or single-sample t-test, is an inferential statistical test comparing the mean of a numeric variable to a population or hypothesized mean. (SwR, Glossary)
+Open-access: |
+  Open-access (OA) literature is digital, online, free of charge, and free of most copyright and licensing restrictions. OA removes price barriers (subscriptions, licensing fees, pay-per-view fees) and permission barriers (most copyright and licensing restrictions). The PLoS shorthand definition — 'free availability and unrestricted use' — succinctly captures both elements. ([Open Access Overview](http://legacy.earlham.edu/~peters/fos/overview.htm) by Peter Suber)
 Outcome: |
   Outcome is the variable being explained or predicted by a model; in linear and logistic regression, the outcome variable is on the left-hand side of the equal sign. (SwR, Glossary)
 Outliers: |
@@ -445,6 +467,8 @@ Paired: |
   Dependent-samples test or paired-samples t-test is an inferential test comparing two related means . (SwR, Glossary)
 Pairwise Comparisons: |
   Pairwise comparisons are comparisons between every pair of groups to identify which are statistically significantly different from one another following a statistically significant result in an analysis of variance (ANOVA) or other multigroup analysis. (SwR, Glossary)
+Pandoc: |
+  Pandoc is a universal document converter. If you need to convert files from one markup format into another, pandoc is your swiss-army knife. ([pandoc](https://pandoc.org/))
 Parameter: |
   Unobserved variables are usually called Parameters. (SR2, Chap.2) A parameter is an unknown numerical characteristics of a population that must be estimated. (CDS). They are also numbers that govern statistical models ([stats.stackexchange](https://stats.stackexchange.com/a/255994/207389)). A parameter is also a number that is a defining characteristic of some population or a feature of a population. (SwR, Glossary)
 PartialCorr: |
@@ -477,8 +501,12 @@ Planned Comparisons: |
   Planned comparisons is a statistical strategy for comparing different groups, often used after a statistically significant analysis of variance to test hypotheses about which group means are statistically significantly different from one another. (SwR, Glossary)
 Platykurtic: |
   Platykurtic is a distribution of a numeric variable that has more observations in the tails than a normal distribution would have; platykurtic distributions often look flatter than a normal distribution. (SwR, Glossary)
+Plugin: |
+  A plug-in (or plugin, add-in, addin, add-on, or addon) is a software component that adds a specific feature to an existing computer program. ([Wikipedia](https://en.wikipedia.org/wiki/Plug-in_%28computing%29))
 PMF: |
   A probability mass function (PMF) is a mathematical function that calculates the probability a discrete random variable will be a specific value. PMFs also describe the probability distribution for the full range of values for a discrete variable. Probability mass functions find the LIKELIHOOD of a particular outcome. Using a PMF to calculate the likelihoods for all possible values of the discrete variable produces its PROBABILITY DISTRIBUTION.(<a href="https://statisticsbyjim.com/probability/probability-mass-function/">Statistics By Jim</a>)
+PNG: |
+  Portable Network Graphic (PNG) is a non-patented raster graphics file format that supports lossless data compression. The format was not designed for professional-quality print graphics but for transferring images on the Internet (hence the name 'portable'). (Wikipedia)
 Point Charts: |
   Point charts are charts that show summary values for a numeric variable, typically across groups; for example, a point chart could be used in place of a bar graph to show mean or median across groups. (SwR, Glossary)
 Polynomials: |
@@ -593,6 +621,8 @@ Skewness: |
   Skewness is the extent to which a variable has extreme values in one of the two tails of its distribution (SwR, Glossary)
 Slope: |
   The slope is the increase in the dependent variable when the independent variable increases with one unit and all other independent variables remain the same. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_1486">Intercept, Slope in Regression</a>)
+SNA: |
+  The System of National Accounts (SNA), 2008 is a statistical framework that provides a comprehensive, consistent and flexible set of macroeconomic accounts for policymaking, analysis and research purposes. It has been produced and is released under the auspices of the United Nations, the European Commission, the Organisation for Economic Co-operation and Development, the International Monetary Fund and the World Bank Group. ([SNA 2008](https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf))
 Spearman: |
   Spearman’s rho a statistical test used to examine the strength, direction, and significance of the relationship between two numeric variables when they do not meet the assumptions for [Pearson]’s r. (SwR, Glossary)
 Specificity: |
@@ -627,20 +657,24 @@ Student: |
   Student t-test is a statistical test used to test whether the difference between the response of two groups is statistically significant or not. (<a href="https://en.wikipedia.org/wiki/Student%27s_t-test">Wikipedia</a>)
 SwR: |
   SwR is my abbreviation of: Harris, J. K. (2020). Statistics With R: Solving Problems Using Real-World Data (Illustrated Edition). SAGE Publications, Inc.
-Table 1: |
-  Descriptive statistics are often displayed in the first table in a published article or report and are therefore often called <i>Table 1 statistics</i> or the <i>descriptives</i>. (SwR)
-Tail: |
-  The values to the far right and far left of a distribution are called the 'tail' of the distribution. (SwR, GLossary)
 T-Statistic: |
   The T-Statistic is used in a T test when you are deciding if you should support or reject the null hypothesis. It’s very similar to a Z-score and you use it in the same way: find a cut off point, find your t score, and compare the two. You use the t statistic when you have a small sample size, or if you don’t know the population standard deviation. (<a href="https://www.statisticshowto.com/t-statistic/">Statistics How-To</a>)
 T-Test: |
   A t-test is a type of statistical analysis used to compare the averages of two groups and determine whether the differences between them are more likely to arise from random chance. (<a href="https://en.wikipedia.org/wiki/Student%27s_t-test">Wikipedia</a>)
+Table 1: |
+  Descriptive statistics are often displayed in the first table in a published article or report and are therefore often called <i>Table 1 statistics</i> or the <i>descriptives</i>. (SwR)
+Tail: |
+  The values to the far right and far left of a distribution are called the 'tail' of the distribution. (SwR, GLossary)
+Tesseract: |
+  Tesseract is a free software for optical character recognition (OCR) for various operating systems. An R package with the same name supports over 100 languages.
 Tibble: |
   A tibble or tbl_df, is a modern reimagining of the data.frame. It never changes the type of the inputs (e.g. it never converts strings to factors!), it never changes the names of variables, and it never creates row names. It’s possible for a tibble to have column names that are not valid R variable names, aka non-syntactic names. Tibbles have a refined print method that shows only the first 10 rows, and all the columns that fit on screen. (<a href="https://r4ds.had.co.nz/tibbles.html">R4DS</a>)
 Tilde Operator: |
   The tilde ('~') in R formulae signifies a stochastic relationship. This is in contrast to the "=" symbol which means a deterministic relationship or definiton. (more details in [R Intro](https://cran.r-project.org/doc/manuals/R-intro.html#Statistical-models-in-R)), The [similar operator](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/tilde) is used to separate the left- and right-hand sides in a model [formula]. It can be pronounced as "is modelled by" or in a formula "is dependent on" or "is explained by". In Markdown it is produced with $\sim$.
 Tile Plots: |
   Tile plots are matrices of tiles. For each tile, either the "width", "height", "area", or squared area is proportional to the corresponding entry. (Help file of `vcd::tile()`)
+Theil Index: |
+  The Theil index is a statistic used to measure economic inequality. It calculates an “entropic distance” between the actual income distribution and an ideal egalitarian state where everyone has the same income. The resulting numerical value represents negative entropy, with higher values indicating greater inequality, further away from the ideal state of maximum disorder. ([US Census Bureau](https://www.census.gov/topics/income-poverty/income-inequality/about/metrics/theil-index.html))
 Trace Rank Plot: |
   See: Trank Plot.
 Trace Plot: |
@@ -665,6 +699,8 @@ Unexplained variance: |
   Unexplained variance is variability in the outcome that is not explained by the predictor(s); the unexplained variability and explained variability are used in calculations for model significance and model fit. (SwR, Glossary)
 Uniform Crime Reporting: |
   The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
+UTC:
+  UTC is the primary time standard globally used to regulate clocks and time. It establishes a reference for the current time, forming the basis for civil time and time zones. Introduced on January 1, 1960, UTC is an international basis of civil and scientific time, replacing Greenwich Mean Time (GMT) as the global time standard. (Brave-Internet)
 Variance var: |
   Variance is the squared deviation from the mean of a random variable. The variance is also often defined as the square of the standard deviation. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. It is the second central moment of a distribution, and the covariance of the random variable with itself, and it is often represented by `σ`, `σ^2`, VAR(x), var(x) or V(x). ([Wikipedia](https://en.wikipedia.org/wiki/Variance))
 VIF: |
@@ -689,6 +725,8 @@ Wilcoxon: |
   Wilcoxon signed-ranks test is an alternative to the dependent-samples t-test when the continuous variable is not normally distributed; it uses ranks to determine whether the values of a numeric variable are different across two related groups. (SwR, Glossary)
 WLS: |
   Weighted Least Squares is an extension of Ordinary Least Squares regression. Non-negative constants (weights) are attached to data points. It is used when the data violates the assumption of homoscedasticity; when you want to concentrate on certain areas; when you are running a logistic regression or any other procedure where data points should not be treated equally. (<a href="https://www.statisticshowto.com/weighted-least-squares/">Statistics How-To</a>)
+WPID: |
+  The World Political Cleavages and Inequality Database (WPID) is the result of a collaborative research program involving about twenty researchers all around the world. The central aim is to provide open and convenient access to the most extensive available dataset on the structure of political cleavages and social inequalities in electoral democracies, located on the five continents, from the mid-20th century to the present. ([WPID](https://wpid.world/))
 XML: |
   Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium's XML 1.0 Specification of 1998 and several other related specifications —all of them free open standards—define XML. The design goals of XML emphasize simplicity, generality, and usability across the Internet. (<a href="https://en.wikipedia.org/wiki/XML">Wikipedia</a>)
 xpt: |
@@ -699,5 +737,9 @@ Y-hat: |
   The term 'y hat' (written as ŷ) refers to the estimated value of a response variable in a linear regression model.(<a href="https://www.statology.org/y-hat/">What is Y Hat in Statistics?</a>)
 Z-distribution: |
   The z-distribution is a normal distribution with a mean of 0 and a standard deviation of 1. (SwR, chap10)
+ZIP: |
+  A .zip file is a type of archive file format that compresses one or more files or directories into a single, smaller file. (Brave-Internet)
+Zotero: |
+  Zotero is free and open-source reference management software to manage bibliographic data and related research materials, such as PDF and ePUB files. Features include web browser integration, online syncing, generation of in-text citations, footnotes, and bibliographies, integrated PDF, ePUB and HTML readers with annotation capabilities, and a note editor, as well as integration with the word processors Microsoft Word, LibreOffice Writer, and Google Docs. ([Wikipedia](https://en.wikipedia.org/wiki/Zotero))
 Z-score: |
   A z-score (also called a standard score) gives you an idea of how far from the mean a data point is. But more technically it’s a measure of how many standard deviations below or above the population mean a raw score is. (<a href="https://www.statisticshowto.com/probability-and-statistics/z-score/#Whatisazscore">StatisticsHowTo</a>)
