@@ -183,7 +183,7 @@ Dunn: |
   Dunn’s post hoc test is a pairwise comparisons to determine which groups are statistically significantly different from one another following a significant [Kruskal-Wallis] test. (SwR, Glossary)
 Durbin-Watson: |
   Durbin-Watson test is a statistical test that is used to check the assumption of independent residuals in linear regression; a Durbin-Watson statistic of 2 indicates that the residuals are independent. (SwR, Glossary)
-EDA: |
+EDAx: |
   Explorative Data Analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. (<a href="https://en.wikipedia.org/wiki/Exploratory_data_analysis">Wikipedia</a>)
 ECDF: |
   In statistics, an empirical distribution function (commonly also called an empirical cumulative distribution function, eCDF) is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value. (<a href="https://en.wikipedia.org/wiki/Empirical_distribution_function">Wikipedia</a>) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
@@ -195,6 +195,10 @@ Eta-squared: |
   Eta-squared is an [effect size] interpreted as the proportion of variability in the continuous outcome variable that is explained by groups in an analysis of variance; recent research suggests that eta-squared is biased and that [omega-squared] may be a less biased alternative following analysis of variance. (SwR, Glossary)
 EU-SILC:
   European Survey on Income and Living Conditions (EU-SILC) is a survey on living conditions in the European Union. The survey helps to record living conditions, make poverty visible and monitor household income over the years. ([eurostat](https://ec.europa.eu/eurostat/web/microdata/european-union-statistics-on-income-and-living-conditions/))
+EUx: |
+  The European Union (EU) is a supranational political and economic union of 27 member states. It comprises end of 2024: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain Sweden.
+EU Membership Applications: |
+  The following countries have end of 2024 an open application for EU membership: Albania, Bosnia and Herzegovina, Georgia, Kosovo, Moldavia, Montenegro, North Macedonia, Serbia, Turkey, Ukraine.
 Event Set: |
   In probability theory, we use Ω (the capital Greek letter omega) to indicate the set of all events.
 Explained Variance: |
@@ -235,6 +239,8 @@ GAM: |
   GAMs relax the restriction that the relationship must be a simple weighted sum, and instead assume that the outcome can be modelled by a sum of arbitrary functions of each feature. ([Medium member story](https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a#c407)) (Chap.4)
 General Social Survey: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
+GNI: |
+  Gross National Income (GNI) is a measure of a country's income, which includes all the income earned by a country's residents, businesses, and earnings from foreign sources. It is defined as the total amount of money earned by a nation's people and businesses, no matter where it was earned. GNI is an alternative to GDP as a way to measure and track a nation’s wealth, as it calculates income instead of output.
 Gini Index: |
   The Gini index is a widely used statistical measure to quantify the extent of income or wealth inequality within a population. It ranges from 0 to 1 (or 0% to 100%), with higher values indicating greater inequality. The Gini coefficient is calculated based on the Lorenz curve, which plots the population proportion against the income or wealth share. It was developed by Italian statistician and sociologist Corrado Gini. (misc.)
 GLM: |
@@ -279,6 +285,10 @@ HTTP: |
   The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. (<a href="https://en.wikipedia.org/wiki/HTTP">Wikipedia</a>)
 Hypothesis: |
   A hypothesis is a model about how the world works that makes a prediction. All of our basic beliefs about the world are hypotheses. (BF, Chap.1)
+IBRD: |
+  The International Bank for Reconstruction and Development (IBRD) is a global development cooperative owned by 189 member countries. As the largest development bank in the world, it supports the World Bank Group’s mission by providing loans, guarantees, risk management products, and advisory services to middle-income and creditworthy low-income countries, as well as by coordinating responses to regional and global challenges. (https://www.worldbank.org/en/who-we-are/ibrd)
+IDAx: |
+  The International Development Association (IDA) is the part of the World Bank that helps the world’s low-income countries. IDA's grants and low-interest loans help countries invest in their futures, improve lives, and create safer, more prosperous communities around the world. (https://ida.worldbank.org/en/what-is-ida)
 IIA: |
   Independence of irrelevant alternatives (IIA) is an assumption of multinomial logistic regression that requires the categories of the outcome to be independent of one another; for a three-category outcome variable with Categories A, B, and C, the probability of being in Category A compared to Category B cannot change because Category C exists. (SwR, Glossary)
 ICU: |
@@ -355,6 +365,8 @@ Lorenz Curve: |
   A Lorenz curve, developed by American economist Max Lorenz in 1905, is a graphical representation of income inequality or wealth inequality. The graph plots percentiles of the population on the horizontal axis according to income or wealth and plots cumulative income or wealth on the vertical axis. ([investopedia](https://www.investopedia.com/terms/l/lorenz-curve.asp))
 Loss Function: |
   A loss function is a rule that tells you the cost associated with using any particular point estimate. … The key insight is that *different loss functions imply different point estimates*. (SR2, p.59)
+M49: |
+  The United Nations publication "Standard Country or Area Codes for Statistical Use" was originally published as Series M, No. 49 and is now commonly referred to as the M49 standard. M49 is a country/areas classification system prepared by the Statistics Division of the United Nations Secretariat primarily for use in its publications and databases.
 Mahalanobis: |
   Mahalanobis distance is a measure of how far a point is from the mean of a multivariate distribution, normalized by the covariance matrix of the distribution. It is calculated as the square root of the product of the difference vector, the inverse covariance matrix, and the transpose of the difference vector. (Google)
 Mann-Whitney: |
@@ -369,7 +381,7 @@ Markov Chain: |
   A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. Informally, this may be thought of as, "What happens next depends only on the state of affairs now." ([Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)) For example, if you made a Markov chain model of a baby's behavior, you might include "playing," "eating", "sleeping," and "crying" as states, which together with other behaviors could form a 'state space': a list of all possible states. In addition, on top of the state space, a Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state---e.g., the chance that a baby currently playing will fall asleep in the next five minutes without crying first. ([Explained visually](https://setosa.io/ev/markov-chains/))
 Mean Square: |
   Mean square is the mean of the squared differences between two values; mean squares are used to compute the F-statistic in analysis of variance and linear regression. (Swr, Glossary)
-MER: |
+MERx: |
   The Market Exchange Rate (MER) is the rate at which one currency can be exchanged for another.
 MCMC: |
   Markov chain Monte Carlo (MCMC) methods comprise a class of algorithms for sampling from a probability distribution. By constructing a [markov chain] that has the desired distribution as its equilibrium distribution, one can obtain a sample of the desired distribution by recording states from the chain. The more steps that are included, the more closely the distribution of the sample matches the actual desired distribution. Various algorithms exist for constructing chains. (<a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Wikipedia</a>)
@@ -381,6 +393,8 @@ Mean Absolute Deviation: |
   The mean absolute deviation (MAD) also known as the mean deviation and average absolute deviation is a measure of variability that indicates the average distance between observations and their mean. MAD uses the original units of the data, which simplifies interpretation. Larger values signify that the data points spread out further from the average. Conversely, lower values correspond to data points bunching closer to it. (<a href="https://statisticsbyjim.com/basics/mean-absolute-deviation/">Statistics by Jim</a>). The R base function `mad()` stands for the median absolute deviation.
 Median: |
   Median is the middle value, or the mean of the two middle values, for a variable. (SwR, Glossary)
+MENA: |
+  The Middle East and North Africa (MENA) region is a statistical grouping used by the United Nations (UN) to categorize 20 countries in the region. The UN defines MENA as comprising: Bahrain, Egypt, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Qatar, Saudi Arabia, Syria, United Arab Emirates, and Yemen (Middle East). Algeria, Libya, Morocco, and Tunisia (North Africa).
 Mesokurtic: |
   Mesokurtic are distributions that are neither platykurtic nor leptokurtic are mesokurtic; a normal distribution is a common example of a mesokurtic distribution. (SwR, Glossary)
 Metadata: |
@@ -441,6 +455,8 @@ OCR: |
   Optical character recognition or optical character reader (OCR) is the electronic or mechanical conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo (for example the text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example: from a television broadcast) ([Wikipedia](Optical character recognition or optical character reader (OCR) is the electronic or mechanical conversion of images of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo (for example the text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example: from a television broadcast)([Wikipedia](https://en.wikipedia.org/wiki/Optical_character_recognition))
 Odds Ratio: |
   Odds is usually defined in statistics as the probability an event will occur divided by the probability that it will not occur. An odds ratio (OR) is a measure of association between a certain property A and a second property B in a population. Specifically, it tells you how the presence or absence of property A has an effect on the presence or absence of property B. (<a href="https://www.statisticshowto.com/probability-and-statistics/probability-main-index/odds-ratio/">Statistics How To</a>). An odds ratio is a ratio of two ratios. They quantify the strength of the relationship between two conditions. They indicate how likely an outcome is to occur in one context relative to another. (<a href="https://statisticsbyjim.com/probability/odds-ratio/">Statistics by Jim</a>)
+OECD: |
+  Organisation for Economic Co-operation and Development (OECD) is an intergovernmental economic organization founded in 1961. End of 2024 it comprises 38 member countries: Australia, Austria, Belgium, Canada, Chile, Colombia, Costa Rica, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Israel, Italy, Japan, Korea, Latvia, Lithuania, Luxembourg, Mexico, Netherlands, New Zealand, Norway, Poland, Portugal, Slovak Republic, Slovenia, Spain, Sweden, Switzerland, Türkiye, United Kingdom, United States.
 OLS: |
   Ordinary least square regression (OLS) is a method of estimating a linear regression model that finds the regression line by minimizing the squared differences between each data point and the regression line. (Swr; Glossary)
 Omega-squared: |
@@ -583,6 +599,8 @@ Random Variables: |
   A statistical term for variables that associate different numeric values with each of the possible outcomes of some random process. By random here we do not mean the colloquial use of this term to mean something that is entirely unpredictable. A random process is simply a process whose outcome cannot be perfectly known ahead of time (it may nonetheless be quite predictable). (Chap.3)
 Range: |
   Range is the highest and lowest values of a variable, showing the full spread of values; the range can also be reported as a single number computed by taking the difference between the highest and lowest values of the variable. (SwR, Glossary)
+RDS: |
+  The abbreviation “RDS” in file endings `.rds` refers to “R Data Serialized”. It is a format used by the R programming language to serialize and store R objects, such as data frames, lists, and functions, in a compact and portable binary format.
 Regression-Outlier: |
   A regression outlier is an observation that has an unusual value for the outcome given its value(s) of predictor(s). (SwR, Glossary)
 Rejection Region: |
@@ -699,6 +717,10 @@ Unexplained variance: |
   Unexplained variance is variability in the outcome that is not explained by the predictor(s); the unexplained variability and explained variability are used in calculations for model significance and model fit. (SwR, Glossary)
 Uniform Crime Reporting: |
   The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
+United Nations Geoscheme: |
+  The United Nations geoscheme is a system which divides 248 countries and territories in the world into six continental regions, 22 geographical subregions, and two intermediary regions. It was devised by the United Nations Statistics Division (UNSD) based on the M49 coding classification
+UNSD: |
+  The United Nations Statistics Division (UNSD) is committed to the advancement of the global statistical system. It compiles and disseminates global statistical information, develop standards and norms for statistical activities, and support countries' efforts to strengthen their national statistical systems.
 UTC:
   UTC is the primary time standard globally used to regulate clocks and time. It establishes a reference for the current time, forming the basis for civil time and time zones. Introduced on January 1, 1960, UTC is an international basis of civil and scientific time, replacing Greenwich Mean Time (GMT) as the global time standard. (Brave-Internet)
 Variance var: |
@@ -717,6 +739,8 @@ Welch-T: |
   Welch’s t-test is a variation on the Student’s t-test that does not assume equal variances in group (SwR, Glossary).
 Welch-F: |
   Welch’s F-statistic is an alternate F-statistic used in analysis of variance when the assumption of homogeneity of variance is not met; the calculations for the Welch’s F-statistic use weights to calculate the group means and the grand mean. (SwR, Glossary)
+WHR: |
+  The World Happiness Reports are a partnership of Gallup, the Oxford Wellbeing Research Centre, the UN Sustainable Development Solutions Network, and the WHR’s Editorial Board. The report is produced under the editorial control of the WHR Editorial Board. The Reports reflects a worldwide demand for more attention to happiness and well-being as criteria for government policy. It reviews the state of happiness in the world today and shows how the science of happiness explains personal and national variations in happiness. (https://worldhappiness.report/about/)
 WID: |
   The 'World Inequality Database' (WID) aims to provide open and convenient access to the most extensive available database on the historical evolution of the world distribution of income and wealth, both within countries and between countries. [WID.WORLD](https://wid.world/wid-world/)
 WIL: |
