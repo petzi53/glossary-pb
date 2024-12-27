@@ -462,7 +462,9 @@ OLS: |
 Omega-squared: |
   Omega-squared is an effect size for determining the strength of a relationship following an analysis of variance ([ANOVA]) statistical test. In contrast to [eta-squared] it is adjusted to account for the positive bias, and is more stable when assumptions are not completely met. (SwR, Glossary)
 Omnibus: |
- An omnibus is a statistical test that identifies that there is some relationship going on between variables, but not what that relationship is. (SwR, Glossary)
+  An omnibus is a statistical test that identifies that there is some relationship going on between variables, but not what that relationship is. (SwR, Glossary)
+OMNIKA: |
+  OMNIKA is an American 501(c)(3) nonprofit organization that operates a digital mythological library. Almost every culture has relevant mythology that explains where we came from, why things are the way they are, and a number of other things. OMNIKA's goal is to collect, organize, index, and quantify all of those data in one place and make them available for free. (https://omnika.org/info/about)
 One-to-one Function: |
   A one-to-one function is a function in which each output value corresponds to exactly one input value. (Precalculus, p.21)
 One-sample: |
