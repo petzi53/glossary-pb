@@ -191,6 +191,8 @@ Effect Size: |
   Effect size is a measure of the strength of a relationship; effect sizes are important in inferential statistics in order to determine and communicate whether a statistically significant result has practical importance. (SwR, Glossary)
 EPUB: |
   EPUB (auch ePUB, Akronym für electronic publication) ist ein offener Standard für E-Books, documents and other digital resources.
+ESRI: |
+  ESRI (Environmental Systems Research Institute) is a private American company that specializes in geographic information system (GIS) software, location intelligence, and mapping technology. ESRI’s flagship product is ArcGIS, a comprehensive GIS software suite that includes tools for data management, analysis, and visualization.
 Eta-squared: |
   Eta-squared is an [effect size] interpreted as the proportion of variability in the continuous outcome variable that is explained by groups in an analysis of variance; recent research suggests that eta-squared is biased and that [omega-squared] may be a less biased alternative following analysis of variance. (SwR, Glossary)
 EU-SILC:
@@ -319,6 +321,8 @@ Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
 JPG: |
   JPEG (/ˈdʒeɪpɛɡ/ JAY-peg, short for Joint Photographic Experts Group is a commonly used method of lossy compression for digital images. [(Wikipedia](https://en.wikipedia.org/wiki/JPEG))
+JSON: |
+  JSON (JavaScript Object Notation) is a standardized, text-based data interchange format used to represent structured data in a human-readable and machine-readable way. It is a lightweight, language-independent format that is widely used for exchanging data between web servers, web applications, and mobile apps.
 Kernel Density Estimation: |
   Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
 KFF: |
@@ -333,6 +337,8 @@ Kurtosis: |
   Kurtosis is a measure of how many observations are in the tails of a distribution; distributions that look bell-shaped, but have a lot of observations in the tails (platykurtic) or very few observations in the tails (leptokurtic) (SwR, Glossary)
 Labelled Data: |
   Labelled data (or labelled vectors) is a common data structure in other statistical environments to store meta-information about variables, like variable names, value labels or multiple defined missing values. (<a href="https://strengejacke.github.io/sjlabelled/articles/intro_sjlabelled.html">sjlabelled</a>)
+LDC: |
+  The term “Least Developed Countries” (LDCs) refers to developing countries listed by the United Nations that exhibit the lowest indicators of socioeconomic development. As of December 2024, the classification applies to 44 countries. See https://unctad.org/topic/least-developed-countries/list
 Leptokurtic: |
   Leptokurtic is a distribution of a numeric variable that has many values clustered around the middle of the distribution; leptokurtic distributions often appear tall and pointy compared to mesokurtic or platykurtic distributions. (SwR, Glossary)
 Levene: |
@@ -357,6 +363,8 @@ LIS: |
   The 'Luxembourg Income Study Database' (LIS) is a data archive and research center dedicated to cross-national analysis. It is home to two databases: The Luxembourg Income Study Database (LIS) and Luxembourg Wealth Study Database (LWS). [Lis Data Center](https://www.lisdatacenter.org/about-lis/)
 Literate Programming: |
   Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer.(<a href="https://www-cs-faculty.stanford.edu/~knuth/lp.html">Donald Knuth</a>)
+LLCD: |
+  Landlocked Developing Countries (LLDCs) are developing nations that do not have direct access to the sea. These countries face significant economic and development challenges due to their geographical isolation and the need to rely on neighboring countries for access to international markets. Of the 32 LLDCs 16 are classified as LDCs (December 2024). See: https://www.un.org/ohrlls/content/about-landlocked-developing-countries
 Loess: |
   Loess curve is a graph curve that shows the relationship between two variables without constraining the line to be straight; it can be compared to a linear fit line to determine whether the relationship is close to linear or not (= checking the [linearity] assumption). The procedure originated as LOWESS (LOcally WEighted Scatter-plot Smoother). is a nonparametric method because the linearity assumptions of conventional regression methods have been relaxed. It is called local regression because the fitting at say point x is weighted toward the data nearest to x. (SwR, Glossary and <a href="https://www.statsdirect.com/help/Default.htm#nonparametric_methods/loess.htm">LOESS Curve Fitting (Local Polynomial Regression</a>))
 Logit Transformations: |
@@ -627,6 +635,8 @@ Sensitivity: |
   The true positive rate (one minus the false negative rate), is referred to as sensitivity, recall, or probability of detection. (Bayesian Thinking, Chap.1). But also the percentage of “yes” values or 1s a logistic regression model got right. (SwR, Glossary)
 Shapiro-Wilk: |
   The Shapiro-Wilk test is a statistical test to determine or confirm whether a variable has a normal distribution; it is sensitive to small deviations from normality and not useful for sample sizes above 5,000 because it will nearly always find non-normality. (SwR, Glossary)
+SIDS: |
+  Small Island Developing States (SIDS) are a group of developing countries that are small island nations and territories facing similar sustainable development challenges. These countries are particularly vulnerable to environmental and economic shocks due to their small size, limited resources, and remote locations. The aggregate population of all the SIDS is 65 million. See: https://www.un.org/ohrlls/content/about-small-island-developing-states
 Sigmoid: |
   A sigmoid function is any mathematical function whose graph has a characteristic S-shaped curve or sigmoid curve. (<a href="https://en.wikipedia.org/wiki/Sigmoid_function">Wikipedia</a>)
 Sign-Test: |
