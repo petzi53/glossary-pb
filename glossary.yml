@@ -133,8 +133,10 @@ Credible Interval: |
   In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. (a href="https://en.wikipedia.org/wiki/Credible_interval">Wikipedia</a>)
 Cross Validated: |
   Cross Validated is a question and answer site for people interested in statistics, machine learning, data analysis, data mining, and data visualization. It is built and run by you as part of the Stack Exchange network of Q&A sites. (<a href="https://stats.stackexchange.com/tour">StackExchange</a>)
+CRS: |
+  A CRS defines how locations on the Earth’s surface are represented in a two-dimensional plane. This is essential for accurate mapping and spatial analysis. CRSs are often defined using the PROJ.4 notation, which is a standard way to describe coordinate systems. CRSs can also be identified using EPSG codes, which are unique identifiers for different coordinate systems.
 CSL: |
-  Die Citation Style Language (CSL) ist eine XML-Sprache zur Beschreibung von Formaten für bibliografische Angaben und Zitierstile. ([Wikipedia](https://de.wikipedia.org/wiki/Citation_Style_Language))
+  Citation Style Language (CSL) is an XML-based language used to define the formats of citations and bibliographies. It simplifies the process of citing references by providing a standardized way to format citations and bibliographies according to various styles, such as APA, Chicago, and Vancouver. CSL is supported by several reference management software programs.
 CSS: |
   Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts. (<a href="https://en.wikipedia.org/wiki/CSS">Wikipedia</a>)
 CSV: |
@@ -224,6 +226,8 @@ Familywise: |
   Familywise error is the alpha or Type I error rate when conducting multiple statistical tests. A large familywise alpha is one of the reasons that analysis of variance is preferable to conducting multiple t-tests when comparing means across more than two groups. (SwR, Glossary)
 Fisher’s exact test: |
   Fisher’s exact test is an alternative to the chi-squared test for use with small samples. (SwR, Glossary)
+FIPS: |
+  Federal Information Processing Standard (FIPS) codes are five-digits numeric codes used to uniquely identify geographic areas in the United States. These codes are managed by the American National Standards Institute (ANSI) and are used for interoperability across government agencies, contractors, and technical communities.
 Fligner: |
   The Fligner-Killeen test is a non-parametric test for homogeneity of group variances based on ranks. It is useful when the data is non-normal or when there are outliers. (<a href="https://real-statistics.com/one-way-analysis-of-variance-anova/homogeneity-variances/fligner-killeen-test/">Real Statistics Using Excel</a>)
 Floor: |
@@ -241,6 +245,8 @@ GAM: |
   GAMs relax the restriction that the relationship must be a simple weighted sum, and instead assume that the outcome can be modelled by a sum of arbitrary functions of each feature. ([Medium member story](https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a#c407)) (Chap.4)
 General Social Survey: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
+GeoJSON: |
+  GeoJSON is an open standard geospatial data interchange format based on JavaScript Object Notation (JSON). It was first published in June 2008 and became a standard specification with the publication of RFC 7946 in August 2016. GeoJSON is used to represent simple geographic features and their non-spatial attributes, such as points, lines, and polygons, and it uses the World Geodetic System 1984 as its geographic coordinate reference system. GeoJSON is widely used in web mapping applications due to its simplicity and compatibility with JavaScript. It supports various geometry types, including Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection. GeoJSON files are typically saved with a .geojson extension and have a MIME type of application/geo+json.
 GNI: |
   Gross National Income (GNI) is a measure of a country's income, which includes all the income earned by a country's residents, businesses, and earnings from foreign sources. It is defined as the total amount of money earned by a nation's people and businesses, no matter where it was earned. GNI is an alternative to GDP as a way to measure and track a nation’s wealth, as it calculates income instead of output.
 Gini Index: |
@@ -299,6 +305,8 @@ iframe: |
   iframes allow you to embed HTML documents inside another HTML document. They offer a seamless way to integrate content from one source into another, enabling developers to create more dynamic and interactive web pages. ([dev.to](https://dev.to/joanayebola/what-is-iframe-and-how-to-use-them-1c63))
 i.i.d.: |
   independent and identically distributed. Random variables are independent and identically distributed if each random variable has the same probability distribution as the others and all are mutually independent. This property is usually abbreviated as i.i.d., iid, or IID. (<a href="https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables">Wikipedia</a>) Example: Succession of fair coins throws are independent as the coin has no memory, so all thorws are independent. And every throw is 50:50 (heads:tails), so the coin is and stays fair - the distribution from which every throw is drawn, so to speak, is and stays the same: "identically distributed". (<a href="https://stats.stackexchange.com/a/17392/207389">Cross Validated</a>)
+ILOx: |
+  The International Labour Organization (ILO) is a United Nations agency established in 1919 under the League of Nations. It is dedicated to advancing social and economic justice by setting international labor standards. https://www.ilo.org/
 Independent: |
   Independent-samples t-test or unpaired sample t-test is an inferential test comparing two independent means. (SwR, Glossary)
 Index of Qualitative Variation: |
@@ -314,7 +322,9 @@ Intercept: |
 IQR: |
   The interquartile range (IQR) is the upper and lower boundaries around the middle 50\% of the data in a numeric variable or the difference between the upper and lower boundaries around the middle 50\% of the data in a numeric variable. (SwR, Glossary)
 IQV: |
-    The index of qualitative variation (IQV) is a type of statistic used to measure variation for nominal variables, which is often computed by examining how spread out observations are among the groups. (SwR, Glossary)
+  The index of qualitative variation (IQV) is a type of statistic used to measure variation for nominal variables, which is often computed by examining how spread out observations are among the groups. (SwR, Glossary)
+ISO 3166 Country Codes:
+  The ISO 3166 Country Codes Collection is a comprehensive set of codes used to represent the names of countries and their subdivisions in a standardized format. This collection is essential for applications requiring the expression of country names in coded form. See: https://www.iso.org/iso-3166-country-codes.html and https://www.iso.org/obp/ui/#search
 JAGS: |
   JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. (<a href="https://mcmc-jags.sourceforge.io/">JAGS</a>)
 Joint Probability: |
@@ -759,6 +769,8 @@ WIL: |
   The 'World Inequality Lab (WIL) is a global research center focused on the study of inequality and public policies that promote social, economic and environmental justice. ([WIL](https://inequalitylab.world/en/our-mission/))
 Wilcoxon: |
   Wilcoxon signed-ranks test is an alternative to the dependent-samples t-test when the continuous variable is not normally distributed; it uses ranks to determine whether the values of a numeric variable are different across two related groups. (SwR, Glossary)
+WKT: |
+  Well-known text (WKT) is a text markup language for representing vector geometry objects in spatial analysis. WKT is used to mark geometric objects together to signify the same attribute, such as combining multiple points to represent a single entity like a university campus.
 WLS: |
   Weighted Least Squares is an extension of Ordinary Least Squares regression. Non-negative constants (weights) are attached to data points. It is used when the data violates the assumption of homoscedasticity; when you want to concentrate on certain areas; when you are running a logistic regression or any other procedure where data points should not be treated equally. (<a href="https://www.statisticshowto.com/weighted-least-squares/">Statistics How-To</a>)
 WPID: |
