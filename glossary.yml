@@ -243,10 +243,14 @@ Gaussian Distribution: |
 GAM: |
   A Generalized Additive Model (GAM) is a generalized linear model in which the linear response variable depends linearly on unknown smooth functions of some predictor variables, and interest focuses on inference about these smooth functions. They can be interpreted as the discriminative generalization of the naive Bayes generative model. ([Wikipedia](https://en.wikipedia.org/wiki/Generalized_additive_model)).
   GAMs relax the restriction that the relationship must be a simple weighted sum, and instead assume that the outcome can be modelled by a sum of arbitrary functions of each feature. ([Medium member story](https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a#c407)) (Chap.4)
+GDAL: |
+  The Geospatial Data Abstraction Library (GDAL) is a computer software library for reading and writing raster and vector geospatial data formats (e.g. shapefile), and is released under the permissive X/MIT style free software license by the Open Source Geospatial Foundation. As a library, it presents a single abstract data model to the calling application for all supported formats. (Wikipedia)
 General Social Survey: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
 GeoJSON: |
   GeoJSON is an open standard geospatial data interchange format based on JavaScript Object Notation (JSON). It was first published in June 2008 and became a standard specification with the publication of RFC 7946 in August 2016. GeoJSON is used to represent simple geographic features and their non-spatial attributes, such as points, lines, and polygons, and it uses the World Geodetic System 1984 as its geographic coordinate reference system. GeoJSON is widely used in web mapping applications due to its simplicity and compatibility with JavaScript. It supports various geometry types, including Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection. GeoJSON files are typically saved with a .geojson extension and have a MIME type of application/geo+json.
+GEOS: |
+  GEOS (Graphical Environment Operating System) is a C/C++ library for computational geometry with a focus on algorithms used in geographic information systems (GIS) software. It implements the OGC Simple Features geometry model and provides all the spatial functions in that standard as well as many others. GEOS is open source software available under the terms of GNU Lesser General Public License (LGPL).
 GNI: |
   Gross National Income (GNI) is a measure of a country's income, which includes all the income earned by a country's residents, businesses, and earnings from foreign sources. It is defined as the total amount of money earned by a nation's people and businesses, no matter where it was earned. GNI is an alternative to GDP as a way to measure and track a nation’s wealth, as it calculates income instead of output.
 Gini Index: |
@@ -595,6 +599,8 @@ Probability Distribution: |
   It is a way of describing all possible events and the probability of each one happening. Probability distributions are also very useful for asking questions about ranges of possible values. (BF, Chap.4) The two defining features are: (1) All values of the distribution must be real and non-negative. (2) The sum (for discrete random variables) or integral (for continuous random variables) across all possible values of the random variable must be 1. (BS, Chap.3)
 Probability Mass Function: |
   A probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value. Sometimes it is also known as probability function, frequency function or discrete probability density function. (<a href="https://en.wikipedia.org/wiki/Probability_mass_function">Wikipedia</a>)
+PROJ: |
+  PROJ is a generic coordinate transformation software that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations. PROJ is released under the X/MIT open source license.
 Prolog: |
   A set of comments at the top of a code file that provides information about what is in the file (SwR, Glossary)
 Proportional-Odds-Ratios: |
@@ -629,6 +635,8 @@ Residually: |
   Residuals are the differences between the observed values and the predicted values. (SwR, Glossary)
 R-squared: |
   R-squared is the percent of variance in a numeric variable that is explained by one or more other variables; the r-squared is also known as the coefficient of determination and is used as a measure of model fit in linear regression and an effect size in correlation analyses. (SwR, Glossary)
+S2: |
+  S2 is a spherical geometry engine written in C++ developed by Google. Unlike traditional geographic information systems, which represent data as flat two-dimensional projections (similar to an atlas), the S2 library represents all data on a three-dimensional sphere (similar to a globe).
 Samples: |
   Samples are subsets of observations from some population that is often analyzed to learn about the population sampled. (SwR, Glossary)
 Sample Space: |
