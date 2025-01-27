@@ -665,6 +665,8 @@ Sign-Test: |
   Sign-test is a a statistical test that compares the median of a variable to a hypothesized or population value; used in lieu of the one-sample t-test when the t-test assumptions are not met. (SwR, Glossary)
 Similar Operator: |
   The tilde ('~') in R formulae signifies a stochastic relationship. This is in contrast to the "=" symbol which means a deterministic relationship or definiton. (more details in [R Intro](https://cran.r-project.org/doc/manuals/R-intro.html#Statistical-models-in-R)), The [similar operator](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/tilde) is used to separate the left- and right-hand sides in a model [formula]. It can be pronounced as "is modelled by" or in a formula "is dependent on" or "is explained by". In Markdown it is produced with $\sim$.
+Simple Features: |
+  Simple Features, officially known as Simple Feature Access (ISO 19125), is a set of standards that specify a common storage and access model for geographic features, primarily composed of two-dimensional geometries like points, lines, polygons, and others. These standards are formalized by both the Open Geospatial Consortium (OGC) and the International Organization for Standardization (ISO). Simple features is a hierarchical data model that represents a wide range of geometry types. Of 18 geometry types supported by the specification, only seven are used in the vast majority of geographic research: POINT, LINESTRING, POLYGON, MULTIPOINT, MULTILINESTRING, MULTIPOLYGON, GEOMETRYCOLLECTION.
 Simple-Linear-Regression: |
   Simple does not mean easy; instead, it is the term used for a statistical model used to predict or explain a continuous outcome by a single predictor. (SwR, Glossary, Chap09)
 Simulation: |
