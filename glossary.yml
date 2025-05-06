@@ -75,6 +75,8 @@ BUGS: |
 B-Spline: |
   The term "spline" refers to a wide class of basis functions that are used in applications requiring data interpolation and/or smoothing. Splines are special function defined piecewise by polynomials, it results to a smooth function built out of smaller, component functions. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when using low degree polynomials, while avoiding big numbers and the problem of oscillation at the edges of intervals of higher degrees. The term "spline" comes from the flexible [spline](https://en.wikipedia.org/wiki/Flat_spline) devices used by shipbuilders and draftsmen to draw smooth shapes. They used a long, thin piece of wood or metal that could be anchored in a few places in order to aid drawing curves.
   There are many types of splines, especially the common-place 'B-splines': The 'B' stands for 'basis,' which just means 'component.' B-splines build up wiggly functions from simpler less-wiggly components. Those components are called basis functions. B-splines force you to make a number of choices that other types of splines automate. (Chap.4)
+Cantril ladder: |
+  The Cantril Ladder is a visual scale used to assess general life satisfaction. It asks respondents to evaluate their lives on a ladder from worst (bottom) to best (top) possible life, making it a simple tool to measure subjective well-being. This measure has been widely used in various studies and surveys, including the Gallup World Poll, which collects data from over 140 countries annually.
 Capital Income:
   Capital income is defined as the sum of property income, including dividends, interest gains, reinvested earnings on foreign direct investment, investment income disbursements and land rents ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 Cartogram: |
@@ -138,7 +140,7 @@ Credible Interval: |
 Cross Validated: |
   Cross Validated is a question and answer site for people interested in statistics, machine learning, data analysis, data mining, and data visualization. It is built and run by you as part of the Stack Exchange network of Q&A sites. (<a href="https://stats.stackexchange.com/tour">StackExchange</a>)
 CRS: |
-  A CRS defines how locations on the Earth’s surface are represented in a two-dimensional plane. This is essential for accurate mapping and spatial analysis. CRSs are often defined using the PROJ.4 notation, which is a standard way to describe coordinate systems. CRSs can also be identified using EPSG codes, which are unique identifiers for different coordinate systems.
+  A Coordinate Reference System (CRS) defines how locations on the Earth’s surface are represented in a two-dimensional plane. This is essential for accurate mapping and spatial analysis. CRSs are often defined using the PROJ.4 notation, which is a standard way to describe coordinate systems. CRSs can also be identified using EPSG codes, which are unique identifiers for different coordinate systems.
 CSL: |
   Citation Style Language (CSL) is an XML-based language used to define the formats of citations and bibliographies. It simplifies the process of citing references by providing a standardized way to format citations and bibliographies according to various styles, such as APA, Chicago, and Vancouver. CSL is supported by several reference management software programs.
 CSS: |
@@ -149,6 +151,8 @@ Cumulative Distribution Function: |
   A cumulative distribution function (CDF) tells us the probability that a random variable takes on a value less than or equal to x. (<a href="https://www.statology.org/cdf-vs-pdf/">Statology</a>) It sums all parts of the distribution, replacing a lot of calculus work. The CDF takes in a value and returns the probability of getting that value or lower. (BF, Chap.13) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 CVD: |
   Color vision deficiency (CVD) or color blindness (also spelled colour blindness) includes a wide range of causes and conditions and is actually quite complex. It's a condition characterized by an inability or difficulty in perceiving and differentiating certain colors due to abnormalities in the three color-sensing pigments of the cones in the retina. (<a href="https://enchroma.com/pages/types-of-color-blindness">EnChroma</a>)
+DACH: |
+  The abbreviation DACH refers to Deutschland, Austria, and Switzerland, which collectively represent German-speaking Europe. It is derived from the international license plate abbreviations for these countries.
 Data Tables: |
    Data Tables are --- in contrast to Display Tables --- for analysis and not for presentation. Another purpose of Data Tables is to store, retrieve and share information digitally. In R they are tibbles, data.frames etc.
 Data Visualization: |
@@ -169,6 +173,8 @@ dfbeta: |
   dfbeta are effects on coefficients of deleting each observation in turn. ("Companion to Applied Regression", car package, help file)
 dfbetas: |
   dfbetas are effect on coefficients of deleting each observation in turn, standardized by a deleted estimate of the coefficient standard error ("Companion to Applied Regression", car package, help file)
+DGGS: |
+  A Discrete Global Grid System (DGGS) is a method of dividing the Earth's surface into a mosaic of cells, each with a unique identifier. This system simplifies spatial calculations and allows for hierarchical organization, where each cell can contain smaller cells, creating a grid with progressively finer resolution.
 Diagnostics: |
   Diagnostics in linear and logistic regression are a set of tests to identify outliers and influential values among the observations. (SwR, Glossary)
 Digital Divide: |
@@ -179,6 +185,8 @@ Dispersion Matrix: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
 Display Tables: |
   Display Tables are in constrast to Data Tables. You would find them in a web page, a journal article, or in a magazine. Such tables are for presentation, often to facilitate the construction of “Table 1”, i.e., baseline characteristics table commonly found in research papers. (<a href= "https://gt.rstudio.com/articles/gt.html">Introduction to Creating gt Tables</a>)
+Dystopia: |
+  In the context of the World Happiness Report (WHR), Dystopia is a hypothetical country used as a benchmark where each of the six factors — levels of Gross Domestic Product (GDP), life expectancy, generosity, social support, freedom, and corruption — score at the bottom, regresenting the world's least-happy people. This imaginary country serves to compare real countries against a baseline of the lowest observed scores for these factors, allowing researchers to understand now much better or worse each country performs in terms of happiness. The concept of Dystopia contrasts with the idea of Utopia, an imagined society where life is perfect. Instead, Dystopia illustrates a society where conditions are as favorable as possible according to the six factors measured in the World Happiness Report.
 Donut Charts: |
   Donut or doughnut charts (sometimes also called ring charts) are an alternative chart for pie charts, which have a hole in the middle, making them cleaner to read than pie charts. (<a href="https://r-charts.com/part-whole/donut-chart/">R Charts</a>)
 DPI: |
@@ -257,7 +265,9 @@ GeoJSON: |
   GeoJSON is an open standard geospatial data interchange format based on JavaScript Object Notation (JSON). It was first published in June 2008 and became a standard specification with the publication of RFC 7946 in August 2016. GeoJSON is used to represent simple geographic features and their non-spatial attributes, such as points, lines, and polygons, and it uses the World Geodetic System 1984 as its geographic coordinate reference system. GeoJSON is widely used in web mapping applications due to its simplicity and compatibility with JavaScript. It supports various geometry types, including Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection. GeoJSON files are typically saved with a .geojson extension and have a MIME type of application/geo+json.
 GEOS: |
   GEOS (Graphical Environment Operating System) is a C/C++ library for computational geometry with a focus on algorithms used in geographic information systems (GIS) software. It implements the OGC Simple Features geometry model and provides all the spatial functions in that standard as well as many others. GEOS is open source software available under the terms of GNU Lesser General Public License (LGPL).
-GNI: |
+GISx: |
+  GIS stands for Geographic Information System, which is a computer system designed to capture, store, manage, analyze, and display all types of geographical data. It allows users to visualize and analyze location-based data, helping organizations make informed decisions by identifying patterns and relationships in spatial data. GIS technology includes hardware, software, and data, and it often involves human users, procedures, and workflows to effectively manage and utilize geographic information.
+GNIx: |
   Gross National Income (GNI) is a measure of a country's income, which includes all the income earned by a country's residents, businesses, and earnings from foreign sources. It is defined as the total amount of money earned by a nation's people and businesses, no matter where it was earned. GNI is an alternative to GDP as a way to measure and track a nation’s wealth, as it calculates income instead of output.
 Gini Index: |
   The Gini index is a widely used statistical measure to quantify the extent of income or wealth inequality within a population. It ranges from 0 to 1 (or 0% to 100%), with higher values indicating greater inequality. The Gini coefficient is calculated based on the Lorenz curve, which plots the population proportion against the income or wealth share. It was developed by Italian statistician and sociologist Corrado Gini. (misc.)
@@ -341,7 +351,7 @@ Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
 JPG: |
   JPEG (/ˈdʒeɪpɛɡ/ JAY-peg, short for Joint Photographic Experts Group is a commonly used method of lossy compression for digital images. [(Wikipedia](https://en.wikipedia.org/wiki/JPEG))
-JSON: |
+JSONx: |
   JSON (JavaScript Object Notation) is a standardized, text-based data interchange format used to represent structured data in a human-readable and machine-readable way. It is a lightweight, language-independent format that is widely used for exchanging data between web servers, web applications, and mobile apps.
 Kernel Density Estimation: |
   Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
@@ -357,7 +367,7 @@ Kurtosis: |
   Kurtosis is a measure of how many observations are in the tails of a distribution; distributions that look bell-shaped, but have a lot of observations in the tails (platykurtic) or very few observations in the tails (leptokurtic) (SwR, Glossary)
 Labelled Data: |
   Labelled data (or labelled vectors) is a common data structure in other statistical environments to store meta-information about variables, like variable names, value labels or multiple defined missing values. (<a href="https://strengejacke.github.io/sjlabelled/articles/intro_sjlabelled.html">sjlabelled</a>)
-LDC: |
+LDCx: |
   The term “Least Developed Countries” (LDCs) refers to developing countries listed by the United Nations that exhibit the lowest indicators of socioeconomic development. As of December 2024, the classification applies to 44 countries. See https://unctad.org/topic/least-developed-countries/list
 Leptokurtic: |
   Leptokurtic is a distribution of a numeric variable that has many values clustered around the middle of the distribution; leptokurtic distributions often appear tall and pointy compared to mesokurtic or platykurtic distributions. (SwR, Glossary)
@@ -383,12 +393,14 @@ LIS: |
   The 'Luxembourg Income Study Database' (LIS) is a data archive and research center dedicated to cross-national analysis. It is home to two databases: The Luxembourg Income Study Database (LIS) and Luxembourg Wealth Study Database (LWS). [Lis Data Center](https://www.lisdatacenter.org/about-lis/)
 Literate Programming: |
   Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer.(<a href="https://www-cs-faculty.stanford.edu/~knuth/lp.html">Donald Knuth</a>)
-LLCD: |
+LLDC: |
   Landlocked Developing Countries (LLDCs) are developing nations that do not have direct access to the sea. These countries face significant economic and development challenges due to their geographical isolation and the need to rely on neighboring countries for access to international markets. Of the 32 LLDCs 16 are classified as LDCs (December 2024). See: https://www.un.org/ohrlls/content/about-landlocked-developing-countries
 Loess: |
   Loess curve is a graph curve that shows the relationship between two variables without constraining the line to be straight; it can be compared to a linear fit line to determine whether the relationship is close to linear or not (= checking the [linearity] assumption). The procedure originated as LOWESS (LOcally WEighted Scatter-plot Smoother). is a nonparametric method because the linearity assumptions of conventional regression methods have been relaxed. It is called local regression because the fitting at say point x is weighted toward the data nearest to x. (SwR, Glossary and <a href="https://www.statsdirect.com/help/Default.htm#nonparametric_methods/loess.htm">LOESS Curve Fitting (Local Polynomial Regression</a>))
 Logit Transformations: |
   Logit transformations are transformations that takes the log value of p/(1-p); this transformation is often used to normalize percentage data and is used in the logistic model to transform the outcome. (SwR, Glossary)
+Lollipop plot:
+  A lollipop plot is basically a barplot, where the bar is transformed in a line and a dot. It shows the relationship between a numeric and a categorical variable.
 Lorenz Curve: |
   A Lorenz curve, developed by American economist Max Lorenz in 1905, is a graphical representation of income inequality or wealth inequality. The graph plots percentiles of the population on the horizontal axis according to income or wealth and plots cumulative income or wealth on the vertical axis. ([investopedia](https://www.investopedia.com/terms/l/lorenz-curve.asp))
 Loss Function: |
@@ -447,6 +459,8 @@ Mosaic Plots: |
   Mosaic plots are visual representations of data to show the relationship between two categorical variables; useful primarily when both variables have few categories. (SwR, Glossary)
 Multiple Regression: |
   Multiple Regression uses more than one predictor variable to simultaneously model an outcome. (Chap.5)
+NAD83: |
+  NAD83, or the North American Datum of 1983, is a geodetic datum used in North America for mapping and surveying. It is a geocentric datum, meaning it is referenced to the center of the Earth's mass, and it uses the GRS80 reference ellipsoid. This datum provides more accurate coordinates compared to its predecessor, NAD27, because it incorporates satellite data and a denser set of positions, reducing distortions over distance. NAD83 is the most current datum in North America and is used to ensure consistency in geographic coordinates across the continent.
 National Accounts: |
   National accounts are a system of accounts and balance sheets that provide a broad and integrated framework to describe an economy, whether a region, a country, or a group of countries such as the European Union (EU). For internationally comparable national accounts this system needs to be based on common concepts, definitions, classifications and accounting rules, in order to arrive at a consistent, reliable and comparable quantitative description of an economy. National accounts provide systematic and detailed economic data useful for economic analysis to support the development and monitoring of policy-making. [eurostat - Statistics explained](https://ec.europa.eu/eurostat/statistics-explained/index.php?title=National_accounts_-_an_overview).
 National Income: |
@@ -461,6 +475,8 @@ Negatively Skewed: |
   A distribution is negatively skewed when it has extreme values in the left-hand-side tail, toward the negative numbers on the number line; negative skew is also known as left skew. (SwR, Glossary)
 Net National Income:
   The net national income equals the gross domestic product (GDP) minus capital depreciation, plus net foreign income. In addition to the income of private households, the national income also includes the income of the other domestic sectors (i.e., the nonfinancial corporations, the financial corporations, the general government, and the nonprofit institutions serving households)([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
+NetCDF: |
+  NetCDF, which stands for Network Common Data Form, is a set of software libraries and self-describing, machine-independent data formats designed for storing and retrieving array-oriented scientific data. It allows users to access data directly without needing to know the details of how the data is stored. NetCDF files contain metadata that describes the data they hold, making them portable across different computing platforms. Developed and maintained by the Unidata Program Center, a part of the University Corporation for Atmospheric Research (UCAR), NetCDF supports various programming languages including C, C++, Java, Fortran, Python, IDL, MATLAB, R, Ruby, and Perl.
 NIMBLE: |
   NIMBLE is a system for building and sharing analysis methods for statistical models, especially for hierarchical models and computationally-intensive methods. Other packages that use the BUGS language are only for Markov chain Monte Carlo (MCMC). With NIMBLE, you can turn BUGS code into model objects and use them for whatever algorithm you want. (<a href="https://r-nimble.org/">r-nimble.org</a>)
 NHANES: |
@@ -492,7 +508,7 @@ Omega-squared: |
 Omnibus: |
   An omnibus is a statistical test that identifies that there is some relationship going on between variables, but not what that relationship is. (SwR, Glossary)
 OMNIKA: |
-  OMNIKA is an American 501(c)(3) nonprofit organization that operates a digital mythological library. Almost every culture has relevant mythology that explains where we came from, why things are the way they are, and a number of other things. OMNIKA's goal is to collect, organize, index, and quantify all of those data in one place and make them available for free. (https://omnika.org/info/about)
+  OMNIKA DataStore is an open-access data science resource for researchers, authors, and technologists. OMNIKA Foundation is an American 501(c)(3) nonprofit organization that operates a digital mythological library. Almost every culture has relevant mythology that explains where we came from, why things are the way they are, and a number of other things. OMNIKA's goal is to collect, organize, index, and quantify all of those data in one place and make them available for free. (https://omnika.org/info/about)
 One-to-one Function: |
   A one-to-one function is a function in which each output value corresponds to exactly one input value. (Precalculus, p.21)
 One-sample: |
@@ -577,6 +593,8 @@ Posterior Predictive Distribution: |
   An approach to assessing model fit. It is the distribution for future predicted data based on the data you have already seen. Measures of discrepancy between the estimated model and the data are constructed and their posterior predictive distribution compared to the discrepancy observed for the dataset. (CDS, p. 334)
 Posterior Probability: |
   It is the revised or updated probability of an event occurring after taking into consideration new information. ([Investopedia](https://www.investopedia.com/terms/p/posterior-probability.asp)). Posterior probability = prior probability + new evidence (called likelihood). ([Statistics How To](https://www.statisticshowto.com/posterior-distribution-probability/)) The posterior distribution will be a distribution of Gaussian distributions. (SR, Chap.4). It quantifies exactly how much our observed data changes our beliefs: P(belief | data) (BF, Chap.8)
+PostGIS: |
+  PostGIS is an open-source extension for the PostgreSQL relational database management system (RDBMS). It adds spatial functionality to PostgreSQL, enabling it to store, index, and query spatial data. This extension is particularly useful for managing geographic information systems (GIS) data, such as points, lines, polygons, and raster images.
 POTNI:
   Post-tax National Income (POTNI) adds all other government transfers and deducts all taxes from the PRTNI. Therefore, POTNI includes all social monetary transfers, transfers in-kind and collective consumption. The allocation of all forms of government spending to individuals ensures that the sum of POTNI equals the national income ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 Power: |
@@ -619,12 +637,16 @@ PRTNI:
   Pre-tax National Income (PRTNI) is the sum of all income flows gained by the individual owner of the factors of production, labour and capital, after taking into account the operation of the pension system as well as unemployment insurance system. Accordingly, pensions and unemployment benefits are included ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 Q-Q-Plot: |
   A quantile-quantile plot is a visualization of data using probabilities to show how closely a variable follows a normal distribution. (SwR, Glossary) This plot is made up of points below which a certain percentage of the observations fall. On the x-axis are normally distributed values with a mean of 0 and a standard deviation of 1. On the y-axis are the observations from the data. If the data are normally distributed, the values will form a diagonal line through the graph. (SwR, chapter 6)
+QGIS: |
+  QGIS, formerly known as Quantum GIS, is a free and open-source geographic information system (GIS) that allows users to create, edit, visualize, analyze, and publish geospatial information. It supports a wide range of geospatial data formats and is compatible with various operating systems, including Windows, macOS, Linux, Unix, and Android. QGIS offers robust capabilities for spatial data analysis, mapping, and visualization, making it a powerful tool for professionals and enthusiasts in fields such as environmental science, urban planning, agriculture, and disaster management.
 QRP: |
   Questionable Research Practice (QRP) is a research practice that introduces bias, usually in pursuit of statistical significance; an example of such practices might be dropping or recoding values or variables solely to improve a model fit statistic. (SwR, GLossary)
 Quantile: |
   Quantiles are cut points dividing the range of a probability distribution into continuous intervals with equal probabilities (<a href="https://en.wikipedia.org/wiki/Quantile">Wikipedia</a>)
 Quadratic Approximation: |
   Quadratic approximation is a way to approximate a curve. Quadratic approximation is an extension of linear approximation – we’re adding one more term, which is related to the second derivative. Linear approximation uses the first derivative to find the straight line that most closely resembles a curve at some point. Quadratic approximation uses the first and second derivatives to find the parabola closest to the curve near a point. ([Statistics How To](https://www.statisticshowto.com/quadratic-approximation/) and [MIT OpenCourseWare](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/pages/unit-2-applications-of-differentiation/part-a-approximation-and-curve-sketching/session-25-introduction-to-quadratic-appoximation/))
+Rx: |
+  R is a programming language and software environment for statistical computing and graphics. It was developed by Ross Ihaka and Robert Gentleman and is now maintained by the R Core Team. R is open-source and free software, licensed under the GNU General Public License. It supports various statistical and graphical techniques and is widely used in data mining, bioinformatics, and data analysis. R includes a well-developed programming language, a collection of packages for specific tasks, and an extensive documentation system.
 R-Forge: |
   R-Forge offers a central platform for the development of R packages, R-related software and further projects. It is based on FusionForge offering easy access to the best in SVN, daily built and checked packages, mailing lists, bug tracking, message boards/forums, site hosting, permanent file archival, full backups, and total web-based administration. (<a href="https://r-forge.r-project.org/">R-Forge Home</a>)
 Random Variables: |
@@ -657,6 +679,10 @@ Scientific Notation: |
   Scientific notation is a way to display very large or very small numbers by multiplying the number by the value of 10 to some power to move the decimal to the left or right; for example, 1,430,000,000 could be displayed as 1.43 × 10^9 in scientific notation. (SwR, Glossary)
 Sensitivity: |
   The true positive rate (one minus the false negative rate), is referred to as sensitivity, recall, or probability of detection. (Bayesian Thinking, Chap.1). But also the percentage of “yes” values or 1s a logistic regression model got right. (SwR, Glossary)
+sfc: |
+  A Simple Feature Collection or Simple Feature Columns (SFC) is a fundamental data structure in the sf package for R, used for handling spatial data. It is a list-column that contains simple feature geometries, typically of the same type, but it can also contain a mix of different types. Each element in the list represents a single geometry, such as a point, line, or polygon. A simple feature geometry list-column is a list of class c("sfc_<TYPE>", "sfc") which most often contains objects of identical type; in case of a mix of types or an empty set, <TYPE> is set to the superclass GEOMETRY.
+sfg: |
+  Simple Feature Geometry (SFG) is a fundamental concept in the sf package for R, used for representing the geometry of a single spatial feature. SFG objects can represent various types of geometries, such as points, lines, and polygons. These geometries are encoded using well-known binary (WKB) or well-known text (WKT) formats, which are human-readable representations of the geometries. SFG objects are implemented as native R data structures, such as vectors, matrices, or lists of matrices, depending on the geometry type. They consist of three classes corresponding to the dimensions, geometry type, and the SFG class itself. Additionally, SFG objects possess coordinates, which can be represented as a vector or a matrix.
 Shapiro-Wilk: |
   The Shapiro-Wilk test is a statistical test to determine or confirm whether a variable has a normal distribution; it is sensitive to small deviations from normality and not useful for sample sizes above 5,000 because it will nearly always find non-normality. (SwR, Glossary)
 SIDS: |
@@ -761,6 +787,8 @@ UNSD: |
   The United Nations Statistics Division (UNSD) is committed to the advancement of the global statistical system. It compiles and disseminates global statistical information, develop standards and norms for statistical activities, and support countries' efforts to strengthen their national statistical systems.
 UTC:
   UTC is the primary time standard globally used to regulate clocks and time. It establishes a reference for the current time, forming the basis for civil time and time zones. Introduced on January 1, 1960, UTC is an international basis of civil and scientific time, replacing Greenwich Mean Time (GMT) as the global time standard. (Brave-Internet)
+UTM:
+  The Universal Transverse Mercator (UTM) is a map projection system used to assign coordinates to locations on Earth's surface. It divides the Earth into 60 zones, each 6 degrees of longitude wide, and projects each zone onto a plane. This system uses a transverse Mercator projection for each zone, with a scale factor of 0.9996 at the central meridian to minimize distortion. The zones are numbered consecutively from 1 to 60, starting at 180 degrees longitude and increasing to the east. Each zone has its own central meridian and is projected independently to ensure accuracy within the zone. The UTM system is particularly useful for precise measurements and navigation within a specific zone, as it minimizes distortion compared to a global latitude/longitude system. The UTM system is widely used by the military, NATO, and rescue services for reporting positions, and it is also commonly found on detailed topographic maps.
 Variance var: |
   Variance is the squared deviation from the mean of a random variable. The variance is also often defined as the square of the standard deviation. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. It is the second central moment of a distribution, and the covariance of the random variable with itself, and it is often represented by `σ`, `σ^2`, VAR(x), var(x) or V(x). ([Wikipedia](https://en.wikipedia.org/wiki/Variance))
 VIF: |
@@ -777,6 +805,8 @@ Welch-T: |
   Welch’s t-test is a variation on the Student’s t-test that does not assume equal variances in group (SwR, Glossary).
 Welch-F: |
   Welch’s F-statistic is an alternate F-statistic used in analysis of variance when the assumption of homogeneity of variance is not met; the calculations for the Welch’s F-statistic use weights to calculate the group means and the grand mean. (SwR, Glossary)
+WGS84: |
+  WGS84, or the World Geodetic System 1984, is a global reference system used for geospatial information, providing a standard coordinate frame for the Earth. It is widely used for navigation, positioning, and targeting by the Department of Defense, NATO, and other international organizations. WGS84 defines a datum and reference ellipsoid, which is crucial for determining positions on the Earth's surface with high accuracy. This system allows for the consistent representation of geographic locations using latitude, longitude, and ellipsoidal height.
 WHR: |
   The World Happiness Reports are a partnership of Gallup, the Oxford Wellbeing Research Centre, the UN Sustainable Development Solutions Network, and the WHR’s Editorial Board. The report is produced under the editorial control of the WHR Editorial Board. The Reports reflects a worldwide demand for more attention to happiness and well-being as criteria for government policy. It reviews the state of happiness in the world today and shows how the science of happiness explains personal and national variations in happiness. (https://worldhappiness.report/about/)
 WID: |
@@ -785,6 +815,8 @@ WIL: |
   The 'World Inequality Lab (WIL) is a global research center focused on the study of inequality and public policies that promote social, economic and environmental justice. ([WIL](https://inequalitylab.world/en/our-mission/))
 Wilcoxon: |
   Wilcoxon signed-ranks test is an alternative to the dependent-samples t-test when the continuous variable is not normally distributed; it uses ranks to determine whether the values of a numeric variable are different across two related groups. (SwR, Glossary)
+WKB: |
+  Well-known binary (WKB) is a format for representing geographical and geometrical data in a binary form. It is designed to be platform-independent and is typically used for transporting geometry data between systems or programs. WKB uses 1-byte unsigned integers, 4-byte unsigned integers, and 8-byte double-precision numbers (IEEE 754 format).
 WKT: |
   Well-known text (WKT) is a text markup language for representing vector geometry objects in spatial analysis. WKT is used to mark geometric objects together to signify the same attribute, such as combining multiple points to represent a single entity like a university campus.
 WLS: |
