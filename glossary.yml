@@ -283,6 +283,8 @@ Golem: |
   A golem (goh-lem) is a clay robot from Jewish folklore. It is used in SR2 as a methapher for a statistical model. (SR, Chap.1)
 Grand: |
   Grand mean is the overall mean of a continuous variable that is used to determine distances from the mean for individuals and groups in ANOVA. (SwR, Glossary)
+Graticules: |
+  Graticules, also known as grids, are networks of lines on a map that represent a coordinate system. These lines typically include parallels of latitude and meridians of longitude, and they help in locating points on the map by providing geographic coordinates.
 Grid Approximation: |
   One of the simplest conditioning techniques is grid approximation. While most parameters are continuous, capable of taking on an infinite number of values, it turns out that we can achieve an excellent approximation of the continuous posterior distribution by considering only a finite grid of parameter values. (SR2, Chap.2)
 Grouped Bar Chart: |
