@@ -467,6 +467,8 @@ National Income: |
   National income is the sum of all incomes received by individuals residents in a given country over a year. Incomes takes various forms and we typically distinguish two broad sources: incomes stemming from individuals’ labor (e.g. wages or salaries) and incomes stemming from individuals’ wealth (e.g. interest and dividends). (WIR2022, p.20)
 National Wealth: |
   National wealth is the sum of the value of all assets owned by individuals in a given country. It is stock resulting from capital accumulation (from savings, i.e. income that has not been consumed) and price effects. (WIR2022, p.20)
+Natural Earth: |
+  Natural Earth is a public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth you can make a variety of visually pleasing, well-crafted maps with cartography or GIS software (https://www.naturalearthdata.com/).
 Negation: |
   The probability of X and the negation of the probability of X sum to 1 (in other words, values are either X, or not X). The ¬ symbol means “negation” or “not.” (BF, Chap.2)
 NegativeCorr: |
