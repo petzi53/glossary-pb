@@ -136,7 +136,7 @@ Covariance cov: |
 Cramér’s V: |
   Cramér’s V is an effect size to determine the strength of the relationship between two categorical variables; often reported with the results of a chi-squared. (SwR, Glossary)
 CRAN: |
-  Comprehensive R Archive Network (CRAN) is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R. Please use the CRAN mirror nearest to you to minimize network load. [cran.r-project.org](https://cran.r-project.org/)
+  CRAN stands for the Comprehensive R Archive Network, which is R's central software repository, supported by the R Foundation. It contains an archive of the latest and previous versions of the R distribution, documentation, and contributed R packages. (https://cran.r-project.org/)
 Credible Interval: |
   In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. (a href="https://en.wikipedia.org/wiki/Credible_interval">Wikipedia</a>)
 Cross Validated: |
