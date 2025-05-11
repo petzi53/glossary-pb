@@ -250,8 +250,6 @@ Frequencies: |
   Frequencies are the number of times particular valuee of a variable occur. (SwR, Glossary)
 Frequentist Statistics: |
   Also known as frequentist interference, is a type of statistical approach where conclusions are made based on the frequency of an event. This statistical approach determines the probability of a long-term experiment, meaning the experiment is repeated under the same set of conditions to obtain an outcome. In frequentist statistics the population parameters are fixed, but unknown, and the data observed in experiments are random. (<a href="https://deepai.org/machine-learning-glossary-and-terms/frequentist-statistics">deepai.org</a>)
-Gender Nonconforming: |
-  Gender nonconforming means not adhering to society's gender norms. People may describe themselves as gender nonconforming if they don't conform to the gender expression, presentation, behaviors, roles, or expectations that society sees as the norm for their gender. ([APA Guidelines - PDF](https://www.apa.org/practice/guidelines/transgender.pdf))
 Gaussian Distribution: |
   A Gaussian distribution, also referred to as a normal distribution, is a type of continuous probability distribution that is symmetrical about its mean; most observations cluster around the mean, and the further away an observation is from the mean, the lower its probability of occurring. Like other probability distributions, the Gaussian distribution describes how the outcomes of a random variable are distributed. (<a href="https://www.math.net/gaussian-distribution">MATH.net</a>)
 GAM: |
@@ -259,10 +257,14 @@ GAM: |
   GAMs relax the restriction that the relationship must be a simple weighted sum, and instead assume that the outcome can be modelled by a sum of arbitrary functions of each feature. ([Medium member story](https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a#c407)) (Chap.4)
 GDAL: |
   The Geospatial Data Abstraction Library (GDAL) is a computer software library for reading and writing raster and vector geospatial data formats (e.g. shapefile), and is released under the permissive X/MIT style free software license by the Open Source Geospatial Foundation. As a library, it presents a single abstract data model to the calling application for all supported formats. (Wikipedia)
+Gender Nonconforming: |
+  Gender nonconforming means not adhering to society's gender norms. People may describe themselves as gender nonconforming if they don't conform to the gender expression, presentation, behaviors, roles, or expectations that society sees as the norm for their gender. ([APA Guidelines - PDF](https://www.apa.org/practice/guidelines/transgender.pdf))
 General Social Survey: |
   A large survey of a sample of people in the United States conducted regularly since 1972; the General Social Survey is abbreviated GSS and is conducted by the National Opinion Research Center at the University of Chicago. (Harris, Glossary)
 GeoJSON: |
   GeoJSON is an open standard geospatial data interchange format based on JavaScript Object Notation (JSON). It was first published in June 2008 and became a standard specification with the publication of RFC 7946 in August 2016. GeoJSON is used to represent simple geographic features and their non-spatial attributes, such as points, lines, and polygons, and it uses the World Geodetic System 1984 as its geographic coordinate reference system. GeoJSON is widely used in web mapping applications due to its simplicity and compatibility with JavaScript. It supports various geometry types, including Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection. GeoJSON files are typically saved with a .geojson extension and have a MIME type of application/geo+json.
+GeoPackage: |
+  GeoPackage (GPKG) is an open, non-proprietary, platform-independent and standards-based data format for geographic information systems built as a set of conventions over a SQLite database. Defined by the Open Geospatial Consortium (OGC) with the backing of the US military and published in 2014, GeoPackage has seen widespread support from various government, commercial, and open source organizations. (Wikipedia)
 GEOS: |
   GEOS (Graphical Environment Operating System) is a C/C++ library for computational geometry with a focus on algorithms used in geographic information systems (GIS) software. It implements the OGC Simple Features geometry model and provides all the spatial functions in that standard as well as many others. GEOS is open source software available under the terms of GNU Lesser General Public License (LGPL).
 GISx: |
@@ -687,6 +689,8 @@ sfg: |
   Simple Feature Geometry (SFG) is a fundamental concept in the sf package for R, used for representing the geometry of a single spatial feature. SFG objects can represent various types of geometries, such as points, lines, and polygons. These geometries are encoded using well-known binary (WKB) or well-known text (WKT) formats, which are human-readable representations of the geometries. SFG objects are implemented as native R data structures, such as vectors, matrices, or lists of matrices, depending on the geometry type. They consist of three classes corresponding to the dimensions, geometry type, and the SFG class itself. Additionally, SFG objects possess coordinates, which can be represented as a vector or a matrix.
 Shapiro-Wilk: |
   The Shapiro-Wilk test is a statistical test to determine or confirm whether a variable has a normal distribution; it is sensitive to small deviations from normality and not useful for sample sizes above 5,000 because it will nearly always find non-normality. (SwR, Glossary)
+SHP: |
+  .shp is the file extension for geospatial vector data format for geographic information system (GIS) software. It is not just one file but consists at least of three files in the same folder: '.shp' for the feature geometry itself; 'shx' a positional index of the feature geometry to allow seeking forwards and backwards quickly and 'dbf' containing attributes for each shape, in dBase IV format. There may be other (optional file) as well, especially important is '.prj' fpr the projection description, using a well-known text representation of coordinate reference systems. Shapefiles can store data as points, lines, or polygons, which form the basis of geospatial vector data analysis. Shapefiles used to be the de facto standard but has many limitation and shouldn't be used anmyore.
 SIDS: |
   Small Island Developing States (SIDS) are a group of developing countries that are small island nations and territories facing similar sustainable development challenges. These countries are particularly vulnerable to environmental and economic shocks due to their small size, limited resources, and remote locations. The aggregate population of all the SIDS is 65 million. See: https://www.un.org/ohrlls/content/about-small-island-developing-states
 Sigmoid: |
@@ -739,6 +743,8 @@ Stochastic: |
   A stochastic relationship is a mapping of a variable or parameter onto a distribution. It is said to be "stochastic" because no single instance of the variable on the left of the equation is known with certainty. Instead, the mapping is probabilistic: Some values are more plausible than others, but very many different values are plausible under any model. (Chap.4)
 Student: |
   Student t-test is a statistical test used to test whether the difference between the response of two groups is statistically significant or not. (<a href="https://en.wikipedia.org/wiki/Student%27s_t-test">Wikipedia</a>)
+SQLite: |
+  SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day. The SQLite file format is stable, cross-platform, and backwards compatible and the developers pledge to keep it that way through the year 2050. There are over 1 trillion (1e12) SQLite databases in active use. (https://sqlite.org/)
 SwR: |
   SwR is my abbreviation of: Harris, J. K. (2020). Statistics With R: Solving Problems Using Real-World Data (Illustrated Edition). SAGE Publications, Inc.
 T-Statistic: |
