@@ -32,6 +32,8 @@ Bar Charts: |
   Bar charts are visual displays of data often used to examine similarities and differences across categories of things; bars can represent frequencies, percentages, means, or other statistics. (SwR, Glossary)
 Basis Function: |
   B-Splines invent a series of entirely new, synthetic predictor variables. Each of these synthetic variables exists only to gradually turn a specific parameter on and off within a specific range of the real predictor variable. Each of the synthetic variables is called a basis function. (Chap.4)
+Bathymetry: |
+  Bathymetry is the measurement of the depth of water bodies such as oceans, rivers, or lakes. It is the underwater equivalent of topography, which studies the surface terrain like hills and valleys on land. The seafloor can have various features including coral reefs, mountainous ridges, and deep canyons, contributing to the variability of its surface.
 Bayes Factor: |
   The Bayes factor is a ratio of two competing statistical models represented by their evidence, and is used to quantify the support for one model over the other. (<a href="https://en.wikipedia.org/wiki/Bayes_factor">Wikipedia</a>)
 Bayesian Reasoning: |
