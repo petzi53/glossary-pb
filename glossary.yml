@@ -250,6 +250,9 @@ Floor: |
   A floor effect happens when a variable has many observations that take the lowest value of the variable, which can indicate that the range of values was insufficient to capture the true variability of the data. (SwR, Glossary)
 Frequencies: |
   Frequencies are the number of times particular valuee of a variable occur. (SwR, Glossary)
+Frequency polygon: |
+  A frequency polygon is a histogram that's drawn with a line, instead of bars, which makes it easier to compare multiple data sets on the same plot.
+
 Frequentist Statistics: |
   Also known as frequentist interference, is a type of statistical approach where conclusions are made based on the frequency of an event. This statistical approach determines the probability of a long-term experiment, meaning the experiment is repeated under the same set of conditions to obtain an outcome. In frequentist statistics the population parameters are fixed, but unknown, and the data observed in experiments are random. (<a href="https://deepai.org/machine-learning-glossary-and-terms/frequentist-statistics">deepai.org</a>)
 Gaussian Distribution: |
@@ -311,6 +314,8 @@ Homoscedasticity:
   Homoscedasticity is [homogeneity of variances], contrast is [Heteroscedasticity]. Homoscedasticity is an assumption of correlation and linear regression that requires that the variance of y be constant across all the values of x; visually, this assumption would show points along a fit line between x and y being evenly spread on either side of the line for the full range of the relationship. (SwR, Glossary)
 HPDI: |
   Highest Posterior Density Interval (HPDI) is the Highest Density Interval (HDI) or Highest Density Region (HDR) of all possible regions of probability coverage, the HDR has the smallest region possible in the sample space. For a unimodal distribution it will include the mode (the maximum a posteriori, or MAP). (<a href="https://stats.stackexchange.com/a/464155/207389">Cross Validated</a>).
+HPI: |
+  The Happy Planet Index (HPI) is a measure of sustainable wellbeing, evaluating countries by how efficiently they deliver long, happy lives for their residents using our limited environmental resources.
 HSD: |
   Tukey’s Honestly Significant Difference (HSD) is a post hoc test to determine which means are statistically significantly different from each other following a significant ANOVA result; Tukey’s HSD compares each pair of means and so is considered a pairwise test, but it is less conservative than the Bonferroni post hoc test. (SwR, Glossary)
 HTML: |
@@ -353,6 +358,8 @@ ISO 3166 Country Codes:
   The ISO 3166 Country Codes Collection is a comprehensive set of codes used to represent the names of countries and their subdivisions in a standardized format. This collection is essential for applications requiring the expression of country names in coded form. See: https://www.iso.org/iso-3166-country-codes.html and https://www.iso.org/obp/ui/#search
 JAGS: |
   JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. (<a href="https://mcmc-jags.sourceforge.io/">JAGS</a>)
+JavaScript: |
+  JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior.
 Joint Probability: |
   Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
 JPG: |
@@ -661,14 +668,24 @@ Random Variables: |
   A statistical term for variables that associate different numeric values with each of the possible outcomes of some random process. By random here we do not mean the colloquial use of this term to mean something that is entirely unpredictable. A random process is simply a process whose outcome cannot be perfectly known ahead of time (it may nonetheless be quite predictable). (Chap.3)
 Range: |
   Range is the highest and lowest values of a variable, showing the full spread of values; the range can also be reported as a single number computed by taking the difference between the highest and lowest values of the variable. (SwR, Glossary)
-RDS: |
-  The abbreviation “RDS” in file endings `.rds` refers to “R Data Serialized”. It is a format used by the R programming language to serialize and store R objects, such as data frames, lists, and functions, in a compact and portable binary format.
+Reactive context: |
+  In Shiny, reactive contexts are essential for handling user inputs and updating outputs automatically. Reactive values can only be accessed within a reactive context, meaning they must be used inside functions like reactive(), observer(), or any render*() functions.
+Reactive dependencies: |
+  In Shiny, reactive dependencies are automatically inferred by the framework, meaning that when you define a reactive expression, Shiny determines which inputs it depends on. For example, if you have a reactive expression b <- reactive(a * 2), Shiny infers that b depends on a. This information is stored internally within the Shiny framework, but it is not directly accessible through standard functions. For more detailed control over dependencies, you might consider using isolate() to prevent certain parts of your code from being reactive, or using reactiveValues() to manage stateful objects that can be updated and accessed across different parts of your application.
+Reactive expressions: |
+  Reactive expressions are a key component of reactive programming in Shiny. They are R expressions that use widget input and return a value, updating this value whenever the original widget changes. Reactive expressions cache their values and know when their values have become outdated, which helps in preventing unnecessary re-computation and makes the app faster.
+Reactive graph: |
+  In Shiny, the reactive graph is a powerful tool for understanding how your app works. It shows how inputs and outputs are connected, allowing you to visualize the dependencies and execution order of your reactive expressions and render functions. This graph is particularly useful as your app becomes more complex, helping you to manage and debug the interdependencies between different components of your app. To visualize the reactive graph, you can use the reactlog package, which provides an interactive browser-based tool for visualizing reactive dependencies and execution in your application.
+Reactive programming: |
+  Reactive programming in R Shiny is a coding style that focuses on managing values that change over time and orchestrating actions based on those changes. This feature is crucial for Shiny applications because users interact with dynamic controls like sliders and checkboxes, which trigger server-side processes, such as data retrieval and updates to output elements. In Shiny, reactive programming creates a dynamic link between inputs and outputs, ensuring that outputs refresh automatically when there's a change in inputs.
 Regression-Outlier: |
   A regression outlier is an observation that has an unusual value for the outcome given its value(s) of predictor(s). (SwR, Glossary)
 Rejection Region: |
   Rejection region is the area under the curve of a sampling distribution where the probability of obtaining a value is very small, often below 5%; the rejection region is in the end of the tail or tails of the distribution. (SwR, Glossary)
 Residually: |
   Residuals are the differences between the observed values and the predicted values. (SwR, Glossary)
+RDS: |
+  The abbreviation “RDS” in file endings `.rds` refers to “R Data Serialized”. It is a format used by the R programming language to serialize and store R objects, such as data frames, lists, and functions, in a compact and portable binary format.
 R-squared: |
   R-squared is the percent of variance in a numeric variable that is explained by one or more other variables; the r-squared is also known as the coefficient of determination and is used as a measure of model fit in linear regression and an effect size in correlation analyses. (SwR, Glossary)
 S2: |
