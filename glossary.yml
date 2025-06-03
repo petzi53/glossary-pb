@@ -508,6 +508,8 @@ Null Hypothesis: |
   The null hypothesis (H0, or simply the Null) is a statement of no difference or no association that is used to guide statistical inference testing (SwR, Glossary)
 NUTS: |
   The abbreviation "NUTS" stands for **No U-Turn Sampler** and is a Hamiltonian Monte Carlo (HMC) Method. This means that it is not a Markov Chain method and thus, this algorithm avoids the random walk part, which is often deemed as inefficient and slow to converge. Instead of doing the random walk, NUTS does jumps of length x. Each jump doubles as the algorithm continues to run. This happens until the trajectory reaches a point where it wants to return to the starting point. ([CrossValidated](https://stats.stackexchange.com/questions/311813/can-somebody-explain-to-me-nuts-in-english)) (Chap.4 in my notes)
+Observer: |
+  In R Shiny, an observer is a function that can read reactive values and call reactive expressions, and it will automatically re-execute when those dependencies change. Unlike reactive expressions, observers do not yield a result and cannot be used as an input to other reactive expressions. Instead, they are useful for their side effects, such as performing I/O operations.
 Obsidian: |
   Obsidian is a personal knowledge base and note-taking software application that operates on Markdown files. It is designed to help users organize and structure their thoughts and knowledge in a flexible, non-linear way. The software is free for personal use, with commercial licenses available for pay. ([Wikipedia](https://en.wikipedia.org/wiki/Obsidian_(software)))
 OCR: |
