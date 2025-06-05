@@ -684,6 +684,8 @@ Regression-Outlier: |
   A regression outlier is an observation that has an unusual value for the outcome given its value(s) of predictor(s). (SwR, Glossary)
 Rejection Region: |
   Rejection region is the area under the curve of a sampling distribution where the probability of obtaining a value is very small, often below 5%; the rejection region is in the end of the tail or tails of the distribution. (SwR, Glossary)
+REPL: |
+  REPL stands for Read-Eval-Print Loop, which is a computer environment where user inputs are read, evaluated, and the results are printed back to the user. It allows for an interactive exploration of tools and programming languages, such as Pytho or R, where developers can communicate with the interpreter and see immediate results.
 Residually: |
   Residuals are the differences between the observed values and the predicted values. (SwR, Glossary)
 RDS: |
@@ -832,6 +834,8 @@ Violin Plots: |
   Violing plots are visual displays of data that combine features of density plots and boxplots to show the distribution of numeric variables, often across groups. (SwR, Glossary)
 Waffle Charts: |
   Waffle Charts are visual displays of data that show the parts of a whole similar to a pie chart; waffle charts are generally preferred over pie charts. (SwR, Glossary)
+WebAssembly: |
+  WebAssembly (also known as Wasm) allows software that’s normally compiled for a specific computer system to instead run anywhere, including in web browsers. It is a binary instruction format for a stack-based virtual machine.
 Wald: |
   Wald test is the statistical test for comparing the value of the coefficient in linear or logistic regression to the hypothesized value of zero; the form is similar to a one-sample t-test, although some Wald tests use a t-statistic and others use a z-statistic as the test statistic. (SwR, Glossary)
 Welch-T: |
