@@ -328,6 +328,8 @@ IBRD: |
   The International Bank for Reconstruction and Development (IBRD) is a global development cooperative owned by 189 member countries. As the largest development bank in the world, it supports the World Bank Group’s mission by providing loans, guarantees, risk management products, and advisory services to middle-income and creditworthy low-income countries, as well as by coordinating responses to regional and global challenges. (https://www.worldbank.org/en/who-we-are/ibrd)
 IDAx: |
   The International Development Association (IDA) is the part of the World Bank that helps the world’s low-income countries. IDA's grants and low-interest loans help countries invest in their futures, improve lives, and create safer, more prosperous communities around the world. (https://ida.worldbank.org/en/what-is-ida)
+IDEx: |
+  An Integrated Development Environment (IDE) is a software application that helps programmers develop software code efficiently. It typically includes features such as a source code editor, build automation tools, and a debugger.
 IIA: |
   Independence of irrelevant alternatives (IIA) is an assumption of multinomial logistic regression that requires the categories of the outcome to be independent of one another; for a three-category outcome variable with Categories A, B, and C, the probability of being in Category A compared to Category B cannot change because Category C exists. (SwR, Glossary)
 ICU: |
@@ -348,6 +350,8 @@ Influential Observation: |
   An influential observation is an observation that changes the slope of a regression line. (SwR, Glossary) Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and see if the slope of the regression line is changed significantly. (<a href= "https://openstax.org/books/introductory-statistics/pages/12-6-outliers">Introductory Statistics 12.6</a>)
 Interaction: |
   The importance of one variable depends upon another. For example, plants benefit from both light and water. But in the absence of either, the other is no benefit at all. If variable interact than effective inference about one variable will depend upon consideration of others. (Chap.5)
+Interactive debugger: |
+  An interactive debugger is a tool in computer science that enables programmers to observe and control the execution of their program, allowing them to inspect the program state and step through its execution. It helps in identifying and resolving issues within the code by providing functionalities such as setting breakpoints, stepping through code lines, and inspecting variables.
 Intercept: |
   The intercept is the value of the dependent variables if all independent variables have the value zero. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_1486">Intercept, Slope in Regression</a>)
 IQR: |
@@ -686,6 +690,8 @@ Rejection Region: |
   Rejection region is the area under the curve of a sampling distribution where the probability of obtaining a value is very small, often below 5%; the rejection region is in the end of the tail or tails of the distribution. (SwR, Glossary)
 REPL: |
   REPL stands for Read-Eval-Print Loop, which is a computer environment where user inputs are read, evaluated, and the results are printed back to the user. It allows for an interactive exploration of tools and programming languages, such as Pytho or R, where developers can communicate with the interpreter and see immediate results.
+REPREX: |
+  Reprex is an REPRoducable EXample. A reprex makes a conversation about code more efficient and pleasant for all. This comes up whenever you ask someone for help, report a bug in software, or propose a new feature. The habit of making little, rigorous, self-contained examples also has the great side effect of making you think more clearly about your programming problems. In R the reprex package (https://reprex.tidyverse.org) makes it especially easy to prepare R code as a reprex, in order to share it on GitHub, StackOverflow etc.
 Residually: |
   Residuals are the differences between the observed values and the predicted values. (SwR, Glossary)
 RDS: |
