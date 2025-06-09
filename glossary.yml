@@ -462,6 +462,8 @@ Metropolis–Hastings Algorithm: |
   See: Metropolis Algorithm
 Microdata: |
   Microdata are unit-level data obtained from sample surveys, censuses, and administrative systems. They provide information about characteristics of individual people or entities such as households, business enterprises, facilities, farms or even geographical areas such as villages or towns. They allow in-depth understanding of socio-economic issues by studying relationships and interactions among phenomena. Microdata are thus key to designing projects and formulating policies, targeting interventions and monitoring and measuring the impact and results of projects, interventions and policies. ([The World Bank](https://datahelpdesk.worldbank.org/knowledgebase/articles/228873-what-do-we-mean-by-microdata))
+MIME type: |
+  A MIME type, short for Multipurpose Internet Mail Extensions, specifies the nature and format of a document, file, or collection of bytes. It helps identify the type of data being transmitted over the internet, such as text, images, videos, or applications. MIME types consist of two parts separated by a slash: the media type and the subtype. For example, 'image/jpeg' indicates a JPEG image file.
 MLE: |
   Maximum likelihood estimation (MLE) is a method of estimating the parameters of an assumed probability distribution, given some observed data. This is achieved by maximizing a likelihood function so that, under the assumed statistical model, the observed data is most probable. The point in the parameter space that maximizes the likelihood function is called the maximum likelihood estimate. (<a href="https://en.wikipedia.org/w/index.php?title=Maximum_likelihood_estimation&oldid=1178502960">Wkipedia</a>)
 Mode xy: |
@@ -706,6 +708,8 @@ Sample Space: |
   The collection of all outcomes that are possible is the sample space. (Albert and Hu, 2019, p. 27)
 Sampling Distribution: |
   A sampling distribution is the distribution of summary statistics, like means, from repeated samples taken from a population. (SwR, Glossary)
+SASS: |
+  SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that extends CSS with additional features to make styling easier and more efficient. Some key extensions include variables, nesting, and mixins. Variables allow you to store values like colors and fonts, making it easier to update styles across your stylesheet. Nesting enables you to write CSS selectors in a hierarchical manner, similar to HTML structure, reducing redundancy. Mixins let you define reusable blocks of CSS properties. Additionally, SASS supports functions and modules, which help organize and manage complex stylesheets more effectively. SCSS, short for Sassy CSS, is the main syntax used in SASS and is a superset of CSS, meaning all valid CSS is also valid SCSS. It uses the .scss file extension and includes all the features mentioned above.
 Scatterplot: |
   A scatterplot is a graph that shows one dot for each observation in the data set (SwR, Glossary)
 ScatterplotMatrix: |
