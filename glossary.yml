@@ -62,6 +62,10 @@ BHE: |
   Piketty, T. (2022). A Brief History of Equality (S. Rendall, Trans.). Harvard University Press.
 Bonferroni: |
   Bonferroni post hoc test is a pairwise test used after a statistically significant ANOVA that conducts a t-test for each pair of means but adjusts the threshold for statistical significance to ensure that there is a small enough risk of Type I error; it is generally considered a very conservative post hoc test that only identifies the largest differences between means as statistically significant. (SwR, Glossary)
+Bootstrap: |
+  Bootstrap is a free and open-source CSS framework designed for responsive, mobile-first front-end web development. The framework provides HTML, CSS, and JavaScript-based design templates for various interface components such as typography, forms, buttons, navigation, and more. It aims to simplify the process of creating responsive and mobile-friendly websites by offering pre-styled components and a grid system.
+Bootswatch: |
+  Bootswatch is a collection of themes for Bootstrap. Bootswatch provides pre-built themes that can be easily applied to a Bootstrap project, simplifying the process of achieving a polished and professional look.
 Boxplots: |
   Boxplots are a visual representation of data that shows central tendency (usually the median) and spread (usually the interquartile range) of a numeric variable for one or more groups; boxplots are often used to compare the distribution of a continuous variable across several groups. (SwR, Glossary)
 Breusch-Pagan: |
