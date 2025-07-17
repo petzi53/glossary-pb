@@ -1,3 +1,5 @@
+.Rmd: |
+  ".Rmd" is a file extension used for RMarkdown files, which are documents that combine text, R code, and the results of that code execution. These files are used to create reproducible reports, presentations, and other documents that can be converted into various formats such as HTML, PDF, and Word. R ws users to write text in Markdown syntax and embed R code chunks, which are executed to produce output that is included in the final document ("literate programming"). This makes it easy to create dynamic documents that can be updated automatically when the underlying data or code changes.
 ACSPRI: |
   Australian Consortium for Social and Political Research Inc. oganizes conferences and delivers course. (<a href="https://www.acspri.org.au/">ACSPRI</a>)
 Adjusted-count-R2: |
@@ -20,6 +22,8 @@ ANOVA: |
   Analysis of variance is a statistical method used to compare means across groups to determine whether there is a statistically significant difference among the means; typically used when there are three or more means to compare. (SwR, Glossary)
 APIx: |
   An API, or application programming interface, is a set of defined rules that enable different applications to communicate with each other. It acts as an intermediary layer that processes data transfers between systems, letting companies open their application data and functionality to external third-party developers, business partners, and internal departments within their companies. (<a href="https://www.ibm.com/topics/api">IBM</a>)
+Appsilon: |
+  Appsilon is a company that specializes in data science and visualization services. They offer R Shiny application development, enterprise dashboard solutions, and machine learning implementations. Additionally, they provide services such as UI/UX design, full-stack engineering support, DevOps for Posit products, and the creation of custom R packages for Shiny applications. <https://www.appsilon.com/>
 Arcsine Transformations: |
   Arcsine transformation are data transformation techniques often recommended to normalize percent or proportion data; the arcsine transformation uses the inverse of the sine function and the square root of the variable to transform. (SwR, Glossary)
 Arithmetic Mean: |
@@ -65,7 +69,7 @@ Bonferroni: |
 Bootstrap: |
   Bootstrap is a free and open-source CSS framework designed for responsive, mobile-first front-end web development. The framework provides HTML, CSS, and JavaScript-based design templates for various interface components such as typography, forms, buttons, navigation, and more. It aims to simplify the process of creating responsive and mobile-friendly websites by offering pre-styled components and a grid system.
 Bootswatch: |
-  Bootswatch is a collection of themes for Bootstrap. Bootswatch provides pre-built themes that can be easily applied to a Bootstrap project, simplifying the process of achieving a polished and professional look.
+  Bootswatch is a collection of themes for Bootstrap. It provides pre-built themes that can be easily applied to a Bootstrap project, simplifying the process of achieving a polished and professional look.
 Boxplots: |
   Boxplots are a visual representation of data that shows central tendency (usually the median) and spread (usually the interquartile range) of a numeric variable for one or more groups; boxplots are often used to compare the distribution of a continuous variable across several groups. (SwR, Glossary)
 Breusch-Pagan: |
@@ -101,6 +105,8 @@ Central Limit Theorem: |
   A foundational idea in inferential statistics that shows the mean of a sampling distribution of a variable will be a close approximation to the mean of the variable in the population, regardless of whether the variable is normally distributed. The Central Limit Theorem demonstrates why samples can be used to infer information about the population. (SwR, Glossary)
 Chi-squared: |
   Chi-squared is the test statistic following the chi-squared probability distribution; the chi-squared test statistic is used in inferential tests, including examining the association between two categorical variables and determining statistical significance for a logistic regression model. (SwR, Glossary)
+CLI: |
+  The abbreviation CLI stands for Command Line Interface. A Command Line Interface is a text-based interface used for entering commands directly to a computer system. It allows users to interact with a computer's operating system or software by typing commands into a console or terminal. Unlike graphical user interfaces (GUIs), which use windows, icons, and mouse interactions, CLIs rely on text input and output.
 Choropleth: |
   A choropleth map is a type of thematic map that uses shading or coloring to represent statistical data across predefined geographic regions. These regions can be political boundaries, such as states or countries, or natural divisions. Each area is colored based on the value of the variable being represented, typically using a gradient where darker shades indicate higher values and lighter shades indicate lower values. This visualization technique helps viewers quickly grasp patterns and trends within the dataset. It is important to note that choropleth maps can sometimes lead to misinterpretation due to the bias introduced by the size of the regions. Larger regions may appear to have more significance simply because of their size, even if their data values are the same as smaller regions. In this case use Cartograms.
 Cisgender: |
@@ -119,6 +125,8 @@ Combinatorics: |
   Combinatorics is an area of mathematics primarily concerned with counting. (BS, Chap.2) One of the basic problems of combinatorics is to determine the number of possible configurations of a given type. (<a href="https://www.britannica.com/science/combinatorics">Britannica</a>)
 Compatibility Interval: |
   Two parameter values that contain between them a specified amount of posterior probability, a probability mass, is usually known as confidence interval that may instead be called a credible interval. We’re going to call it a compatibility interval instead, in order to avoid the unwarranted implications of "confidence"" and "credibility." What the interval indicates is a range of parameter values compatible with the model and data. The model and data themselves may not inspire confidence, in which case the interval will not either. (SR2, Chap.3)
+Conditionx: |
+  Condition here means a technical term that includes errors, warnings, and messages. See <https://adv-r.hadley.nz/conditions.html>,
 Conditional Probability: |
   In probability theory, conditional probability is a measure of the probability of an event occurring, given that another event (by assumption, presumption, assertion or evidence) has already occurred. <a href="https://en.wikipedia.org/wiki/Conditional_probability">Wikipedia</a>. The mathematical notation uses the pipe symbol ('|') for "conditional on" or "given that".
 Confidence Interval: |
@@ -159,10 +167,14 @@ CVD: |
   Color vision deficiency (CVD) or color blindness (also spelled colour blindness) includes a wide range of causes and conditions and is actually quite complex. It's a condition characterized by an inability or difficulty in perceiving and differentiating certain colors due to abnormalities in the three color-sensing pigments of the cones in the retina. (<a href="https://enchroma.com/pages/types-of-color-blindness">EnChroma</a>)
 DACH: |
   The abbreviation DACH refers to Deutschland, Austria, and Switzerland, which collectively represent German-speaking Europe. It is derived from the international license plate abbreviations for these countries.
+Data-masking: |
+  Data-masking is a feature in the R programming language, particularly within the tidyverse ecosystem, that allows programming directly on a dataset, treating columns as normal objects. This feature simplifies data manipulation by reducing boilerplate code and making it easier to refer to data frame columns without explicitly specifying the data frame name each time. Data-masking works by defusing R code to prevent its immediate evaluation. The defused code is then resumed later in a context where data frame columns are defined.
 Data Tables: |
    Data Tables are --- in contrast to Display Tables --- for analysis and not for presentation. Another purpose of Data Tables is to store, retrieve and share information digitally. In R they are tibbles, data.frames etc.
 Data Visualization: |
   Using visual tools to examine or communicate about characteristics of data is called Data Visualization: Graphs are visual displays of data. (SwR, Glossary)
+Defusing: |
+  In the context of the tidyverse, "defusing a variable" refers to capturing an expression or argument without immediately evaluating it. This allows the expression to be manipulated, examined, or later evaluated in a different context.
 Degrees of Freedom: |
   Degree of Freedom (df) is the number of pieces of information that are allowed to vary in computing a statistic before the remaining pieces of information are known; degrees of freedom are often used as parameters for distributions (e.g., chi-squared, F). (SwR, Glossary)
 Density Plots: |
@@ -209,6 +221,12 @@ ECDF: |
   In statistics, an empirical distribution function (commonly also called an empirical cumulative distribution function, eCDF) is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value. (<a href="https://en.wikipedia.org/wiki/Empirical_distribution_function">Wikipedia</a>) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 Effect Size: |
   Effect size is a measure of the strength of a relationship; effect sizes are important in inferential statistics in order to determine and communicate whether a statistically significant result has practical importance. (SwR, Glossary)
+embracing operator: |
+  The "embracing operator" `{{ }}` in R, particularly within the tidyverse, is used to handle data-masking in functions. It allows arguments that refer to columns of a data frame to be passed from one function to another. This operator simplifies the process of working with data-masking by combining the functionality of `enquo()` and `!!` in one step.
+emoji: |
+  Emojis are small digital images or icons used to express emotions, ideas, or concepts in electronic communication, such as text messages, social media posts, and emails. The word "emoji" combines two Japanese words – "e," meaning "picture," and "moji," meaning "character" They originated from simple emoticons, which conveyed emotions in text-based communication. Emojis have become essential to online communication, allowing users to add tone and personality to their messages.
+env-variable: |
+  The term "env-variable" in the context of R and the tidyverse typically refers to programming variables that live inside environments. These variables are distinct from data-variables, which are stored in data frames. Data masking is an R feature that blends these two types of variables, making it easy to refer to both data frame columns and objects defined in the current environment.
 EPUB: |
   EPUB (auch ePUB, Akronym für electronic publication) ist ein offener Standard für E-Books, documents and other digital resources.
 EPSG: |
@@ -225,6 +243,8 @@ EU Membership Applications: |
   The following countries have end of 2024 an open application for EU membership: Albania, Bosnia and Herzegovina, Georgia, Kosovo, Moldavia, Montenegro, North Macedonia, Serbia, Turkey, Ukraine.
 Event Set: |
   In probability theory, we use Ω (the capital Greek letter omega) to indicate the set of all events.
+Event-driven programming: |
+  Event-driven programming is a programming paradigm where the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. Programs respond to events with predefined actions, allowing for asynchronous and responsive behavior, often seen in GUI applications and distributed systems. In an event-driven application, there is generally an event loop that listens for events and then triggers a callback function when one of those events is detected.
 Explained Variance: |
   Explained variance is variation in an outcome that is explained by a model; explained and unexplained variance are used in ANOVA and linear regression to compute model fit and model significance statistics. (SwR, Glossary)
 Exponential Distribution: |
@@ -256,7 +276,8 @@ Frequencies: |
   Frequencies are the number of times particular valuee of a variable occur. (SwR, Glossary)
 Frequency polygon: |
   A frequency polygon is a histogram that's drawn with a line, instead of bars, which makes it easier to compare multiple data sets on the same plot.
-
+Freqpoly: |
+  A frequency polygon, often referred to as a freqpoly, is a type of chart that helps visualize the distribution of values in a dataset. It is similar to a histogram but uses a line plot to connect the midpoints of the top of the bars, providing a smooth representation of the data distribution. Using lines line, instead of bars, makes it easier to compare multiple data sets on the same plot.
 Frequentist Statistics: |
   Also known as frequentist interference, is a type of statistical approach where conclusions are made based on the frequency of an event. This statistical approach determines the probability of a long-term experiment, meaning the experiment is repeated under the same set of conditions to obtain an outcome. In frequentist statistics the population parameters are fixed, but unknown, and the data observed in experiments are random. (<a href="https://deepai.org/machine-learning-glossary-and-terms/frequentist-statistics">deepai.org</a>)
 Gaussian Distribution: |
@@ -374,8 +395,12 @@ JPG: |
   JPEG (/ˈdʒeɪpɛɡ/ JAY-peg, short for Joint Photographic Experts Group is a commonly used method of lossy compression for digital images. [(Wikipedia](https://en.wikipedia.org/wiki/JPEG))
 JSONx: |
   JSON (JavaScript Object Notation) is a standardized, text-based data interchange format used to represent structured data in a human-readable and machine-readable way. It is a lightweight, language-independent format that is widely used for exchanging data between web servers, web applications, and mobile apps.
-Kernel Density Estimation: |
+KDE: |
   Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
+Kernel: |
+  The basic idea of a kernel densitiy estimate is to have a set of data to predict future results. The kernel idea is to create a similarity function (called a kernel function) between any two sets of inputs. For any new set of inputs, we predict by taking a weighted average of past results, weighted by the similarity of the past inputs to the current inputs. So in a essence a kernel is a function used to measure similarity between data points in a transformed feature space. Intuitively, you can think of a kernel as a way to compute the "distance" or "similarity" between points without explicitly mapping them into that higher-dimensional space.
+Kaggle: |
+  Kaggle is one of the largest hosting platforms used by data scientists and machine learning enthusiasts globally. It allows users to collaborate with other users, find and publish datasets, use GPU integrated notebooks, and compete with other data scientists to solve data science challenges. Founded in 2010 by Anthony Goldbloom and Jeremy Howard, Kaggle was acquired by Google in 2017.
 KFF: |
   Kaiser Family Foundation (KFF) is a non-partisan organization focused on health policy. It conducts its own research, polling, journalism, and specialized public health information campaigns and its website has been heralded for having the "most up-to-date and accurate information on health policy"[4] and as a "must-read for healthcare devotees." (<a href="https://en.wikipedia.org/wiki/Kaiser_Family_Foundation">Wikipdia</a>)
 Knots: |
@@ -514,6 +539,8 @@ Nonlinear Transformations: |
   Nonlinear transformations are transformations that increases (or decreases) the linear relationship between two variables by applying an exponent (i.e., [power transformation]) or other function to one or both of the variables. (SwR, Glossary)
 NPISH: |
   Non-Profit Institutions Serving Households (NPISH) refers to a sector in national accounts comprising non-profit institutions that are not mainly financed and controlled by the government. These institutions provide goods or services to households for free or at prices that are not economically significant. In the context of national accounting, NPISH institutions are distinct from government institutions and the private sector. They operate independently, often relying on donations, grants, or membership fees to fund their activities (KI-Brave, Internet)
+NSE: |
+  Non-standard evaluation (NSE) is a concept in R that allows functions to access the code used to compute their arguments, rather than just the values. This makes it possible to evaluate code in non-standard ways, which is particularly useful for functions when doing interactive data analysis because it can dramatically reduce the amount of typing. In the context of the tidyverse, NSE is used in functions like {dplyr} and {ggplot2} to allow users to refer to variables by their names without needing to quote them or use the `$` operator.
 Null Hypothesis: |
   The null hypothesis (H0, or simply the Null) is a statement of no difference or no association that is used to guide statistical inference testing (SwR, Glossary)
 NUTS: |
@@ -608,6 +635,8 @@ Pooled Variance: |
   Pooled variance is the assumption that the variances in two groups are equal, so these variances are combined ('pooled') (SwR, Glossary).
 Population: |
   A population consists statistically of all the observations that fit some criterion; for example, all of the people currently living in the country of Bhutan or all of the people in the world currently eating strawberry ice cream. (SwR, Glossary)
+Positx: |
+  Posit is an open-source data science software company that was formerly known as RStudio Inc. Posit's rebranding was aimed at expanding its offerings beyond R to include support for other languages, reflecting a shift towards a more language-agnostic approach to data science tools. The RStudio IDE, which is now part of Posit, remains a popular tool for data scientists who develop in R and Python. There are many other important software products developed and maintained by Posit such as, Quarto, Shiny, tidymodels, tidyverse, and many other popular packages. <https://posit.co/>
 PositiveCorr: |
   Positive correlation is a statistical relationship where two things move together in the same direction; as one goes up, the other also goes up, or as one goes down, the other also goes down. (SwR, Glossary)
 Positively Skewed: |
@@ -672,24 +701,42 @@ Quantile: |
   Quantiles are cut points dividing the range of a probability distribution into continuous intervals with equal probabilities (<a href="https://en.wikipedia.org/wiki/Quantile">Wikipedia</a>)
 Quadratic Approximation: |
   Quadratic approximation is a way to approximate a curve. Quadratic approximation is an extension of linear approximation – we’re adding one more term, which is related to the second derivative. Linear approximation uses the first derivative to find the straight line that most closely resembles a curve at some point. Quadratic approximation uses the first and second derivatives to find the parabola closest to the curve near a point. ([Statistics How To](https://www.statisticshowto.com/quadratic-approximation/) and [MIT OpenCourseWare](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/pages/unit-2-applications-of-differentiation/part-a-approximation-and-curve-sketching/session-25-introduction-to-quadratic-appoximation/))
+Quosures: |
+  Quosures are quoted expressions that keep track of an environment, making them essential in the tidy evaluation framework. They are implemented as a subclass of one-sided formulas and are used to capture R code without evaluation, along with the environment where the code was captured. This tracking capability is crucial when interfacing data-masking functions, as it ensures that functions from different environments are correctly resolved. Quosures are typically created using functions like `quo()` and `enquo()`,  which capture the current environment along with the expression.
+R6: |
+  An R6 object is an implementation of encapsulated object-oriented programming (OOP) in the R programming language. It provides a way to create classes and objects with both public and private members, allowing for better organization of code and data. More info at <https://adv-r.hadley.nz/r6.html>
 Rx: |
   R is a programming language and software environment for statistical computing and graphics. It was developed by Ross Ihaka and Robert Gentleman and is now maintained by the R Core Team. R is open-source and free software, licensed under the GNU General Public License. It supports various statistical and graphical techniques and is widely used in data mining, bioinformatics, and data analysis. R includes a well-developed programming language, a collection of packages for specific tasks, and an extensive documentation system.
 R-Forge: |
   R-Forge offers a central platform for the development of R packages, R-related software and further projects. It is based on FusionForge offering easy access to the best in SVN, daily built and checked packages, mailing lists, bug tracking, message boards/forums, site hosting, permanent file archival, full backups, and total web-based administration. (<a href="https://r-forge.r-project.org/">R-Forge Home</a>)
+R-squared: |
+  R-squared is the percent of variance in a numeric variable that is explained by one or more other variables; the r-squared is also known as the coefficient of determination and is used as a measure of model fit in linear regression and an effect size in correlation analyses. (SwR, Glossary)
+RMarkdown: |
+  RMarkdown is a file format for creating dynamic documents that combine text written in markdown with chunks of embedded R code. This allows users to weave together narrative text and code to produce elegantly formatted output, such as HTML, PDF, or Microsoft Word documents, among others.
+RDS: |
+  The abbreviation “RDS” in file endings `.rds` refers to “R Data Serialized”. It is a format used by the R programming language to serialize and store R objects, such as data frames, lists, and functions, in a compact and portable binary format.
 Random Variables: |
   A statistical term for variables that associate different numeric values with each of the possible outcomes of some random process. By random here we do not mean the colloquial use of this term to mean something that is entirely unpredictable. A random process is simply a process whose outcome cannot be perfectly known ahead of time (it may nonetheless be quite predictable). (Chap.3)
 Range: |
   Range is the highest and lowest values of a variable, showing the full spread of values; the range can also be reported as a single number computed by taking the difference between the highest and lowest values of the variable. (SwR, Glossary)
+Reactive consumers: |
+  Reactive consumers are objects int the reactive programming coding style of Shiny that depend on the values provided by reactive producers. They include reactive expressions and outputs, which update automatically when their dependencies change.
 Reactive context: |
-  In Shiny, reactive contexts are essential for handling user inputs and updating outputs automatically. Reactive values can only be accessed within a reactive context, meaning they must be used inside functions like reactive(), observer(), or any render*() functions.
+  In Shiny, reactive contexts are essential for handling user inputs and updating outputs automatically. Reactive values can only be accessed within a reactive context, meaning they must be used inside functions like `reactive()`, `observer()`, or any `render*()` functions.
 Reactive dependencies: |
-  In Shiny, reactive dependencies are automatically inferred by the framework, meaning that when you define a reactive expression, Shiny determines which inputs it depends on. For example, if you have a reactive expression b <- reactive(a * 2), Shiny infers that b depends on a. This information is stored internally within the Shiny framework, but it is not directly accessible through standard functions. For more detailed control over dependencies, you might consider using isolate() to prevent certain parts of your code from being reactive, or using reactiveValues() to manage stateful objects that can be updated and accessed across different parts of your application.
+  In Shiny, reactive dependencies are automatically inferred by the framework, meaning that when you define a reactive expression, Shiny determines which inputs it depends on. For example, if you have a reactive expression `b <- reactive(a * 2)`, Shiny infers that `b` depends on `a`. This information is stored internally within the Shiny framework, but it is not directly accessible through standard functions. For more detailed control over dependencies, you might consider using `isolate()` to prevent certain parts of your code from being reactive, or using `reactiveValues()` to manage stateful objects that can be updated and accessed across different parts of your application.
 Reactive expressions: |
   Reactive expressions are a key component of reactive programming in Shiny. They are R expressions that use widget input and return a value, updating this value whenever the original widget changes. Reactive expressions cache their values and know when their values have become outdated, which helps in preventing unnecessary re-computation and makes the app faster.
 Reactive graph: |
   In Shiny, the reactive graph is a powerful tool for understanding how your app works. It shows how inputs and outputs are connected, allowing you to visualize the dependencies and execution order of your reactive expressions and render functions. This graph is particularly useful as your app becomes more complex, helping you to manage and debug the interdependencies between different components of your app. To visualize the reactive graph, you can use the reactlog package, which provides an interactive browser-based tool for visualizing reactive dependencies and execution in your application.
+Reactive producers: |
+  Reactive producers are objects int the reactive programming coding style of Shiny that generate or provide data, such as user inputs or expressions.
 Reactive programming: |
   Reactive programming in R Shiny is a coding style that focuses on managing values that change over time and orchestrating actions based on those changes. This feature is crucial for Shiny applications because users interact with dynamic controls like sliders and checkboxes, which trigger server-side processes, such as data retrieval and updates to output elements. In Shiny, reactive programming creates a dynamic link between inputs and outputs, ensuring that outputs refresh automatically when there's a change in inputs.
+Reactlog: |
+  Reactlog is a tool that provides a visual insight into the reactivity of Shiny applications, which are built using the R programming language. It constructs a directed dependency graph of the Shiny's reactive state at any time point in the record, allowing users to visually see if reactive elements are not utilized, over utilized, interacting with unexpected elements, invalidating all expected dependencies, or freezing. The reactlog dependency graph helps in debugging by showing the reactivity dependency graph of your Shiny applications.
+Regex: |
+  Regex, short for regular expression, is a sequence of characters that specifies a pattern in text. It is used to match, locate, and manage text by defining specific patterns that can be used for searching, extracting, validating, or transforming text based on those patterns. In R, several functions are used for working with regular expressions, including `grep()` and friends, `sub()` & `gsub()` for replacement and `strsplit()` For general information see: `?base::regex`.
 Regression-Outlier: |
   A regression outlier is an observation that has an unusual value for the outcome given its value(s) of predictor(s). (SwR, Glossary)
 Rejection Region: |
@@ -700,10 +747,8 @@ REPREX: |
   Reprex is an REPRoducable EXample. A reprex makes a conversation about code more efficient and pleasant for all. This comes up whenever you ask someone for help, report a bug in software, or propose a new feature. The habit of making little, rigorous, self-contained examples also has the great side effect of making you think more clearly about your programming problems. In R the reprex package (https://reprex.tidyverse.org) makes it especially easy to prepare R code as a reprex, in order to share it on GitHub, StackOverflow etc.
 Residually: |
   Residuals are the differences between the observed values and the predicted values. (SwR, Glossary)
-RDS: |
-  The abbreviation “RDS” in file endings `.rds` refers to “R Data Serialized”. It is a format used by the R programming language to serialize and store R objects, such as data frames, lists, and functions, in a compact and portable binary format.
-R-squared: |
-  R-squared is the percent of variance in a numeric variable that is explained by one or more other variables; the r-squared is also known as the coefficient of determination and is used as a measure of model fit in linear regression and an effect size in correlation analyses. (SwR, Glossary)
+RinteRface: |
+  RinteRface aims at bringing the most famous open source HTML templates to R. <https://rinterface.com/>
 S2: |
   S2 is a spherical geometry engine written in C++ developed by Google. Unlike traditional geographic information systems, which represent data as flat two-dimensional projections (similar to an atlas), the S2 library represents all data on a three-dimensional sphere (similar to a globe).
 Samples: |
@@ -744,12 +789,16 @@ Simple-Linear-Regression: |
   Simple does not mean easy; instead, it is the term used for a statistical model used to predict or explain a continuous outcome by a single predictor. (SwR, Glossary, Chap09)
 Simulation: |
   Simulation is a way to model random events, such that simulated outcomes closely match real-world outcomes. By observing simulated outcomes, researchers gain insight on the real world. (<a href="https://stattrek.com/experiments/simulation#">Stat Trek</a>)
+Sina-Plot: |
+  A sina plot is a type of diagram in which numerical data are depicted by points distributed in such a way that the width of the point distribution is proportional to the kernel density. Sina plots are similar to violin plots, but while violin plots depict kernel density, sina plots depict the points themselves. In some situations, sina plots may be preferable to violin plots, because sina plots contain more information. The term "sina plot" is intended to recognize the contributions of Sina Hadi Sohi, a student at the University of Copenhagen in Denmark. Sina created the original code that researchers at the university used to generate these plots.
 Skewness: |
   Skewness is the extent to which a variable has extreme values in one of the two tails of its distribution (SwR, Glossary)
 Slope: |
   The slope is the increase in the dependent variable when the independent variable increases with one unit and all other independent variables remain the same. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_1486">Intercept, Slope in Regression</a>)
 SNA: |
   The System of National Accounts (SNA), 2008 is a statistical framework that provides a comprehensive, consistent and flexible set of macroeconomic accounts for policymaking, analysis and research purposes. It has been produced and is released under the auspices of the United Nations, the European Commission, the Organisation for Economic Co-operation and Development, the International Monetary Fund and the World Bank Group. ([SNA 2008](https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf))
+SQL: |
+  Structured Query Language (SQL) (pronounced ess-kew-ell or sequel) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them. Initially created in the 1970s, SQL is regularly used not only by database administrators but also by developers writing data integration scripts and data analysts looking to set up and run analytical queries. For more information see task view on databases <https://cran.r-project.org/web/views/Databases.html>.
 Spearman: |
   Spearman’s rho a statistical test used to examine the strength, direction, and significance of the relationship between two numeric variables when they do not meet the assumptions for [Pearson]’s r. (SwR, Glossary)
 Specificity: |
@@ -798,6 +847,10 @@ Tesseract: |
   Tesseract is a free software for optical character recognition (OCR) for various operating systems. An R package with the same name supports over 100 languages.
 Tibble: |
   A tibble or tbl_df, is a modern reimagining of the data.frame. It never changes the type of the inputs (e.g. it never converts strings to factors!), it never changes the names of variables, and it never creates row names. It’s possible for a tibble to have column names that are not valid R variable names, aka non-syntactic names. Tibbles have a refined print method that shows only the first 10 rows, and all the columns that fit on screen. (<a href="https://r4ds.had.co.nz/tibbles.html">R4DS</a>)
+Tidy data: |
+  Tidy data refers to a standard way of storing data that is used throughout the tidyverse. In tidy data, each variable is a column, each observation is a row, and each value is a cell. This structure ensures consistency and makes it easier to work with data using the tools provided by the tidyverse. Tidy data allows for more efficient data manipulation and analysis, as it aligns with the design principles of packages like dplyr and ggplot2. The concept of tidy data was introduced by Hadley Wickham and is central to the philosophy of the tidyverse.
+Tidy evaluation: |
+  Tidy evaluation is a concept used in the tidyverse, particularly in packages like dplyr and ggplot2, to handle the evaluation of expressions in a way that allows for more flexible and powerful programming. It is especially useful when you want to build functions that can take column names as arguments and use them within dplyr verbs.
 Tilde Operator: |
   The tilde ('~') in R formulae signifies a stochastic relationship. This is in contrast to the "=" symbol which means a deterministic relationship or definiton. (more details in [R Intro](https://cran.r-project.org/doc/manuals/R-intro.html#Statistical-models-in-R)), The [similar operator](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/tilde) is used to separate the left- and right-hand sides in a model [formula]. It can be pronounced as "is modelled by" or in a formula "is dependent on" or "is explained by". In Markdown it is produced with $\sim$.
 Tile Plots: |
@@ -814,6 +867,8 @@ Transgender: |
   Transgender people are people whose biological sex is not consistent with their gender. Contrast: [Cisgender] (SwR, Chapter 2)
 Trend Line: |
   A trend line is a line that follows the relationship between variables in a graph, sometimes called the line of best fit (SwR, Glossary).
+TSV: |
+  A TSV file, or Tab-Separated Values file, is a simple text format used for storing data in a structured manner. Each line of the file represents a data record, while each field within the record is separated by a tab character. TSV file format is often preferred over CSV files when data includes commas, as often is the case in European datasets.
 Tukey: |
   Tukey’s Honestly Significant Difference (HSD) is a post hoc test to determine which means are statistically significantly different from each other following a significant ANOVA result; Tukey’s HSD compares each pair of means and so is considered a pairwise test, but it is less conservative than the [Bonferroni] post hoc test. (SwR, Glossary)
 Two-way: |
@@ -849,9 +904,13 @@ Violin Plots: |
 Waffle Charts: |
   Waffle Charts are visual displays of data that show the parts of a whole similar to a pie chart; waffle charts are generally preferred over pie charts. (SwR, Glossary)
 WebAssembly: |
-  WebAssembly (also known as Wasm) allows software that’s normally compiled for a specific computer system to instead run anywhere, including in web browsers. It is a binary instruction format for a stack-based virtual machine.
+  WebAssembly (also known as WASM) allows software that’s normally compiled for a specific computer system to instead run anywhere, including in web browsers. It is a binary instruction format for a stack-based virtual machine.
+webR: |
+  WebR is a version of the open-source R interpreter compiled for WebAssembly, along with a supporting TypeScript library for interacting with the console and R objects from a JavaScript environment. By compiling R to WebAssembly, a user can visit a website and run R code directly within the web browser, without R installed on their device or a supporting computational R server. All that is required is a normal web server, including the type of cloud hosting service provided by GitHub Pages or Netlify. WebR makes it possible to run R code in the browser without the need for an R server to execute the code: the R interpreter runs directly on the user’s machine. WebR maintains compatibility with standard R, meaning most R code will work the same way in both environments, though with some performance and availability limitations in the browser context.
 Wald: |
   Wald test is the statistical test for comparing the value of the coefficient in linear or logistic regression to the hypothesized value of zero; the form is similar to a one-sample t-test, although some Wald tests use a t-statistic and others use a z-statistic as the test statistic. (SwR, Glossary)
+WASM: |
+  WASM stands for WebAssembly which allows software that’s normally compiled for a specific computer system to instead run anywhere, including in web browsers. It is a binary instruction format for a stack-based virtual machine.
 Welch-T: |
   Welch’s t-test is a variation on the Student’s t-test that does not assume equal variances in group (SwR, Glossary).
 Welch-F: |
@@ -878,10 +937,12 @@ XML: |
   Extensible Markup Language (XML) is a markup language and file format for storing, transmitting, and reconstructing arbitrary data. It defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium's XML 1.0 Specification of 1998 and several other related specifications —all of them free open standards—define XML. The design goals of XML emphasize simplicity, generality, and usability across the Internet. (<a href="https://en.wikipedia.org/wiki/XML">Wikipedia</a>)
 xpt: |
   .xpt is a file extension indicating that the file is a transport file from the SAS (Statistical Analysis System) statistical software program (SwR, Glossary)
-Yates continuity correction: |
-  Yates continuity correction is a correction for chi-squared that subtracts .5 from the difference between observed and expected in each cell, making the chi-squared value smaller and statistical significance harder to reach; it is often used when there are few observations in one or more of the cells. This correction is also used when both variables have just two categories because the chi-squared distribution is not a perfect representation of the distribution of differences between observed and expected of a chi-squared in the situation where both variables are binary. (SwR, Glossary and Chap. 5)
 Y-hat: |
   The term 'y hat' (written as ŷ) refers to the estimated value of a response variable in a linear regression model.(<a href="https://www.statology.org/y-hat/">What is Y Hat in Statistics?</a>)
+YAML: |
+  YAML stands for "YAML Ain't Markup Language", some people reverse it humorously to "Yet Another Markup Language.") It is a human-readable data serialization language commonly used for configuration files and data transmission. YAML is designed with simplicity and readability in mind, using indentation and minimal punctuation to represent data structures, making it intuitive to read. There is a YAML package in R that provides methods to convert R data to YAML and back. <https://yaml.org/> is the official website.
+Yates continuity correction: |
+  Yates continuity correction is a correction for chi-squared that subtracts .5 from the difference between observed and expected in each cell, making the chi-squared value smaller and statistical significance harder to reach; it is often used when there are few observations in one or more of the cells. This correction is also used when both variables have just two categories because the chi-squared distribution is not a perfect representation of the distribution of differences between observed and expected of a chi-squared in the situation where both variables are binary. (SwR, Glossary and Chap. 5)
 Z-distribution: |
   The z-distribution is a normal distribution with a mean of 0 and a standard deviation of 1. (SwR, chap10)
 ZIP: |
