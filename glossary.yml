@@ -811,6 +811,8 @@ Skewness: |
   Skewness is the extent to which a variable has extreme values in one of the two tails of its distribution (SwR, Glossary)
 Slope: |
   The slope is the increase in the dependent variable when the independent variable increases with one unit and all other independent variables remain the same. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-94-007-0753-5_1486">Intercept, Slope in Regression</a>)
+Snippet: |
+  An RStudio snippet is a text macro or code template used to quickly insert commonly used pieces of code, automating the process of typing repetitive or boilerplate code. See: https://rstudio.github.io/rstudio-extensions/rstudio_snippets.html
 SNA: |
   The System of National Accounts (SNA), 2008 is a statistical framework that provides a comprehensive, consistent and flexible set of macroeconomic accounts for policymaking, analysis and research purposes. It has been produced and is released under the auspices of the United Nations, the European Commission, the Organisation for Economic Co-operation and Development, the International Monetary Fund and the World Bank Group. ([SNA 2008](https://unstats.un.org/unsd/nationalaccount/docs/SNA2008.pdf))
 SQL: |
