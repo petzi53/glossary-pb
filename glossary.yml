@@ -655,13 +655,15 @@ PositiveCorr: |
   Positive correlation is a statistical relationship where two things move together in the same direction; as one goes up, the other also goes up, or as one goes down, the other also goes down. (SwR, Glossary)
 Positively Skewed: |
   A distribution is positively skewed when it has some extreme large positive values relative to the rest of the values in the distribution, making the tail of the distribution extend to the right or in the direction of larger positive numbers; this type of skew is also known as right skew (SwR, Glossary)
-Posterior Distribution: |
+Posterior: |
+  The posterior distribution represents the updated beliefs about the parameters of a model after incorporating observed data. It is derived by combining the prior distribution, which reflects initial beliefs about the parameter, with the likelihood of the observed data using Bayes' theorem.
+Posterior_Distribution: |
   Given prior information combined with data from observations or experiments, the posterior summarizes all you know after factoring in that new evidence. It provides estimates of parameters like intervals or points as well as predictions about future data outcomes through probabilistic evaluations to help inform decisions under uncertain conditions. (a href="https://www.statisticshowto.com/posterior-distribution-probability/">Statistics HowTo</a>)
-Posterior Odds: |
+Posterior_Odds: |
   In probability theory, odds provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. The odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. (<a href="https://en.wikipedia.org/wiki/Odds">Wikipedia</a>)
-Posterior Predictive Distribution: |
+Posterior_Predictive_Distribution: |
   An approach to assessing model fit. It is the distribution for future predicted data based on the data you have already seen. Measures of discrepancy between the estimated model and the data are constructed and their posterior predictive distribution compared to the discrepancy observed for the dataset. (CDS, p. 334)
-Posterior Probability: |
+Posterior_Probability: |
   It is the revised or updated probability of an event occurring after taking into consideration new information. ([Investopedia](https://www.investopedia.com/terms/p/posterior-probability.asp)). Posterior probability = prior probability + new evidence (called likelihood). ([Statistics How To](https://www.statisticshowto.com/posterior-distribution-probability/)) The posterior distribution will be a distribution of Gaussian distributions. (SR, Chap.4). It quantifies exactly how much our observed data changes our beliefs: P(belief | data) (BF, Chap.8)
 PostGIS: |
   PostGIS is an open-source extension for the PostgreSQL relational database management system (RDBMS). It adds spatial functionality to PostgreSQL, enabling it to store, index, and query spatial data. This extension is particularly useful for managing geographic information systems (GIS) data, such as points, lines, polygons, and raster images.
@@ -669,7 +671,7 @@ POTNI:
   Post-tax National Income (POTNI) adds all other government transfers and deducts all taxes from the PRTNI. Therefore, POTNI includes all social monetary transfers, transfers in-kind and collective consumption. The allocation of all forms of government spending to individuals ensures that the sum of POTNI equals the national income ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
 Power: |
   Statistical Power is the probability that the results of a test are not a Type II error; it is the probability of finding a relationship when there is a relationship. (SwR, Glossary)
-Power Transformations: |
+Power_Transformations: |
   Power transformations are transformations of a measure using an exponent like squaring or cubing or taking the square root or cube root; power transformations are nonlinear transformations. (SwR, Glossary)
 PPP: |
   Purchasing Power Parity (PPP) is the exchange rate that equates the price of a basket of identical traded goods and services in two countries. Converting values to PPP therefore accounts for differences in costs of living between countries, enabling comparisons between income levels in different countries. (<a href="https://wir2022.wid.world/www-site/uploads/2021/12/WIR2022-Technical-Note-Figures-Tables-1.pdf">WIR2022 - Technical Notes</a>, p.6)
@@ -679,19 +681,21 @@ Predictor Variable: |
   Predictor variable -- also known sometimes as the independent or explanatory variable -- is the counterpart to the response or dependent variable. Predictor variables are used to make predictions for dependent variables. ([DeepAI](https://deepai.org/machine-learning-glossary-and-terms/predictor-variable), [MiniTab](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/regression/supporting-topics/basics/what-are-response-and-predictor-variables/))
 Prevalence: |
   Prevalence is the proportion of individuals in a population who have a specific characteristic at a certain time period. (<a href="https://www.nimh.nih.gov/health/statistics/what-is-prevalence">NIH<a>, <a href="https://www.statology.org/prevalence-in-statistics/">Statology</a>)
-Prior Odds: |
+Prior: |
+  A prior represents the initial belief or knowledge about an uncertain quantity, such as a model parameter, before observing any data. It is formally defined as a probability distribution that quantifies the degree of belief in the parameter's possible values based on previous information, expert opinion, or theoretical considerations.
+Prior_Odds: |
   When comparing two events, it common to phrase probability statements in terms of odds. Prior odds are the ratio of the a priory beliefs of a probability that the outcome occurs to the probability that the outcome does not occur before seeing the data. (<a href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/65200614be80c2c1efcd0f9f3db8c0e7_MIT18_05S14_Reading12b.pdf">Bayesian Updating: Odds</a>)
-Prior Predictive Simulation: |
+Prior_Predictive_Simulation: |
   It is an essential part of modeling. Once you’ve chosen priors for all variables these priors imply a joint prior distribution. By simulating from this distribution, you can see what your choices imply about the observable variable. This helps to diagnose bad choices. Prior predictive simulation is therefore very useful for assigning sensible priors. (Chap.4)
-Prior Probability: |
+Prior_Probability: |
   The Prior Probability, also called the Prior, is the assumed probability distribution before we have seen the data. (<a href="https://en.wikipedia.org/wiki/Prior_probability">Wikipedia</a>) It quantifies how likely our initial belief is: P(belief). (BF, Chap.8)
 Probabilities: |
   Probability is a mathematical tool used to study randomness. It deals with the chance of an event occurring. ([OpenStax: Statistics](https://openstax.org/books/statistics/pages/1-1-definitions-of-statistics-probability-and-key-terms)) In the discrete case, to calculate the probability that a random variable takes on any value within a range, we sum the individual probabilities corresponding to each of the values. We use Pr to explicitly state that the result is a probability from a discrete probability distribution, whereas p(value) is a probability density from a continuous probability distribution. (Bayesian Statistics, Chap.3)
-Probability Density Function: |
+Probability_Density_Function: |
    A probability density function (PDF) tells us the probability that a random variable takes on a certain value. (<a href="https://www.statology.org/cdf-vs-pdf/">Statology</a>) The probability density function (PDF) for a given value of random variable X represents the density of probability (probability per unit random variable) within a particular range of that random variable X. Probability densities can take values larger than 1. ([StackExchange Mathematics](https://math.stackexchange.com/a/1464837/1215136)) We can use a continuous probability distribution to calculate the probability that a random variable lies within an interval of possible values. To do this, we use the continuous analogue of a sum, an integral. However, we recognise that calculating an integral is equivalent to calculating the area under a probability density curve. We use `p(value)` for probability densities and `Pr` for probabilities. (Bayesian Statistics, Chap.3)
-Probability Distribution: |
+Probability_Distribution: |
   It is a way of describing all possible events and the probability of each one happening. Probability distributions are also very useful for asking questions about ranges of possible values. (BF, Chap.4) The two defining features are: (1) All values of the distribution must be real and non-negative. (2) The sum (for discrete random variables) or integral (for continuous random variables) across all possible values of the random variable must be 1. (BS, Chap.3)
-Probability Mass Function: |
+Probability_Mass_Function: |
   A probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value. Sometimes it is also known as probability function, frequency function or discrete probability density function. (<a href="https://en.wikipedia.org/wiki/Probability_mass_function">Wikipedia</a>)
 PROJ: |
   PROJ is a generic coordinate transformation software that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations. PROJ is released under the X/MIT open source license.
@@ -699,7 +703,7 @@ Prolog: |
   A set of comments at the top of a code file that provides information about what is in the file (SwR, Glossary)
 Proportional-Odds-Ratios: |
   Proportional odds ratios are odds ratios resulting from ordinal regression that represent the odds of being in a higher group or groups compared to being in all the lower groups with each one-unit increase in the predictor. (SwR, Glossary)
-Proportional Operator: |
+Proportional_Operator: |
   The proportional symbol (`∝`) is pronounced als "varies as" or "is proportional to". ([UEfAP](http://www.uefap.com/speaking/symbols/symbols.htm)) It is produced in Markdown with `$\propto$`. (<a href="https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols">List of LaTeX mathematical symbols</a>)
 Protocol: |
   A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol. (<a href="https://developer.mozilla.org/en-US/docs/Glossary/Protocol">MDN web docs</a>)
@@ -819,7 +823,7 @@ SQL: |
   Structured Query Language (SQL) (pronounced ess-kew-ell or sequel) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them. Initially created in the 1970s, SQL is regularly used not only by database administrators but also by developers writing data integration scripts and data analysts looking to set up and run analytical queries. For more information see task view on databases <https://cran.r-project.org/web/views/Databases.html>.
 Spearman: |
   Spearman’s rho a statistical test used to examine the strength, direction, and significance of the relationship between two numeric variables when they do not meet the assumptions for [Pearson]’s r. (SwR, Glossary)
-Specificity: |
+Specifity: |
   The true negative rate (one minus the false positive rate), is referred to as specificity. (Bayesian Thinking, Chap.1) But also the percentage of “no” values or 0s a logistic regression model predicted correctly. (SwR, Glossary)
 SSP: |
   SSP stands for Syringe Services Program (SwR)
