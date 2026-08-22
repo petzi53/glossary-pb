@@ -1,25 +1,36 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. 
      Please edit README.Rmd (NOT README.md) 
      and render it with `rmarkdown::render("README.Rmd")`-->
 
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
 # glossary-pb: Personal Glossary for glossary2
 
 My personal glossary of terms and definitions, for use with the
-[glossary2](https://github.com/petzi53/glossary2) R package (a fork of
-[glossary](https://github.com/debruine/glossary) by Lisa DeBruine).
+[glossary2](https://github.com/petzi53/glossary2) R package (a
+fork of [glossary](https://github.com/debruine/glossary) by Lisa DeBruine).
 
-The glossary itself lives in [`glossary.yml`](glossary.yml) — a plain
-YAML mapping of term to definition. Definitions may contain markdown.
+The glossary itself lives in [`glossary.yml`](glossary.yml) — a plain YAML mapping of
+term to definition. Definitions may contain markdown.
 
-This page is published via GitHub Pages at
-<https://petzi53.github.io/glossary-pb>.
+This page is published via GitHub Pages at <https://petzi53.github.io/glossary-pb>.
 
 ## Usage
 
 ### Load directly from GitHub (no local installation)
 
-``` r
+```{r eval=FALSE}
 library(glossary2)
 glossary_load_all("https://raw.githubusercontent.com/petzi53/glossary-pb/main/glossary.yml")
 ## example of a configuration (my preference)
@@ -30,19 +41,18 @@ glossary::glossary_popup("hover")
 
 ### Or clone and load locally
 
-``` bash
+```bash
 git clone https://github.com/petzi53/glossary-pb.git
 ```
 
-``` r
+```{r eval=FALSE}
 library(glossary2)
 glossary_load_all("path/to/glossary-pb/glossary.yml")
 ```
 
 ## Contributing
 
-Issues and suggestions are welcome — please open an issue or submit a
-PR.
+Issues and suggestions are welcome — please open an issue or submit a PR.
 
 ## License
 
@@ -50,7 +60,5 @@ CC BY 4.0 (consistent with glossary2).
 
 ## See Also
 
-- [glossary2](https://github.com/petzi53/glossary2) — the package that
-  loads this glossary
-- [glossary2
-  documentation](https://www.peter-baumgartner.net/glossary2/)
+- [glossary2](https://github.com/petzi53/glossary2) — the package that loads this glossary
+- [glossary2 documentation](https://www.peter-baumgartner.net/glossary2/)
