@@ -1,3 +1,5 @@
+rule-68–95–99: |
+  68–95–99.7 rule is a statistical shorthand used to remember the percentage of values that lie within specific intervals of a normal distribution.  It states that approximately 68% of data falls within one standard deviation (σ) of the mean (μ), 95% within two standard deviations, and 99.7% within three standard deviations.  This rule is also known as the empirical rule or the three-sigma rule.
 .Rmd: |
   ".Rmd" is a file extension used for RMarkdown files, which are documents that combine text, R code, and the results of that code execution. These files are used to create reproducible reports, presentations, and other documents that can be converted into various formats such as HTML, PDF, and Word. R ws users to write text in Markdown syntax and embed R code chunks, which are executed to produce output that is included in the final document ("literate programming"). This makes it easy to create dynamic documents that can be updated automatically when the underlying data or code changes.
 ACSPRI: |
@@ -8,6 +10,8 @@ Adjusted-R2: |
   Adjusted R-squared is a measure of model fit for ordinary least squares linear regression that penalizes the R-squared, or percentage of variance explained, for the number of variables in the model (SwR, Glossary)
 Advanced Organizer: |
   Advance organizers are pedagogic devices that bridge the gap between what learners already know and what learners need to know. (<a href="https://link.springer.com/referenceworkentry/10.1007/978-1-4419-1428-6_157">Encyclopedia of the Science of Learning</a>)
+ADVI: |
+  ADVI stands for Automatic Differentiation Variational Inference. It is a method for approximating complex Bayesian posterior distributions by transforming the inference problem into an optimization task. ADVI automatically derives variational inference algorithms without requiring conjugacy assumptions, leveraging automatic differentiation to compute gradients and stochastic gradient ascent to optimize the evidence lower bound (ELBO). This enables scalable and automated approximate Bayesian inference across a broad class of probabilistic models.
 AIC: |
   Akaike’s information criterion (AIC) compares the quality of a set of statistical models to each other. The AIC will take each model and rank them from best to worst, but it won’t say anything about absolute quality. The basic formula is defined as AIC = -2(log-likelihood) + 2K. (<a href="https://www.statisticshowto.com/akaikes-information-criterion/"Statistics How-To</a>)
 Alpha: |
@@ -20,7 +24,7 @@ Anderson-Darling: |
   The Anderson-Darling Goodness of Fit Test (AD-Test) is a measure of how well your data fits a specified distribution. It’s commonly used as a test for normality. (<a href="https://www.statisticshowto.com/anderson-darling-test/">Statistics How-To</a>)
 ANOVA: |
   Analysis of variance is a statistical method used to compare means across groups to determine whether there is a statistically significant difference among the means; typically used when there are three or more means to compare. (SwR, Glossary)
-APIx: |
+API: |
   An API, or application programming interface, is a set of defined rules that enable different applications to communicate with each other. It acts as an intermediary layer that processes data transfers between systems, letting companies open their application data and functionality to external third-party developers, business partners, and internal departments within their companies. (<a href="https://www.ibm.com/topics/api">IBM</a>)
 Appsilon: |
   Appsilon is a company that specializes in data science and visualization services. They offer R Shiny application development, enterprise dashboard solutions, and machine learning implementations. Additionally, they provide services such as UI/UX design, full-stack engineering support, DevOps for Posit products, and the creation of custom R packages for Shiny applications. <https://www.appsilon.com/>
@@ -32,34 +36,52 @@ ATF Agency: |
   Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF): ATF’s responsibilities include the investigation and prevention of federal offenses involving the unlawful use, manufacture, and possession of firearms and explosives; acts of arson and bombings; and illegal trafficking of alcohol and tobacco products. The ATF also regulates, via licensing, the sale, possession, and transportation of firearms, ammunition, and explosives in interstate commerce. (<a href="https://www.atf.gov/about/what-we-do">ATF</a>)
 ASCII: |
   ASCII (American Standard Code for Information Interchange) is a character encoding standard that assigns unique numerical values to represent text and symbols in computers and on the internet. It was first developed in 1963 and became the dominant standard for text data exchange, using a 7-bit binary code to represent 128 different characters, including uppercase and lowercase English letters, digits, punctuation marks, and control codes for data transmission. The original ASCII standard includes control codes (values 0-31 and 127) for managing data flow and formatting, while printable characters range from 32 to 126. Although the original 7-bit ASCII is now considered largely obsolete for general web use, its influence persists because modern encoding formats like UTF-8 are designed to be fully compatible with the first 128 ASCII characters.
-Backtick: |
+Autocorrelation: |
+  Autocorrelation in MCMC is a diagnostic tool that measures the correlation between samples in a Markov chain at different lags (i.e., how similar a sample is to one that occurs a certain number of steps earlier).  It is used to assess mixing efficiency and convergence of the chain.
+backtick: |
   The backtick ` is a typographical mark used mainly in computing. It is also known as backquote, grave, or grave accent. (<a href="https://en.wikipedia.org/wiki/Backtick">Wikipedia</a>)
 Bar Charts: |
   Bar charts are visual displays of data often used to examine similarities and differences across categories of things; bars can represent frequencies, percentages, means, or other statistics. (SwR, Glossary)
 Basis Function: |
-  B-Splines invent a series of entirely new, synthetic predictor variables. Each of these synthetic variables exists only to gradually turn a specific parameter on and off within a specific range of the real predictor variable. Each of the synthetic variables is called a basis function. (Chap.4)
+  B-Splines invent a series of entirely new, synthetic predictor variables. Each of these synthetic variables exists only to gradually turn a specific parameter on and off within a specific range of the real predictor variable. Each of the synthetic variables is called a basis function.
 Bathymetry: |
   Bathymetry is the measurement of the depth of water bodies such as oceans, rivers, or lakes. It is the underwater equivalent of topography, which studies the surface terrain like hills and valleys on land. The seafloor can have various features including coral reefs, mountainous ridges, and deep canyons, contributing to the variability of its surface.
 Bayes Factor: |
   The Bayes factor is a ratio of two competing statistical models represented by their evidence, and is used to quantify the support for one model over the other. (<a href="https://en.wikipedia.org/wiki/Bayes_factor">Wikipedia</a>)
+Bayesian Learning: |
+  In a sequential Bayesian analysis (aka Bayesian Learning), a posterior model is updated incrementally as more data come in. With each new piece of data, the previous posterior model reflecting our understanding prior to observing this data becomes the new prior model.
 Bayesian Reasoning: |
   Bayesian reasoning is the formal process that we use to update our beliefs about the world once we’ve observed some data.
 Bayesian Updating: |
-  A Bayesian model begins with one set of plausibilities assigned to each of these possibilities. These are the prior plausibilities. Then it updates them in light of the data, to produce the posterior plausibilities. This updating process is a kind of learning. (Chap.2)
+  A Bayesian model begins with one set of plausibilities assigned to each of these possibilities. These are the prior plausibilities. Then it updates them in light of the data, to produce the posterior plausibilities. This updating process is a kind of learning.
 Bayesian Statistics: |
   Also known as evidential probability, is the process of adding prior probability to a hypothesis and adjusting that probability as new information becomes available. Unlike traditional frequentist probability which only accounts for the previous frequency of an event to predicate and outcome, the Bayesian model begins with an initial set of subjective assumptions (prior probability) and adjusts them accordingly through trial and experimentation (posterior probability). Instead of only rejecting or failing to reject a null hypothesis, Bayesian probability allows someone to quantify how much confidence they should have in a particular result. (<a href"https://deepai.org/machine-learning-glossary-and-terms/bayesian-probability">deepai.org</a>)
 Bayes’ Theorem: |
   This is the theorem that gives Bayesian data analysis its name. But the theorem itself is a trivial implication of probability theory. The mathematical definition of the posterior distribution arises from Bayes' Theorem. The key lesson is that the posterior is proportional to the product of the prior and the probability of the data. (Chap.2)
+Bechdel Test: |
+  The Bechdel test (pronounce /ˈbɛkdəl/) also known as the Bechdel–Wallace test is a measure of the representation of women in film and other fiction. The test asks (a) whether a work features at least two women (b) who have a conversation (c) about something other than a man. Some versions of the test also require that those two women have names.
 Bessel’s Correction: |
   Bessel's correction is the use of n − 1 instead of n in the formula for the sample variance and sample standard deviation, where n is the number of observations in a sample. This method corrects the bias in the estimation of the population variance. It also partially corrects the bias in the estimation of the population standard deviation. However, the correction often increases the mean squared error in these estimations. This technique is named after Friedrich Bessel. (<a href="https://en.wikipedia.org/wiki/Bessel%27s_correction">Wikipedia</a>)
+Beta-Binomial-Model: |
+  The Beta-Binomial Bayesian Model is a fundamental framework in Bayesian statistics used to estimate a proportion π (e.g., success probability) when data are binary outcomes (success/failure) across n independent trials. The Beta-Binomial Bayesian Model combines a Beta prior with a Binomial likelihood, resulting in a Beta posterior due to conjugacy.  This makes it ideal for estimating unknown proportions (e.g., success rates) from binary data.
 Beta Coefficient: |
   In finance the beta coefficient is a measure to denote the volatility or systematic risk of a security or portfolio compared to the market, usually the S&P 500 which has a beta of 1.0. Stocks with betas higher than 1.0 are interpreted as more volatile than the S&P 500.
 Beta Distribution: |
   It is a family of continuous probability distributions defined on the interval [0, 1] in terms of two positive parameters, denoted by alpha (α) and beta (β) that control the shape of the distribution. (<a href="https://en.wikipedia.org/wiki/Beta_distribution">Wikipedia</a>) The Beta distribution is representing a probability distribution of probabilities (<a href="https://stats.stackexchange.com/a/47782/207389">stats.stackexchange</a>) You use the beta distribution to estimate the probability of an event for which you’ve already observed a number of trials and the number of successful outcomes. For example, you would use it to estimate the probability of flipping a heads when so far you have observed 100 tosses of a coin and 40 of those were heads. (BF, Chap.5)
+Beta-Model: |
+  The beta model is a statistical model where the response variable follows a Beta distribution, which is appropriate for continuous data bounded between 0 and 1 — such as proportions, percentages, rates, or probabilities. (Brave-AI)
+Beta Probability Model: |
+  The Beta Probability Model is a continuous probability distribution defined on the interval [0, 1], widely used to model probabilities, proportions, or fractions.  It is particularly valuable in Bayesian inference as the conjugate prior for binomial, Bernoulli, and geometric distributions.
+BFGS: |
+  BFGS stands for Broyden–Fletcher–Goldfarb–Shanno, named after the four researchers who developed the algorithm.
 BIC: |
   The Bayesian Information Criterion (BIC) is an index used in Bayesian statistics to choose between two or more alternative models. It is also known as the Schwarz information criterion (abrv. SIC) or the Schwarz-Bayesian information criteria. It is defined as: k log(n)- 2log(L(θ̂)). (<a/>href="https://www.statisticshowto.com/bayesian-information-criterion/">Statistics How-To</a>)
+Bimodality: |
+  A bimodal distribution is a type of probability distribution that exhibits two distinct peaks or modes, indicating the presence of two separate groups, processes, or subpopulations within a single dataset.  These peaks represent the most frequently occurring values or ranges in the data, separated by a visible valley or trough.
 Binomials: |
   Binomials are algebraic expressions that have two terms. For example, \[2x + 1\] and \[-4y^2 + 3y\] are both binomials. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
+Binomial Model: |
+  Binomial model is a foundational framework in Bayesian statistics used to estimate the probability of success in a series of independent trials. It combines a binomial likelihood — which models the number of successes in a fixed number of trials—with a beta prior on the success probability, resulting in a beta posterior. This conjugate relationship allows for analytical computation and intuitive interpretation. (Brave-AI)
 Binomial Coefficient: |
   The binomial coefficient is the number of ways of picking *k* unordered outcomes from *n* possibilities, also known as a combination or combinatorial number. (<a href="https://mathworld.wolfram.com/BinomialCoefficient.html>Wolfram Mathoworld</a>)
 Binomial Distribution: |
@@ -74,6 +96,8 @@ Bootswatch: |
   Bootswatch is a collection of themes for Bootstrap. It provides pre-built themes that can be easily applied to a Bootstrap project, simplifying the process of achieving a polished and professional look.
 Boxplots: |
   Boxplots are a visual representation of data that shows central tendency (usually the median) and spread (usually the interquartile range) of a numeric variable for one or more groups; boxplots are often used to compare the distribution of a continuous variable across several groups. (SwR, Glossary)
+Brave Leo AI: |
+  Brave Leo is a privacy-first, browser-integrated AI assistant developed by Brave Software and built directly into the Brave browser for desktop (Windows, macOS, Linux) and mobile (Android, iOS).  It allows users to interact with web content—such as summarizing articles, analyzing PDFs and Google Docs, translating text, generating content, and answering questions—without leaving the current tab.
 Breusch-Pagan: |
   Breusch-Pagan is a statistical test for determining whether variance is constant, which is used to test the assumption of homoscedasticity; Breusch-Pagan relies on the [chi-squared] distribution and is used during assumption checking for [homoscedasticity] in [linear regression]. (SwR, Glossary)
 BRFSS: |
@@ -87,6 +111,8 @@ BUGS: |
 B-Spline: |
   The term "spline" refers to a wide class of basis functions that are used in applications requiring data interpolation and/or smoothing. Splines are special function defined piecewise by polynomials, it results to a smooth function built out of smaller, component functions. In interpolating problems, spline interpolation is often preferred to polynomial interpolation because it yields similar results, even when using low degree polynomials, while avoiding big numbers and the problem of oscillation at the edges of intervals of higher degrees. The term "spline" comes from the flexible [spline](https://en.wikipedia.org/wiki/Flat_spline) devices used by shipbuilders and draftsmen to draw smooth shapes. They used a long, thin piece of wood or metal that could be anchored in a few places in order to aid drawing curves.
   There are many types of splines, especially the common-place 'B-splines': The 'B' stands for 'basis,' which just means 'component.' B-splines build up wiggly functions from simpler less-wiggly components. Those components are called basis functions. B-splines force you to make a number of choices that other types of splines automate. (Chap.4)
+Cache: |
+  Caching is the process of storing frequently accessed data in a high-speed, temporary storage layer so that future requests for that data can be served faster than accessing the primary storage location. By keeping copies of data in fast hardware like RAM or memory, caching reduces latency, lowers backend load, and improves overall application performance without needing to recompute results or refetch data from slower sources like disks or databases.
 Cantril ladder: |
   The Cantril Ladder is a visual scale used to assess general life satisfaction. It asks respondents to evaluate their lives on a ladder from worst (bottom) to best (top) possible life, making it a simple tool to measure subjective well-being. This measure has been widely used in various studies and surveys, including the Gallup World Poll, which collects data from over 140 countries annually.
 Capital Income:
@@ -107,8 +133,14 @@ Central Limit Theorem: |
   A foundational idea in inferential statistics that shows the mean of a sampling distribution of a variable will be a close approximation to the mean of the variable in the population, regardless of whether the variable is normally distributed. The Central Limit Theorem demonstrates why samples can be used to infer information about the population. (SwR, Glossary)
 Chi-squared: |
   Chi-squared is the test statistic following the chi-squared probability distribution; the chi-squared test statistic is used in inferential tests, including examining the association between two categorical variables and determining statistical significance for a logistic regression model. (SwR, Glossary)
-CIx: |
+CI: |
   Continuous integration (CI) is the practice of integrating all your code changes into the main branch of a shared source code repository early and often, automatically testing each change when you commit or merge them, and automatically kicking off a build.
+Claude Haiku: |
+  Claude Haiku is Anthropic’s smallest, fastest, and most cost-effective model in the Claude family, designed for high-speed, low-latency tasks while maintaining strong performance on coding, computer use, and agent workflows.
+Claude Sonnet 4.5: |
+  Claude Sonnet 4.5 is one of Anthropic's most advanced model in the Sonnet series, released on September 29, 2025.
+Claude Sonnet 4.6: |
+  Claude Sonnet 4.6 is Anthropic’s latest mid-tier AI model, officially released on February 17, 2026 representing a significant leap forward from Sonnet 4.5.  It delivers enhanced coding performance, improved long-context reasoning, stronger multi-step task planning, and advanced computer use capabilities, approaching Opus-level intelligence at a fraction of the cost. Sonnet 4.6 is not just an incremental upgrade—it’s a qualitative leap. It is now (2026-04-02) the default model for general use across Anthropic’s platforms, including claude.ai, mobile apps, and the API.
 CLI: |
   The abbreviation CLI stands for Command Line Interface. A Command Line Interface is a text-based interface used for entering commands directly to a computer system. It allows users to interact with a computer's operating system or software by typing commands into a console or terminal. Unlike graphical user interfaces (GUIs), which use windows, icons, and mouse interactions, CLIs rely on text input and output.
 Choropleth: |
@@ -121,6 +153,8 @@ Coefficient: |
   In mathematics, a coefficient is a multiplicative factor involved in some term. It may be a number (= numerical factor) or it may be a constant with units of measurement (= constant multiplier). (<a href="https://en.wikipedia.org/wiki/Coefficient">Wikipedia</a>)
 Cohen’s d: |
   Cohen’s d is a standardized effect size for measuring the difference between two group means. It is frequently used to compare a treatment to a control group. It can be a suitable effect size to include with t-test and ANOVA results. (<a href= "https://statisticsbyjim.com/basics/cohens-d/">Statistics by Jim</a>)
+COinS: |
+  In the context of bibliographic metadata and digital scholarship, COinS stands for ContextObjects in Spans.  It is a technical convention used to embed machine-readable bibliographic citation data directly into the HTML code of web pages. This method allows reference management software (such as Zotero) and library link resolvers to automatically detect, retrieve, and process citation information without requiring users to manually enter details.
 Color blindness: |
   Color blindness (also spelled colour blindness) or color vision deficiency (CVD) or  includes a wide range of causes and conditions and is actually quite complex. It's a condition characterized by an inability or difficulty in perceiving and differentiating certain colors due to abnormalities in the three color-sensing pigments of the cones in the retina. (<a href="https://enchroma.com/pages/types-of-color-blindness">EnChroma</a>)
 Combination: |
@@ -129,10 +163,14 @@ Combinatorics: |
   Combinatorics is an area of mathematics primarily concerned with counting. (BS, Chap.2) One of the basic problems of combinatorics is to determine the number of possible configurations of a given type. (<a href="https://www.britannica.com/science/combinatorics">Britannica</a>)
 Compatibility Interval: |
   Two parameter values that contain between them a specified amount of posterior probability, a probability mass, is usually known as confidence interval that may instead be called a credible interval. We’re going to call it a compatibility interval instead, in order to avoid the unwarranted implications of "confidence"" and "credibility." What the interval indicates is a range of parameter values compatible with the model and data. The model and data themselves may not inspire confidence, in which case the interval will not either. (SR2, Chap.3)
-Conditionx: |
+Condition: |
   Condition here means a technical term that includes errors, warnings, and messages. See <https://adv-r.hadley.nz/conditions.html>,
-Conditional Probability: |
-  In probability theory, conditional probability is a measure of the probability of an event occurring, given that another event (by assumption, presumption, assertion or evidence) has already occurred. <a href="https://en.wikipedia.org/wiki/Conditional_probability">Wikipedia</a>. The mathematical notation uses the pipe symbol ('|') for "conditional on" or "given that".
+Conditional_Probability: |
+  Conditional probability is a measure of the likelihood of an event occurring given that another event has already occurred. It is denoted as P(A∣B), which represents the probability of event A occurring given that event B has already occurred. The mathematical notation uses the pipe symbol for "conditional on" or "given that".
+Conditional-Probability-Function: |
+  The conditional probability function describes the probability of an event occurring given that another event has already occurred.
+CPMF: |
+  The Conditional Probability Mass Function (PMF) is the probability distribution of a discrete random variable X given that another discrete random variable Y has taken a specific value y. It is defined using the joint probability mass function and the marginal probability mass function.
 Confidence Interval: |
   A range of values, calculated from the sample observations, that is believed, with a particular probability, to contain the true parameter value. (Cambridge Dictionary of Statistics, 4th ed., p.98)
 Conjugate Prior: |
@@ -154,7 +192,7 @@ Cramér’s V: |
 CRAN: |
   CRAN stands for the Comprehensive R Archive Network, which is R's central software repository, supported by the R Foundation. It contains an archive of the latest and previous versions of the R distribution, documentation, and contributed R packages. (https://cran.r-project.org/)
 Credible Interval: |
-  In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. (a href="https://en.wikipedia.org/wiki/Credible_interval">Wikipedia</a>)
+  In Bayesian statistics, a credible interval is an interval within which an unobserved parameter value falls with a particular probability. It is an interval in the domain of a posterior probability distribution or a predictive distribution. The generalisation to multivariate problems is the credible region. Credible intervals are a Bayesian analog to confidence intervals in frequentist statistics. The interval is fixed (after data is observed), the parameter is random. Interpretation: 'There is a 95% probability that the parameter lies within this interval, given the data.' (Wikipedia and Brave-AI)
 Cross Validated: |
   Cross Validated is a question and answer site for people interested in statistics, machine learning, data analysis, data mining, and data visualization. It is built and run by you as part of the Stack Exchange network of Q&A sites. (<a href="https://stats.stackexchange.com/tour">StackExchange</a>)
 CRS: |
@@ -191,6 +229,8 @@ Deviance: |
   Deviance is in logistic regression, finding the differences between observed values (0s and 1s) and the predicted values (percentages), squaring each difference, and adding up all the squared differences from each person in the data set; the deviance measures how well the model fits the data. (SwR, Glossary)
 Deviation Scores: |
   Deviation scores show the difference from some value like the mean; for example, z-scores show the deviation from the mean in standard deviation units
+Diffuse Prior: |
+  A diffuse or vague prior reflects little specific information about the unknown variable. A flat prior, which assigns equal prior plausibility to all possible values of the variable, is a special case.
 dfbeta: |
   dfbeta are effects on coefficients of deleting each observation in turn. ("Companion to Applied Regression", car package, help file)
 dfbetas: |
@@ -203,7 +243,7 @@ Digital Divide: |
   The term "digital divide" refers to the gap between individuals, households, businesses and geographic areas at different socio-economic levels with regard to their opportunities to access information and communication technologies (ICTs). (<a href= "https://www.oecd-ilibrary.org/science-and-technology/understanding-the-digital-divide_236405667766">OECD Library</a>)
 DINA: |
   Distributional national accounts (DINAs) aim to gather information on the distribution of the net national income and to explore it over time. ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/))
-Dispersion Matrix: |
+Dispersion Matri: |
   Also known as covariance matrix, variance-covariance matrix or variance matrix. It tells us how each parameter relates to every other parameter. It is a square matrix giving the covariance between each pair of elements of a given random vector. Any covariance matrix is symmetric and positive semi-definite and its main diagonal contains variances (i.e., the covariance of each element with itself). (Wikipedia(https://en.wikipedia.org/wiki/Covariance_matrix))
 Display Tables: |
   Display Tables are in constrast to Data Tables. You would find them in a web page, a journal article, or in a magazine. Such tables are for presentation, often to facilitate the construction of “Table 1”, i.e., baseline characteristics table commonly found in research papers. (<a href= "https://gt.rstudio.com/articles/gt.html">Introduction to Creating gt Tables</a>)
@@ -213,18 +253,22 @@ Donut Charts: |
   Donut or doughnut charts (sometimes also called ring charts) are an alternative chart for pie charts, which have a hole in the middle, making them cleaner to read than pie charts. (<a href="https://r-charts.com/part-whole/donut-chart/">R Charts</a>)
 DPI: |
   DPI is used to measure the resolution of an image both on screen and in print. It refers to the number of printed dots contained within one inch (2.54cm) of an image printed by a printer.
+DSO: |
+  A Dynamic Shared Object (DSO) is a type of library file used on Unix-like operating systems (such as Linux and macOS) that contains code and data that can be shared among multiple programs at runtime.  When you compile C++ code into a DSO, you're creating a shared library (typically with a .so extension on Linux) that can be dynamically loaded by an executable during execution, enabling code reuse, reduced memory usage, and easier updates without recompiling the main program
 Dummy Data: |
   Simulated data are called dummy data to indicate that it is a stand-in for actual data. (SR2, p.62)
 Dunn: |
   Dunn’s post hoc test is a pairwise comparisons to determine which groups are statistically significantly different from one another following a significant [Kruskal-Wallis] test. (SwR, Glossary)
 Durbin-Watson: |
   Durbin-Watson test is a statistical test that is used to check the assumption of independent residuals in linear regression; a Durbin-Watson statistic of 2 indicates that the residuals are independent. (SwR, Glossary)
-EDAx: |
+EDA: |
   Explorative Data Analysis is an approach of analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling and thereby contrasts traditional hypothesis testing. (<a href="https://en.wikipedia.org/wiki/Exploratory_data_analysis">Wikipedia</a>)
 ECDF: |
   In statistics, an empirical distribution function (commonly also called an empirical cumulative distribution function, eCDF) is the distribution function associated with the empirical measure of a sample. This cumulative distribution function is a step function that jumps up by 1/n at each of the n data points. Its value at any specified value of the measured variable is the fraction of observations of the measured variable that are less than or equal to the specified value. (<a href="https://en.wikipedia.org/wiki/Empirical_distribution_function">Wikipedia</a>) A CDF is a hypothetical model of a distribution, the ECDF models empirical (i.e. observed) data. (<a href="https://www.statisticshowto.com/empirical-distribution-function/">Statistics How To</a>)
 Effect Size: |
   Effect size is a measure of the strength of a relationship; effect sizes are important in inferential statistics in order to determine and communicate whether a statistically significant result has practical importance. (SwR, Glossary)
+Effective Sample Size: |
+  Effective Sample Size (ESS) is a diagnostic tool in MCMC (Markov Chain Monte Carlo) analysis that estimates the number of independent samples equivalent to a given number of autocorrelated MCMC draws.  Because MCMC samples are typically correlated, the ESS is usually smaller than the total number of draws (N), reflecting reduced statistical efficiency.
 embracing operator: |
   The "embracing operator" `{{ }}` in R, particularly within the tidyverse, is used to handle data-masking in functions. It allows arguments that refer to columns of a data frame to be passed from one function to another. This operator simplifies the process of working with data-masking by combining the functionality of `enquo()` and `!!` in one step.
 emoji: |
@@ -239,9 +283,9 @@ ESRI: |
   ESRI (Environmental Systems Research Institute) is a private American company that specializes in geographic information system (GIS) software, location intelligence, and mapping technology. ESRI’s flagship product is ArcGIS, a comprehensive GIS software suite that includes tools for data management, analysis, and visualization.
 Eta-squared: |
   Eta-squared is an [effect size] interpreted as the proportion of variability in the continuous outcome variable that is explained by groups in an analysis of variance; recent research suggests that eta-squared is biased and that [omega-squared] may be a less biased alternative following analysis of variance. (SwR, Glossary)
-EU-SILC:
+EU-SILC: |
   European Survey on Income and Living Conditions (EU-SILC) is a survey on living conditions in the European Union. The survey helps to record living conditions, make poverty visible and monitor household income over the years. ([eurostat](https://ec.europa.eu/eurostat/web/microdata/european-union-statistics-on-income-and-living-conditions/))
-EUx: |
+EU: |
   The European Union (EU) is a supranational political and economic union of 27 member states. It comprises end of 2024: Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain Sweden.
 EU Membership Applications: |
   The following countries have end of 2024 an open application for EU membership: Albania, Bosnia and Herzegovina, Georgia, Kosovo, Moldavia, Montenegro, North Macedonia, Serbia, Turkey, Ukraine.
@@ -252,12 +296,15 @@ Event-driven programming: |
 Explained Variance: |
   Explained variance is variation in an outcome that is explained by a model; explained and unexplained variance are used in ANOVA and linear regression to compute model fit and model significance statistics. (SwR, Glossary)
 Exponential Distribution: |
-  The exponential distribution is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution.
-  Values for an exponential random variable occur in the following way: There are fewer large values and more small values. For example, the amount of money customers spend in one trip to the supermarket follows an exponential distribution. There are more people who spend small amounts of money and fewer people who spend large amounts of money. ([LibreTexts Statistics](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(OpenStax)/05%3A_Continuous_Random_Variables/5.04%3A_The_Exponential_Distribution))
+  The exponential distribution is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution. Values for an exponential random variable occur in the following way: There are fewer large values and more small values. For example, the amount of money customers spend in one trip to the supermarket follows an exponential distribution. There are more people who spend small amounts of money and fewer people who spend large amounts of money. ([LibreTexts Statistics](https://stats.libretexts.org/Bookshelves/Introductory_Statistics/Introductory_Statistics_(OpenStax)/05%3A_Continuous_Random_Variables/5.04%3A_The_Exponential_Distribution))
+Exponential-Model:
+  An exponential model describes a process where a quantity changes at a rate proportional to its current value, leading to rapid growth or decay over time. (Bave-AI)
 Exposure: |
   Exposure is a characteristic, behavior, or other factor that may be associated with an outcome. (SwR, Glossary)
 F-Distribution: |
   F-distribution is the probability distribution underlying the [F-statistic], which is used to determine statistical significance for ANOVA and linear regression. (SwR, Glossary)
+F-Distribution-Model: |
+  The F model (or F-distribution model) is a statistical model used for testing equality of variances and comparing means across multiple groups. The F-distribution arises from the ratio of two chi-squared distributions. (Brave-AI)
 F-Statistic: |
   F-statistic is a test statistic comparing explained and unexplained variance in [ANOVA] and linear regression. The F-statistic is a ratio where the variation between the groups is compared to the variation within the groups. (SwR, Glossary)
 Factor: |
@@ -272,6 +319,8 @@ Fisher’s exact test: |
   Fisher’s exact test is an alternative to the chi-squared test for use with small samples. (SwR, Glossary)
 FIPS: |
   Federal Information Processing Standard (FIPS) codes are five-digits numeric codes used to uniquely identify geographic areas in the United States. These codes are managed by the American National Standards Institute (ANSI) and are used for interoperability across government agencies, contractors, and technical communities.
+Flat Prior:
+  A flat prior, which assigns equal prior plausibility to all possible values of the variable, is a special case of a vague or diffuse prior.
 Fligner: |
   The Fligner-Killeen test is a non-parametric test for homogeneity of group variances based on ranks. It is useful when the data is non-normal or when there are outliers. (<a href="https://real-statistics.com/one-way-analysis-of-variance-anova/homogeneity-variances/fligner-killeen-test/">Real Statistics Using Excel</a>)
 Floor: |
@@ -289,6 +338,10 @@ Gaussian Distribution: |
 GAM: |
   A Generalized Additive Model (GAM) is a generalized linear model in which the linear response variable depends linearly on unknown smooth functions of some predictor variables, and interest focuses on inference about these smooth functions. They can be interpreted as the discriminative generalization of the naive Bayes generative model. ([Wikipedia](https://en.wikipedia.org/wiki/Generalized_additive_model)).
   GAMs relax the restriction that the relationship must be a simple weighted sum, and instead assume that the outcome can be modelled by a sum of arbitrary functions of each feature. ([Medium member story](https://towardsdatascience.com/generalised-additive-models-6dfbedf1350a#c407)) (Chap.4)
+Gamma-Model:
+  The Gamma model is a statistical model where the response variable follows a Gamma distribution, which is appropriate for positive continuous data — such as time-to-event, income, insurance claims, or size measurements. (Brave-AI)
+Gamma-Poisson Model: |
+  A Gamma-Poisson model is a hierarchical statistical model that combines two probability distributions to handle overdispersed count data. (a) **The Poisson distribution:** Models the observed counts, with a rate parameter λ (lambda). (b) **The Gamma distribution**: Models the variability in λ itself, treating it as a random variable rather than a fixed parameter. (Brave-AI)
 GDAL: |
   The Geospatial Data Abstraction Library (GDAL) is a computer software library for reading and writing raster and vector geospatial data formats (e.g. shapefile), and is released under the permissive X/MIT style free software license by the Open Source Geospatial Foundation. As a library, it presents a single abstract data model to the calling application for all supported formats. (Wikipedia)
 Gender Nonconforming: |
@@ -299,17 +352,19 @@ GeoJSON: |
   GeoJSON is an open standard geospatial data interchange format based on JavaScript Object Notation (JSON). It was first published in June 2008 and became a standard specification with the publication of RFC 7946 in August 2016. GeoJSON is used to represent simple geographic features and their non-spatial attributes, such as points, lines, and polygons, and it uses the World Geodetic System 1984 as its geographic coordinate reference system. GeoJSON is widely used in web mapping applications due to its simplicity and compatibility with JavaScript. It supports various geometry types, including Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, and GeometryCollection. GeoJSON files are typically saved with a .geojson extension and have a MIME type of application/geo+json.
 GeoPackage: |
   GeoPackage (GPKG) is an open, non-proprietary, platform-independent and standards-based data format for geographic information systems built as a set of conventions over a SQLite database. Defined by the Open Geospatial Consortium (OGC) with the backing of the US military and published in 2014, GeoPackage has seen widespread support from various government, commercial, and open source organizations. (Wikipedia)
-GEOSx: |
+GEOS: |
   GEOS (Graphical Environment Operating System) is a C/C++ library for computational geometry with a focus on algorithms used in geographic information systems (GIS) software. It implements the OGC Simple Features geometry model and provides all the spatial functions in that standard as well as many others. GEOS is open source software available under the terms of GNU Lesser General Public License (LGPL).
-GISx: |
+Gibbs: |
+  Gibbs Sampling is a Markov Chain Monte Carlo (MCMC) algorithm used to generate samples from a complex, high-dimensional multivariate probability distribution when direct sampling is difficult or impossible. It works by iteratively sampling each variable from its full conditional distribution—the distribution of that variable given the current values of all other variables. This process creates a Markov chain that converges to the target joint distribution.
+GIS: |
   GIS stands for Geographic Information System, which is a computer system designed to capture, store, manage, analyze, and display all types of geographical data. It allows users to visualize and analyze location-based data, helping organizations make informed decisions by identifying patterns and relationships in spatial data. GIS technology includes hardware, software, and data, and it often involves human users, procedures, and workflows to effectively manage and utilize geographic information.
 Git: |
   Git is a distributed version control system that tracks changes to files, enabling developers to manage and collaborate on software projects efficiently. It allows users to keep a record of all changes made to their code over time, making it easy to revert to previous versions if needed. Git is widely used in the software development industry, with nearly 95% of developers reporting it as their primary version control system as of 2022.
 GitHub: |
   GitHub is a web-based platform that allows developers to create, store, manage, and share their code. It uses Git, a distributed version control system, to track changes in code and facilitate collaboration among developers. GitHub provides a user-friendly interface that makes it easier for individuals and teams to use Git for version control and collaboration. GitHub is commonly used to host open-source software development projects.
-GNIx: |
+GNI: |
   Gross National Income (GNI) is a measure of a country's income, which includes all the income earned by a country's residents, businesses, and earnings from foreign sources. It is defined as the total amount of money earned by a nation's people and businesses, no matter where it was earned. GNI is an alternative to GDP as a way to measure and track a nation’s wealth, as it calculates income instead of output.
-Gini Index: |
+Gini Inde: |
   The Gini index is a widely used statistical measure to quantify the extent of income or wealth inequality within a population. It ranges from 0 to 1 (or 0% to 100%), with higher values indicating greater inequality. The Gini coefficient is calculated based on the Lorenz curve, which plots the population proportion against the income or wealth share. It was developed by Italian statistician and sociologist Corrado Gini. (misc.)
 GLM: |
   A generalized linear model (GLM) is a flexible generalization of ordinary linear regression. The GLM generalizes linear regression by allowing the linear model to be related to the response variable via a link function and by allowing the magnitude of the variance of each measurement to be a function of its predicted value. (<a href="https://en.wikipedia.org/w/index.php?title=Generalized_linear_model&oldid=1175448680">Wikipedia</a>). the binary logistic regression model is one example of a generalized linear model. (SwR, Glossary)
@@ -317,6 +372,8 @@ Goodness-of-fit: |
   The chi-squared goodness-of-fit test is used for comparing the values of a single categorical variable to values from a hypothesized or population variable. The goodness-of-fit test is often used when trying to determine if a sample is a good representation of the population. (SwR, Chap 5)
 Golem: |
   A golem (goh-lem) is a clay robot from Jewish folklore. It is used in SR2 as a methapher for a statistical model. (SR, Chap.1)
+Gradient: |
+  In the context of R Bayesian analysis, the term gradient typically refers to the rate of change of a function, often used in optimization or inference processes. In a Bayesian context the gradient helps to navigate efficiently through the parameter space without having to directly calculate the full posterior.
 Grand: |
   Grand mean is the overall mean of a continuous variable that is used to determine distances from the mean for individuals and groups in ANOVA. (SwR, Glossary)
 Graticules: |
@@ -340,11 +397,13 @@ Heteroscedasticity: |
 Histograms: |
   Histograms are visual displays of data used to examine the distribution of a numeric variable. (SwR, Glossary)
 HMC: |
-  Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) method that uses the derivatives of the density function being sampled to generate efficient transitions spanning the posterior. It uses an approximate Hamiltonian dynamics simulation based on numerical integration which is then corrected by performing a Metropolis acceptance step. ([Stan Reference Manual](https://mc-stan.org/docs/reference-manual/hamiltonian-monte-carlo.html))
+  Hamiltonian Monte Carlo (HMC) is a Markov chain Monte Carlo (MCMC) method used to sample from complex, high-dimensional probability distributions, particularly in Bayesian inference.  It improves upon traditional methods like Metropolis-Hastings by using gradient information from the target distribution to guide sampling, resulting in more efficient exploration of the parameter space. (Brave-AI)
 Homogeneity of Variances: |
   Homogeneity of variances is equal variances among groups; homogeneity of variance is one of the assumptions tested for independent and dependent t-tests and analysis of variance. (SwR, Glossary)
 Homoscedasticity:
   Homoscedasticity is [homogeneity of variances], contrast is [Heteroscedasticity]. Homoscedasticity is an assumption of correlation and linear regression that requires that the variance of y be constant across all the values of x; visually, this assumption would show points along a fit line between x and y being evenly spread on either side of the line for the full range of the relationship. (SwR, Glossary)
+HPC: |
+  High-Performance Computing (HPC) systems are advanced computing platforms designed to process complex, data-intensive workloads at speeds far beyond those of standard desktops, servers, or workstations.  These systems aggregate massive computational power by combining multiple high-speed processors, often using parallel processing across thousands of interconnected nodes—typically in the form of computer clusters or supercomputers.
 HPDI: |
   Highest Posterior Density Interval (HPDI) is the Highest Density Interval (HDI) or Highest Density Region (HDR) of all possible regions of probability coverage, the HDR has the smallest region possible in the sample space. For a unimodal distribution it will include the mode (the maximum a posteriori, or MAP). (<a href="https://stats.stackexchange.com/a/464155/207389">Cross Validated</a>).
 HPI: |
@@ -355,13 +414,15 @@ HTML: |
   HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for its appearance. (<a href="https://en.wikipedia.org/wiki/HTML">Wikipedia</a>)
 HTTP: |
   The Hypertext Transfer Protocol (HTTP) is an application layer protocol in the Internet protocol suite model for distributed, collaborative, hypermedia information systems.[1] HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser. (<a href="https://en.wikipedia.org/wiki/HTTP">Wikipedia</a>)
+Hyperparameter: |
+  In the Bayesian framework, a hyperparameter is a parameter of a prior distribution.  It defines the shape, location, or scale of the prior belief about a model parameter before observing any data. Unlike model parameters, which are estimated from the data (e.g., the mean or variance of a distribution), hyperparameters are set before the analysis begins and are not directly learned from the data. (Brave-AI)
 Hypothesis: |
   A hypothesis is a model about how the world works that makes a prediction. All of our basic beliefs about the world are hypotheses. (BF, Chap.1)
 IBRD: |
   The International Bank for Reconstruction and Development (IBRD) is a global development cooperative owned by 189 member countries. As the largest development bank in the world, it supports the World Bank Group’s mission by providing loans, guarantees, risk management products, and advisory services to middle-income and creditworthy low-income countries, as well as by coordinating responses to regional and global challenges. (https://www.worldbank.org/en/who-we-are/ibrd)
-IDAx: |
+IDA: |
   The International Development Association (IDA) is the part of the World Bank that helps the world’s low-income countries. IDA's grants and low-interest loans help countries invest in their futures, improve lives, and create safer, more prosperous communities around the world. (https://ida.worldbank.org/en/what-is-ida)
-IDEx: |
+IDE: |
   An Integrated Development Environment (IDE) is a software application that helps programmers develop software code efficiently. It typically includes features such as a source code editor, build automation tools, and a debugger.
 IIA: |
   Independence of irrelevant alternatives (IIA) is an assumption of multinomial logistic regression that requires the categories of the outcome to be independent of one another; for a three-category outcome variable with Categories A, B, and C, the probability of being in Category A compared to Category B cannot change because Category C exists. (SwR, Glossary)
@@ -371,16 +432,20 @@ iframe: |
   iframes allow you to embed HTML documents inside another HTML document. They offer a seamless way to integrate content from one source into another, enabling developers to create more dynamic and interactive web pages. ([dev.to](https://dev.to/joanayebola/what-is-iframe-and-how-to-use-them-1c63))
 i.i.d.: |
   independent and identically distributed. Random variables are independent and identically distributed if each random variable has the same probability distribution as the others and all are mutually independent. This property is usually abbreviated as i.i.d., iid, or IID. (<a href="https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables">Wikipedia</a>) Example: Succession of fair coins throws are independent as the coin has no memory, so all thorws are independent. And every throw is 50:50 (heads:tails), so the coin is and stays fair - the distribution from which every throw is drawn, so to speak, is and stays the same: "identically distributed". (<a href="https://stats.stackexchange.com/a/17392/207389">Cross Validated</a>)
-ILOx: |
+ILO: |
   The International Labour Organization (ILO) is a United Nations agency established in 1919 under the League of Nations. It is dedicated to advancing social and economic justice by setting international labor standards. https://www.ilo.org/
 Independent: |
   Independent-samples t-test or unpaired sample t-test is an inferential test comparing two independent means. (SwR, Glossary)
+Independent_Events: |
+  In statistics, independent events are those in which the occurrence of one event does not affect the probability of another event occurring. Formally, two events A and B are independent if the probability of both events occurring together equals the product of their individual probabilities, expressed as P(A∩B)=P(A)×P(B). This condition implies that knowing whether one event has occurred provides no information about the likelihood of the other event happening. For example, flipping a coin and rolling a die are independent events because the outcome of one does not influence the outcome of the other.
 Index of Qualitative Variation: |
   The index of qualitative variation (IQV) is a type of statistic used to measure variation for nominal variables, which is often computed by examining how spread out observations are among the groups. (SwR, Glossary)
 Inferential Statistics: |
   Statistical inference is the process of using data analysis to infer properties of an underlying distribution of probability. It makes propositions about a population, using data drawn from the population with some form of sampling. Given a hypothesis about a population, for which we wish to draw inferences, statistical inference consists of (first) selecting a statistical model of the process that generates the data and (second) deducing propositions from the model. Inferential statistics can be contrasted with descriptive statistics. (<a href="https://en.wikipedia.org/wiki/Statistical_inference">Wikipedia</a>)
 Influential Observation: |
   An influential observation is an observation that changes the slope of a regression line. (SwR, Glossary) Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and see if the slope of the regression line is changed significantly. (<a href= "https://openstax.org/books/introductory-statistics/pages/12-6-outliers">Introductory Statistics 12.6</a>)
+Informative_Prior: |
+  An informative prior reflects specific information about the unknown variable with high certainty, i.e., low variability.
 Interaction: |
   The importance of one variable depends upon another. For example, plants benefit from both light and water. But in the absence of either, the other is no benefit at all. If variable interact than effective inference about one variable will depend upon consideration of others. (Chap.5)
 Interactive debugger: |
@@ -393,15 +458,21 @@ IQV: |
   The index of qualitative variation (IQV) is a type of statistic used to measure variation for nominal variables, which is often computed by examining how spread out observations are among the groups. (SwR, Glossary)
 ISO 3166 Country Codes:
   The ISO 3166 Country Codes Collection is a comprehensive set of codes used to represent the names of countries and their subdivisions in a standardized format. This collection is essential for applications requiring the expression of country names in coded form. See: https://www.iso.org/iso-3166-country-codes.html and https://www.iso.org/obp/ui/#search
+Jacobian: |
+  The jacobian argument specifies whether or not the call to the model’s log probability function should include the log absolute Jacobian determinant of inverse parameter transforms.
 JAGS: |
   JAGS is Just Another Gibbs Sampler.  It is a program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation. (<a href="https://mcmc-jags.sourceforge.io/">JAGS</a>)
 JavaScript: |
   JavaScript, often abbreviated as JS, is a programming language and core technology of the World Wide Web, alongside HTML and CSS. Ninety-nine percent of websites use JavaScript on the client side for webpage behavior.
-Joint Probability: |
-  Given two random variables that are defined on the same probability space, the joint probability distribution is the corresponding probability distribution on all possible pairs of outputs. The joint distribution can just as well be considered for any given number of random variables. (<a href="https://en.wikipedia.org/w/index.php?title=Joint_probability_distribution&oldid=1159896069">Wikipedia</a>)
+Joint-Probability: |
+  Joint probability is a statistical measure that calculates the likelihood of two or more events occurring simultaneously at the same point in time. It represents the probability of the intersection of two events, denoted mathematically as P(A∩B), which is read as "the probability of A and B". The joint probability of two independent events A and B is computed as the product of their individual probabilities: P(A∩B)=P(A)×P(B). This formula applies when the occurrence of one event does not influence the other. For dependent events, the joint probability is calculated using conditional probability: P(A∩B)=P(A)×P(B∣A) where P(B∣A) is the probability of event B occurring given that event A has already occurred. (Brave-AI)
+Joint_Probability_Density_Function: |
+  Joint Probability Density Function (Joint PDF) is a function used to describe the probability distribution of two or more continuous random variables together.  It is denoted as f(x, y) for two random variables X and Y, and provides the probability density at any point (x, y) in the two-dimensional space.
+Joint_Probability_Mass_Function: |
+  The joint probability mass function is a function that completely characterizes the distribution of a discrete random vector. When evaluated at a given point, it gives the probability that the realization of the random vector will be equal to that point. The term 'joint probability function' is often used as a synonym. Sometimes, the abbreviation 'joint pmf' is used. (statlect.com)
 JPG: |
   JPEG (/ˈdʒeɪpɛɡ/ JAY-peg, short for Joint Photographic Experts Group is a commonly used method of lossy compression for digital images. [(Wikipedia](https://en.wikipedia.org/wiki/JPEG))
-JSONx: |
+JSON: |
   JSON (JavaScript Object Notation) is a standardized, text-based data interchange format used to represent structured data in a human-readable and machine-readable way. It is a lightweight, language-independent format that is widely used for exchanging data between web servers, web applications, and mobile apps.
 KDE: |
   Kernel density estimation (KDE) extrapolates data to an estimated population probability density function. It’s called kernel density estimation because each data point is replaced with a kernel—a weighting function to estimate the pdf. The function spreads the influence of any point around a narrow region surrounding the point. (<a href="https://www.statisticshowto.com/kernel-density-estimation/">Statistics How To</a>)
@@ -421,7 +492,9 @@ Kurtosis: |
   Kurtosis is a measure of how many observations are in the tails of a distribution; distributions that look bell-shaped, but have a lot of observations in the tails (platykurtic) or very few observations in the tails (leptokurtic) (SwR, Glossary)
 Labelled Data: |
   Labelled data (or labelled vectors) is a common data structure in other statistical environments to store meta-information about variables, like variable names, value labels or multiple defined missing values. (<a href="https://strengejacke.github.io/sjlabelled/articles/intro_sjlabelled.html">sjlabelled</a>)
-LDCx: |
+L-BFGS: |
+  L-BFGS (Limited-memory Broyden–Fletcher–Goldfarb–Shanno) is a quasi-Newton optimization algorithm used to solve large-scale unconstrained optimization problems.  It is a memory-efficient variant of the BFGS algorithm, designed for problems with a very large number of variables (e.g., >1000), where storing the full Hessian matrix is impractical.
+LDC: |
   The term “Least Developed Countries” (LDCs) refers to developing countries listed by the United Nations that exhibit the lowest indicators of socioeconomic development. As of December 2024, the classification applies to 44 countries. See https://unctad.org/topic/least-developed-countries/list
 Leptokurtic: |
   Leptokurtic is a distribution of a numeric variable that has many values clustered around the middle of the distribution; leptokurtic distributions often appear tall and pointy compared to mesokurtic or platykurtic distributions. (SwR, Glossary)
@@ -440,7 +513,9 @@ Linear Transformation: |
 Line Graph: |
   A line graph is a visual display of data often used to examine the relationship between two continuous variables or for something measured over time. (SwR, Glossary)
 Likelihood: |
-  The likelihood function (often simply called the likelihood) is the joint probability (or probability density) of observed data viewed as a function of the parameters of a statistical model. (<a href="https://en.wikipedia.org/wiki/Likelihood_function">Wikipedia</a>) It indicates how likely a particular population is to produce an observed sample. (<a href="https://www.statistics.com/glossary/likelihood-function/>statistics.com</a>) It is the probability of the data given our beliefs about the data: P(data | belief). (BF, Chap.8)
+  The likelihood refers to the probability of observing the given data under a specific hypothesis or set of parameter values. It is denotated as P(E | H), where E represents the evidence (data) and H represents the hypothesis. The likelihood quantifies how well a statistical model explains the observed data for different parameter values and serves as a critical component in updating beliefs in Bayesian inference. (Brave-AI)
+Likelihood-Function: |
+  The likelihood function measures the plausibility of different parameter values given the observed data, rather than the probability of the data itself. It is not a probability distribution over the parameters, as it does not integrate or sum to one, and it is not normalized. Instead, it quantifies how likely the observed data are under different parameter settings. (Brave-AI)
 Likelihood-ratio: |
   The likelihood ratio test is a test that compares two nested binary logistic regression models to determine which is a better fit to the data; the difference between two log-likelihoods follows a chi-squared distribution with a significant result indicating the larger model is a better fitting model. (SwR, Glossary)
 LIS: |
@@ -449,6 +524,8 @@ Literate Programming: |
   Literate programming is a methodology that combines a programming language with a documentation language, thereby making programs more robust, more portable, more easily maintained, and arguably more fun to write than programs that are written only in a high-level language. The main idea is to treat a program as a piece of literature, addressed to human beings rather than to a computer.(<a href="https://www-cs-faculty.stanford.edu/~knuth/lp.html">Donald Knuth</a>)
 LLDC: |
   Landlocked Developing Countries (LLDCs) are developing nations that do not have direct access to the sea. These countries face significant economic and development challenges due to their geographical isolation and the need to rely on neighboring countries for access to international markets. Of the 32 LLDCs 16 are classified as LDCs (December 2024). See: https://www.un.org/ohrlls/content/about-landlocked-developing-countries
+LLMs: |
+  Large Language Models (LLMs) are advanced artificial intelligence systems trained on massive amounts of text data to understand, generate, and manipulate human language. LLMs function as statistical prediction machines, learning patterns in language by predicting the next word in a sequence. This allows them to perform diverse tasks such as answering questions, writing essays, translating languages, summarizing documents, generating code, and even engaging in conversation. (Brave-AI)
 Loess: |
   Loess curve is a graph curve that shows the relationship between two variables without constraining the line to be straight; it can be compared to a linear fit line to determine whether the relationship is close to linear or not (= checking the [linearity] assumption). The procedure originated as LOWESS (LOcally WEighted Scatter-plot Smoother). is a nonparametric method because the linearity assumptions of conventional regression methods have been relaxed. It is called local regression because the fitting at say point x is weighted toward the data nearest to x. (SwR, Glossary and <a href="https://www.statsdirect.com/help/Default.htm#nonparametric_methods/loess.htm">LOESS Curve Fitting (Local Polynomial Regression</a>))
 Logit Transformations: |
@@ -459,6 +536,8 @@ Lorenz Curve: |
   A Lorenz curve, developed by American economist Max Lorenz in 1905, is a graphical representation of income inequality or wealth inequality. The graph plots percentiles of the population on the horizontal axis according to income or wealth and plots cumulative income or wealth on the vertical axis. ([investopedia](https://www.investopedia.com/terms/l/lorenz-curve.asp))
 Loss Function: |
   A loss function is a rule that tells you the cost associated with using any particular point estimate. … The key insight is that *different loss functions imply different point estimates*. (SR2, p.59)
+LTP: |
+  The law of total probability (LTP) is a fundamental rule in probability theory that relates marginal probabilities to conditional probabilities. It expresses the total probability of an event that can occur through several distinct, mutually exclusive, and collectively exhaustive scenarios. It is particularly useful when direct computation of an event's probability is difficult, and it enables breaking down complex probability problems into simpler, manageable components. (Brave-AI)
 M49: |
   The United Nations publication "Standard Country or Area Codes for Statistical Use" was originally published as Series M, No. 49 and is now commonly referred to as the M49 standard. M49 is a country/areas classification system prepared by the Statistics Division of the United Nations Secretariat primarily for use in its publications and databases.
 Mahalanobis: |
@@ -469,13 +548,15 @@ Main Effect: |
   Main effect is the relationship between only one of the independent variables and the dependent variable, ignoring the impact of any additional independent variables or interaction effects. (SwR, Glossary)
 MAP: |
   In Bayesian statistics a Maximum A Posteriori probability or MAP is essentially the mode of [posterior distribution]. (CDS, p.272)
+Marginal_Probability: |
+  Marginal probability refers to the probability of a single event occurring independently, without considering the outcomes of other related events. It is (the same concept) as an unconditional probability, denoted as P(A) or P(B), and is derived from a joint probability distribution by summing or integrating over the other variables involved. A marginal distribution gets it’s name because it appears in the margins of a probability distribution table.
 Marginal Distribution: |
   It is the probability distribution of each of the individual variables. A marginal distribution gets it’s name because it appears in the margins of a probability distribution table. ([Statology](https://www.statology.org/marginal-distribution/), [Statistics How To](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/marginal-distribution/)) (Chap.4)
 Markov Chain: |
-  A Markov chain or Markov process is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. Informally, this may be thought of as, "What happens next depends only on the state of affairs now." ([Wikipedia](https://en.wikipedia.org/wiki/Markov_chain)) For example, if you made a Markov chain model of a baby's behavior, you might include "playing," "eating", "sleeping," and "crying" as states, which together with other behaviors could form a 'state space': a list of all possible states. In addition, on top of the state space, a Markov chain tells you the probabilitiy of hopping, or "transitioning," from one state to any other state---e.g., the chance that a baby currently playing will fall asleep in the next five minutes without crying first. ([Explained visually](https://setosa.io/ev/markov-chains/))
+  Markov chain is a stochastic model describing a sequence of possible events in which the probability of each event depends only on the state attained in the previous event.  This defining property is known as the Markov property or memorylessness, meaning the future state depends solely on the current state and not on the sequence of events that preceded it. (Brave-AI)
 Mean Square: |
   Mean square is the mean of the squared differences between two values; mean squares are used to compute the F-statistic in analysis of variance and linear regression. (Swr, Glossary)
-MERx: |
+MER: |
   The Market Exchange Rate (MER) is the rate at which one currency can be exchanged for another.
 MCMC: |
   Markov chain Monte Carlo (MCMC) methods comprise a class of algorithms for sampling from a probability distribution. By constructing a [markov chain] that has the desired distribution as its equilibrium distribution, one can obtain a sample of the desired distribution by recording states from the chain. The more steps that are included, the more closely the distribution of the sample matches the actual desired distribution. Various algorithms exist for constructing chains. (<a href="https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo">Wikipedia</a>)
@@ -507,8 +588,12 @@ MLE: |
   Maximum likelihood estimation (MLE) is a method of estimating the parameters of an assumed probability distribution, given some observed data. This is achieved by maximizing a likelihood function so that, under the assumed statistical model, the observed data is most probable. The point in the parameter space that maximizes the likelihood function is called the maximum likelihood estimate. (<a href="https://en.wikipedia.org/w/index.php?title=Maximum_likelihood_estimation&oldid=1178502960">Wkipedia</a>)
 Mode xy: |
   Mode is the most common value of a variable. (SwR, Glossary)
+Model: |
+  A statistical model (both in frequentist and Bayesian statistics) is a mathematical representation that specifies how observed data are generated, often involving assumptions about the underlying processes and parameters. Both approaches use models to represent data-generating processes, but they differ fundamentally in how they treat uncertainty and parameters: frequentist models treat parameters as fixed and focus on the sampling distribution of statistics, while Bayesian models treat parameters as random variables and update beliefs based on data and prior knowledge. (Brave-AI)
 Model-fit: |
   Model fit means how well the model captures the relationship in the observed data. (SwR, Glossary)
+Monte-Carlo Algorithm: |
+  Monte Carlo algorithm is a type of randomized algorithm that may produce an incorrect result with a certain (typically small) probability.  Unlike deterministic algorithms, which always give the same output for a given input, Monte Carlo algorithms use randomness in their computation and are designed so that the probability of error is bounded above zero. This means they can return a wrong answer, but the likelihood of this happening is known and manageable.
 Monomial: |
   A monomial is an algebraic expression that has just one term. For example, \[3x\] and \[-5y^2\] are both monomials. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
 Monotonic: |
@@ -547,6 +632,12 @@ Non-informative Prior: |
   A prior distribution which is specified in an attempt to be non commital about a parameter, for example, a uniform distribution. (The Cambridge Dictionary of Statistics, CDS, p.303)
 Nonlinear Transformations: |
   Nonlinear transformations are transformations that increases (or decreases) the linear relationship between two variables by applying an exponent (i.e., [power transformation]) or other function to one or both of the variables. (SwR, Glossary)
+Normalizing Constant: |
+  In Bayesian statistics, the normalizing constant ensures that the posterior distribution integrates to 1, making it a valid probability distribution. It is also known as the marginal likelihood or evidence, and appears in the denominator of Bayes' theorem. The integral for the normalizing constant is often intractable for complex models because it involves high-dimensional parameter spaces and there exists no closed-form solution for most realistic models. As a result, approximation methods like Markov Chain Monte Carlo (MCMC), bridge sampling, or variational inference are used to estimate or bypass the normalizing constant. (Brave-AI)
+Normal-Model: |
+  A normal model in statistics refers to the use of the normal distribution—a symmetric, bell-shaped curve—to describe or approximate the distribution of a continuous variable.  It is defined by two parameters: the mean (μ), which determines the center, and the standard deviation (σ), which determines the spread.
+Normal-Normal Conjugate Family: |
+  Normal-Normal Conjugate Family refers to a Bayesian modeling setup where the likelihood is based on a normal distribution with unknown mean μ and known variance, and the prior for μ is also a normal distribution.  This combination results in a posterior distribution for μ that is also normal, making it a conjugate family.
 NPISH: |
   Non-Profit Institutions Serving Households (NPISH) refers to a sector in national accounts comprising non-profit institutions that are not mainly financed and controlled by the government. These institutions provide goods or services to households for free or at prices that are not economically significant. In the context of national accounting, NPISH institutions are distinct from government institutions and the private sector. They operate independently, often relying on donations, grants, or membership fees to fund their activities (KI-Brave, Internet)
 NSE: |
@@ -601,6 +692,8 @@ Pandoc: |
   Pandoc is a universal document converter. If you need to convert files from one markup format into another, pandoc is your swiss-army knife. ([pandoc](https://pandoc.org/))
 Parameter: |
   Unobserved variables are usually called Parameters. (SR2, Chap.2) A parameter is an unknown numerical characteristics of a population that must be estimated. (CDS). They are also numbers that govern statistical models ([stats.stackexchange](https://stats.stackexchange.com/a/255994/207389)). A parameter is also a number that is a defining characteristic of some population or a feature of a population. (SwR, Glossary)
+Parallel Chain: |
+  Parallel chains are a diagnostic tool used in Markov Chain Monte Carlo (MCMC) to assess convergence to the target posterior distribution.  The core idea is to run multiple independent MCMC chains from different starting points and compare their behavior. If the chains have converged to the same stationary distribution, their sample distributions should be similar, indicating reliable inference.
 PartialCorr: |
   Partial correlation is a standardized measure of the amount of variance two variables share after accounting for variance they both share with a third variable. (SwR, Glossary)
 Partial-F: |
@@ -639,6 +732,8 @@ PNG: |
   Portable Network Graphic (PNG) is a non-patented raster graphics file format that supports lossless data compression. The format was not designed for professional-quality print graphics but for transferring images on the Internet (hence the name 'portable'). (Wikipedia)
 Point Charts: |
   Point charts are charts that show summary values for a numeric variable, typically across groups; for example, a point chart could be used in place of a bar graph to show mean or median across groups. (SwR, Glossary)
+Poisson-Model: |
+  The Poisson model is a fundamental statistical model used for count data — that is, data representing the number of times an event occurs within a fixed interval of time or space. (Brave-AI)
 Polynomials: |
   Polynomials are algebraic expression made up of one or more terms. MONOMIALS and BINOMIALS are both types of polynomials. Other examples include \[2x^2+3x+1\] and \[-5y^3+2y^2-6y+8\]. ([Khan Academy](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratics-multiplying-factoring/x2f8bb11595b61c86:factor-quadratics-strategy/a/quadratics-multiplying-factoring-faq))
 Polynomial Degree: |
@@ -649,22 +744,26 @@ Pooled Variance: |
   Pooled variance is the assumption that the variances in two groups are equal, so these variances are combined ('pooled') (SwR, Glossary).
 Population: |
   A population consists statistically of all the observations that fit some criterion; for example, all of the people currently living in the country of Bhutan or all of the people in the world currently eating strawberry ice cream. (SwR, Glossary)
-Positx: |
+Positron Assistant: |
+  Positron Assistant is an AI coding assistant built specifically for data science workflows within the Positron IDE, designed to enhance R and Python development. It provides chat support, inline assistance, and code completions with deep context from your interactive data science work, including loaded data, plots, and console history.
+Posit: |
   Posit is an open-source data science software company that was formerly known as RStudio Inc. Posit's rebranding was aimed at expanding its offerings beyond R to include support for other languages, reflecting a shift towards a more language-agnostic approach to data science tools. The RStudio IDE, which is now part of Posit, remains a popular tool for data scientists who develop in R and Python. There are many other important software products developed and maintained by Posit such as, Quarto, Shiny, tidymodels, tidyverse, and many other popular packages. <https://posit.co/>
 PositiveCorr: |
   Positive correlation is a statistical relationship where two things move together in the same direction; as one goes up, the other also goes up, or as one goes down, the other also goes down. (SwR, Glossary)
 Positively Skewed: |
   A distribution is positively skewed when it has some extreme large positive values relative to the rest of the values in the distribution, making the tail of the distribution extend to the right or in the direction of larger positive numbers; this type of skew is also known as right skew (SwR, Glossary)
-Posteriorx: |
+Posterior: |
   The posterior distribution represents the updated beliefs about the parameters of a model after incorporating observed data. It is derived by combining the prior distribution, which reflects initial beliefs about the parameter, with the likelihood of the observed data using Bayes' theorem.
 Posterior_Distribution: |
   Given prior information combined with data from observations or experiments, the posterior summarizes all you know after factoring in that new evidence. It provides estimates of parameters like intervals or points as well as predictions about future data outcomes through probabilistic evaluations to help inform decisions under uncertain conditions. (a href="https://www.statisticshowto.com/posterior-distribution-probability/">Statistics HowTo</a>)
+Posterior_Model: |
+    The posterior model represents the updated beliefs about the parameters of a model after incorporating observed data. It is derived by combining the prior distribution, which reflects initial beliefs about the parameter, with the likelihood of the observed data using Bayes' theorem.
 Posterior_Odds: |
   In probability theory, odds provide a measure of the likelihood of a particular outcome. They are calculated as the ratio of the number of events that produce that outcome to the number that do not. The odds of an outcome are the ratio of the probability that the outcome occurs to the probability that the outcome does not occur. (<a href="https://en.wikipedia.org/wiki/Odds">Wikipedia</a>)
 Posterior_Predictive_Distribution: |
   An approach to assessing model fit. It is the distribution for future predicted data based on the data you have already seen. Measures of discrepancy between the estimated model and the data are constructed and their posterior predictive distribution compared to the discrepancy observed for the dataset. (CDS, p. 334)
 Posterior_Probability: |
-  It is the revised or updated probability of an event occurring after taking into consideration new information. ([Investopedia](https://www.investopedia.com/terms/p/posterior-probability.asp)). Posterior probability = prior probability + new evidence (called likelihood). ([Statistics How To](https://www.statisticshowto.com/posterior-distribution-probability/)) The posterior distribution will be a distribution of Gaussian distributions. (SR, Chap.4). It quantifies exactly how much our observed data changes our beliefs: P(belief | data) (BF, Chap.8)
+  Posterior Probability, also called the Posterior, is the updated probability of a hypothesis after incorporating new evidence, calculated using Bayes' theorem. It combines the prior probability—the initial belief about the hypothesis before observing data—with the likelihood, which is the probability of observing the evidence given the hypothesis. The posterior reflects a revised degree of belief in the hypothesis, integrating both background knowledge and observed data.  It's essentially learning from experience - your understanding becomes more refined as you incorporate new information.
 PostGIS: |
   PostGIS is an open-source extension for the PostgreSQL relational database management system (RDBMS). It adds spatial functionality to PostgreSQL, enabling it to store, index, and query spatial data. This extension is particularly useful for managing geographic information systems (GIS) data, such as points, lines, polygons, and raster images.
 POTNI:
@@ -681,22 +780,26 @@ Predictor Variable: |
   Predictor variable -- also known sometimes as the independent or explanatory variable -- is the counterpart to the response or dependent variable. Predictor variables are used to make predictions for dependent variables. ([DeepAI](https://deepai.org/machine-learning-glossary-and-terms/predictor-variable), [MiniTab](https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/regression/supporting-topics/basics/what-are-response-and-predictor-variables/))
 Prevalence: |
   Prevalence is the proportion of individuals in a population who have a specific characteristic at a certain time period. (<a href="https://www.nimh.nih.gov/health/statistics/what-is-prevalence">NIH<a>, <a href="https://www.statology.org/prevalence-in-statistics/">Statology</a>)
-Priorx: |
+Prior: |
   A prior represents the initial belief or knowledge about an uncertain quantity, such as a model parameter, before observing any data. It is formally defined as a probability distribution that quantifies the degree of belief in the parameter's possible values based on previous information, expert opinion, or theoretical considerations.
+Prior_Model: |
+  In Bayesian statistics, a prior model refers to the specification of a prior distribution, which represents the initial beliefs or assumptions about the parameters of a statistical model before observing any data. This prior distribution quantifies the uncertainty about the parameters.
 Prior_Odds: |
   When comparing two events, it common to phrase probability statements in terms of odds. Prior odds are the ratio of the a priory beliefs of a probability that the outcome occurs to the probability that the outcome does not occur before seeing the data. (<a href="https://ocw.mit.edu/courses/18-05-introduction-to-probability-and-statistics-spring-2014/65200614be80c2c1efcd0f9f3db8c0e7_MIT18_05S14_Reading12b.pdf">Bayesian Updating: Odds</a>)
 Prior_Predictive_Simulation: |
   It is an essential part of modeling. Once you’ve chosen priors for all variables these priors imply a joint prior distribution. By simulating from this distribution, you can see what your choices imply about the observable variable. This helps to diagnose bad choices. Prior predictive simulation is therefore very useful for assigning sensible priors. (Chap.4)
 Prior_Probability: |
-  The Prior Probability, also called the Prior, is the assumed probability distribution before we have seen the data. (<a href="https://en.wikipedia.org/wiki/Prior_probability">Wikipedia</a>) It quantifies how likely our initial belief is: P(belief). (BF, Chap.8)
+  The Prior Probability, also called the Prior, is the assumed probability distribution before we have seen the data. It quantifies how likely our initial belief is: P(belief). (BF, Chap.8)
 Probabilities: |
   Probability is a mathematical tool used to study randomness. It deals with the chance of an event occurring. ([OpenStax: Statistics](https://openstax.org/books/statistics/pages/1-1-definitions-of-statistics-probability-and-key-terms)) In the discrete case, to calculate the probability that a random variable takes on any value within a range, we sum the individual probabilities corresponding to each of the values. We use Pr to explicitly state that the result is a probability from a discrete probability distribution, whereas p(value) is a probability density from a continuous probability distribution. (Bayesian Statistics, Chap.3)
-Probability_Density_Function: |
+Probability-Density-Function: |
    A probability density function (PDF) tells us the probability that a random variable takes on a certain value. (<a href="https://www.statology.org/cdf-vs-pdf/">Statology</a>) The probability density function (PDF) for a given value of random variable X represents the density of probability (probability per unit random variable) within a particular range of that random variable X. Probability densities can take values larger than 1. ([StackExchange Mathematics](https://math.stackexchange.com/a/1464837/1215136)) We can use a continuous probability distribution to calculate the probability that a random variable lies within an interval of possible values. To do this, we use the continuous analogue of a sum, an integral. However, we recognise that calculating an integral is equivalent to calculating the area under a probability density curve. We use `p(value)` for probability densities and `Pr` for probabilities. (Bayesian Statistics, Chap.3)
 Probability_Distribution: |
   It is a way of describing all possible events and the probability of each one happening. Probability distributions are also very useful for asking questions about ranges of possible values. (BF, Chap.4) The two defining features are: (1) All values of the distribution must be real and non-negative. (2) The sum (for discrete random variables) or integral (for continuous random variables) across all possible values of the random variable must be 1. (BS, Chap.3)
-Probability_Mass_Function: |
-  A probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value. Sometimes it is also known as probability function, frequency function or discrete probability density function. (<a href="https://en.wikipedia.org/wiki/Probability_mass_function">Wikipedia</a>)
+Probability-Mass-Function: |
+  A probability mass function (PMF) is a function that gives the probability that a discrete random variable is exactly equal to some value. The pmf is a mathematical function that gives the probability that a discrete random variable is exactly equal to some specific value. It is the primary way to define the probability distribution of a discrete random variable. (Brave-AI) Sometimes it is also known as probability function, frequency function or discrete probability density function. (<a href="https://en.wikipedia.org/wiki/Probability_mass_function">Wikipedia</a>)
+Probability_Model: |
+  A probability model is a mathematical representation that describes the likelihood of various outcomes in a random experiment. It consists of a sample space, which includes all possible outcomes, and a probability assignment that assigns a probability to each outcome. The probabilities assigned in a probability model must always sum to 1, reflecting the certainty that one of the outcomes will occur. (Brave-AI)
 PROJ: |
   PROJ is a generic coordinate transformation software that transforms geospatial coordinates from one coordinate reference system (CRS) to another. This includes cartographic projections as well as geodetic transformations. PROJ is released under the X/MIT open source license.
 Prolog: |
@@ -709,8 +812,14 @@ Protocol: |
   A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol. (<a href="https://developer.mozilla.org/en-US/docs/Glossary/Protocol">MDN web docs</a>)
 PRTNI:
   Pre-tax National Income (PRTNI) is the sum of all income flows gained by the individual owner of the factors of production, labour and capital, after taking into account the operation of the pension system as well as unemployment insurance system. Accordingly, pensions and unemployment benefits are included ([Distributional National Accounts (DINA) for Austria, 2004-2016](https://wid.world/document/distributional-national-accounts-dina-for-austria-2004-2016-world-inequality-lab-wp-2020-23/)).
+Pseudocode: |
+  Pseudocode is an informal, high-level description of a computer program or algorithm written in plain English mixed with programming-like structures, rather than a formal programming language. It serves as a syntax-free blueprint that outlines the logic and steps of a process without adhering to the strict rules or syntax of any specific coding language. Unlike actual code, pseudocode cannot be compiled or executed by a computer; it is designed exclusively for human understanding to help developers plan, design, and communicate algorithms before implementation.
 Q-Q-Plot: |
   A quantile-quantile plot is a visualization of data using probabilities to show how closely a variable follows a normal distribution. (SwR, Glossary) This plot is made up of points below which a certain percentage of the observations fall. On the x-axis are normally distributed values with a mean of 0 and a standard deviation of 1. On the y-axis are the observations from the data. If the data are normally distributed, the values will form a diagonal line through the graph. (SwR, chapter 6)
+Qwen-14b: |
+  Qwen-14B is a 14-billion-parameter large language model developed by Alibaba Cloud as part of the Qwen (Tongyi Qianwen) series.  It is a Transformer-based model pretrained on over 3 trillion tokens of diverse data, including web texts, books, code, mathematics, and multilingual content, enabling strong performance across a wide range of tasks.
+Qwen-VL-235B: |
+  Qwen3-VL-235B is developed by Alibaba, and at the moment (March 2026) the most powerful vision-language model in the Qwen series, combining strong text generation with advanced visual understanding. (VL stands for "visual language".) It operates with GUIs by recognizings elements, understanding functions, invoking tools, and completings tasks. It allows for “what you see is what you get” programming by generating HTML, CSS, JavaScript, or Draw.io (flowchart) code from images or videos. (Brave-AI)
 QGIS: |
   QGIS, formerly known as Quantum GIS, is a free and open-source geographic information system (GIS) that allows users to create, edit, visualize, analyze, and publish geospatial information. It supports a wide range of geospatial data formats and is compatible with various operating systems, including Windows, macOS, Linux, Unix, and Android. QGIS offers robust capabilities for spatial data analysis, mapping, and visualization, making it a powerful tool for professionals and enthusiasts in fields such as environmental science, urban planning, agriculture, and disaster management.
 QRP: |
@@ -723,7 +832,7 @@ Quosures: |
   Quosures are quoted expressions that keep track of an environment, making them essential in the tidy evaluation framework. They are implemented as a subclass of one-sided formulas and are used to capture R code without evaluation, along with the environment where the code was captured. This tracking capability is crucial when interfacing data-masking functions, as it ensures that functions from different environments are correctly resolved. Quosures are typically created using functions like `quo()` and `enquo()`,  which capture the current environment along with the expression.
 R6: |
   An R6 object is an implementation of encapsulated object-oriented programming (OOP) in the R programming language. It provides a way to create classes and objects with both public and private members, allowing for better organization of code and data. More info at <https://adv-r.hadley.nz/r6.html>
-Rx: |
+R: |
   R is a programming language and software environment for statistical computing and graphics. It was developed by Ross Ihaka and Robert Gentleman and is now maintained by the R Core Team. R is open-source and free software, licensed under the GNU General Public License. It supports various statistical and graphical techniques and is widely used in data mining, bioinformatics, and data analysis. R includes a well-developed programming language, a collection of packages for specific tasks, and an extensive documentation system.
 R-Forge: |
   R-Forge offers a central platform for the development of R packages, R-related software and further projects. It is based on FusionForge offering easy access to the best in SVN, daily built and checked packages, mailing lists, bug tracking, message boards/forums, site hosting, permanent file archival, full backups, and total web-based administration. (<a href="https://r-forge.r-project.org/">R-Forge Home</a>)
@@ -737,6 +846,8 @@ Random Variables: |
   A statistical term for variables that associate different numeric values with each of the possible outcomes of some random process. By random here we do not mean the colloquial use of this term to mean something that is entirely unpredictable. A random process is simply a process whose outcome cannot be perfectly known ahead of time (it may nonetheless be quite predictable). (Chap.3)
 Range: |
   Range is the highest and lowest values of a variable, showing the full spread of values; the range can also be reported as a single number computed by taking the difference between the highest and lowest values of the variable. (SwR, Glossary)
+Rate-Parameter: |
+  The rate hyperparameter in the gamma distribution, typically denoted as β (beta), controls the scale of the distribution and is the inverse of the scale parameter (i.e., rate = 1/scale). A higher rate means events occur more frequently, leading to a narrower and more concentrated distribution; a lower rate implies less frequent events, resulting in a broader distribution. (Brave-AI)
 Reactive consumers: |
   Reactive consumers are objects int the reactive programming coding style of Shiny that depend on the values provided by reactive producers. They include reactive expressions and outputs, which update automatically when their dependencies change.
 Reactive context: |
@@ -765,6 +876,8 @@ REPREX: |
   Reprex is an REPRoducable EXample. A reprex makes a conversation about code more efficient and pleasant for all. This comes up whenever you ask someone for help, report a bug in software, or propose a new feature. The habit of making little, rigorous, self-contained examples also has the great side effect of making you think more clearly about your programming problems. In R the reprex package (https://reprex.tidyverse.org) makes it especially easy to prepare R code as a reprex, in order to share it on GitHub, StackOverflow etc.
 Residually: |
   Residuals are the differences between the observed values and the predicted values. (SwR, Glossary)
+R hat: |
+  R hat, also known as the potential scale reduction factor or Gelman-Rubin diagnostic, is a widely used convergence diagnostic for Markov Chain Monte Carlo (MCMC) methods.  It assesses whether multiple parallel chains have converged to the same target distribution by comparing the within-chain variance and the between-chain variance .
 RinteRface: |
   RinteRface aims at bringing the most famous open source HTML templates to R. <https://rinterface.com/>
 RWB: |
@@ -787,10 +900,14 @@ Scientific Notation: |
   Scientific notation is a way to display very large or very small numbers by multiplying the number by the value of 10 to some power to move the decimal to the left or right; for example, 1,430,000,000 could be displayed as 1.43 × 10^9 in scientific notation. (SwR, Glossary)
 Sensitivity: |
   The true positive rate (one minus the false negative rate), is referred to as sensitivity, recall, or probability of detection. (Bayesian Thinking, Chap.1). But also the percentage of “yes” values or 1s a logistic regression model got right. (SwR, Glossary)
+Sequential Bayesian Analysis: |
+  In a sequential Bayesian analysis (aka Bayesian Learning or Bayesian Updating), a posterior model is updated incrementally as more data come in. With each new piece of data, the previous posterior model reflecting our understanding prior to observing this data becomes the new prior model.
 sfc: |
   A Simple Feature Collection or Simple Feature Columns (SFC) is a fundamental data structure in the sf package for R, used for handling spatial data. It is a list-column that contains simple feature geometries, typically of the same type, but it can also contain a mix of different types. Each element in the list represents a single geometry, such as a point, line, or polygon. A simple feature geometry list-column is a list of class c("sfc_<TYPE>", "sfc") which most often contains objects of identical type; in case of a mix of types or an empty set, <TYPE> is set to the superclass GEOMETRY.
 sfg: |
   Simple Feature Geometry (SFG) is a fundamental concept in the sf package for R, used for representing the geometry of a single spatial feature. SFG objects can represent various types of geometries, such as points, lines, and polygons. These geometries are encoded using well-known binary (WKB) or well-known text (WKT) formats, which are human-readable representations of the geometries. SFG objects are implemented as native R data structures, such as vectors, matrices, or lists of matrices, depending on the geometry type. They consist of three classes corresponding to the dimensions, geometry type, and the SFG class itself. Additionally, SFG objects possess coordinates, which can be represented as a vector or a matrix.
+Shape-Parameter: |
+  The shape parameter in the context of the gamma distribution is a key hyperparameter that controls the form or shape of the distribution.  It is often denoted as α (alpha). A higher shape parameter (α) results in a more peaked and right-skewed distribution; a lower shape parameter leads to a flatter, more spread-out distribution. (Brave-AI)
 Shapiro-Wilk: |
   The Shapiro-Wilk test is a statistical test to determine or confirm whether a variable has a normal distribution; it is sensitive to small deviations from normality and not useful for sample sizes above 5,000 because it will nearly always find non-normality. (SwR, Glossary)
 SHP: |
@@ -807,7 +924,7 @@ Simple Features: |
   Simple Features, officially known as Simple Feature Access (ISO 19125), is a set of standards that specify a common storage and access model for geographic features, primarily composed of two-dimensional geometries like points, lines, polygons, and others. These standards are formalized by both the Open Geospatial Consortium (OGC) and the International Organization for Standardization (ISO). Simple features is a hierarchical data model that represents a wide range of geometry types. Of 18 geometry types supported by the specification, only seven are used in the vast majority of geographic research: POINT, LINESTRING, POLYGON, MULTIPOINT, MULTILINESTRING, MULTIPOLYGON, GEOMETRYCOLLECTION.
 Simple-Linear-Regression: |
   Simple does not mean easy; instead, it is the term used for a statistical model used to predict or explain a continuous outcome by a single predictor. (SwR, Glossary, Chap09)
-Simulation: |
+Simulation_: |
   Simulation is a way to model random events, such that simulated outcomes closely match real-world outcomes. By observing simulated outcomes, researchers gain insight on the real world. (<a href="https://stattrek.com/experiments/simulation#">Stat Trek</a>)
 Sina-Plot: |
   A sina plot is a type of diagram in which numerical data are depicted by points distributed in such a way that the width of the point distribution is proportional to the kernel density. Sina plots are similar to violin plots, but while violin plots depict kernel density, sina plots depict the points themselves. In some situations, sina plots may be preferable to violin plots, because sina plots contain more information. The term "sina plot" is intended to recognize the contributions of Sina Hadi Sohi, a student at the University of Copenhagen in Denmark. Sina created the original code that researchers at the university used to generate these plots.
@@ -879,6 +996,8 @@ Tile Plots: |
   Tile plots are matrices of tiles. For each tile, either the "width", "height", "area", or squared area is proportional to the corresponding entry. (Help file of `vcd::tile()`)
 Theil Index: |
   The Theil index is a statistic used to measure economic inequality. It calculates an “entropic distance” between the actual income distribution and an ideal egalitarian state where everyone has the same income. The resulting numerical value represents negative entropy, with higher values indicating greater inequality, further away from the ideal state of maximum disorder. ([US Census Bureau](https://www.census.gov/topics/income-poverty/income-inequality/about/metrics/theil-index.html))
+Total_Probability: |
+  Total probability is the product of the individual probabilities. Total probability refers to the marginal probability of an observed event B, denoted P(B), which accounts for all possible ways B could occur across mutually exclusive and exhaustive scenarios. This value is crucial because it serves as a normalization constant in Bayes' Theorem, ensuring that the resulting posterior probabilities sum to one. (Brave AI)
 Trace Rank Plot: |
   See: Trank Plot.
 Trace Plot: |
@@ -899,12 +1018,16 @@ Type-1: |
   Rejecting the null hypothesis when it should be retained is called Type I error or alpha and used as the threshold to determine statistical significance. (SwR, Glossary)
 Type-2: |
   Retaining the null hypothesis when it should be rejected is calles Type II error or beta. (SwR, Glossary)
+Unconditional_Probabilities: |
+  Unconditional probability, also known as marginal probability, refers to the likelihood of an event occurring without consideration of any other preceding or future events. It is a stand-alone probability that is not dependent on the occurrence of another event and is denoted as P(A).
 UCR: |
   The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
 Unexplained variance: |
   Unexplained variance is variability in the outcome that is not explained by the predictor(s); the unexplained variability and explained variability are used in calculations for model significance and model fit. (SwR, Glossary)
 Uniform Crime Reporting: |
   The Uniform Crime Reporting (UCR) Program generates reliable statistics for use in law enforcement. It also provides information for students of criminal justice, researchers, the media, and the public. The program has been providing crime statistics since 1930. The UCR Program includes data from more than 18,000 city, university and college, county, state, tribal, and federal law enforcement agencies. (<a href="fbi.gov/services/cjis/ucr">UCR</a>)
+Uniform Distribution: |
+  The standard uniform distribution is a continuous probability distribution where all values in the interval [0, 1] are equally likely.  It is a special case of the continuous uniform distribution with parameters a = 0 and b = 1, often denoted as U(0, 1). (Brave-AI)
 United Nations Geoscheme: |
   The United Nations geoscheme is a system which divides 248 countries and territories in the world into six continental regions, 22 geographical subregions, and two intermediary regions. It was devised by the United Nations Statistics Division (UNSD) based on the M49 coding classification
 UNSD: |
@@ -915,6 +1038,8 @@ UTF-8: |
   UTF-8 is a character encoding system that uses between one and four eight-bit bytes to represent all valid Unicode code points. It is designed to be backward compatible with ASCII, meaning that the first 128 UTF-8 characters are identical to the ASCII characters numbered 0-127. UTF-8 has become the de facto standard character encoding for the internet and related document types, with 97.9% of websites using it by April 2023. (Brave-KI)
 UTM:
   The Universal Transverse Mercator (UTM) is a map projection system used to assign coordinates to locations on Earth's surface. It divides the Earth into 60 zones, each 6 degrees of longitude wide, and projects each zone onto a plane. This system uses a transverse Mercator projection for each zone, with a scale factor of 0.9996 at the central meridian to minimize distortion. The zones are numbered consecutively from 1 to 60, starting at 180 degrees longitude and increasing to the east. Each zone has its own central meridian and is projected independently to ensure accuracy within the zone. The UTM system is particularly useful for precise measurements and navigation within a specific zone, as it minimizes distortion compared to a global latitude/longitude system. The UTM system is widely used by the military, NATO, and rescue services for reporting positions, and it is also commonly found on detailed topographic maps.
+Vague Prior: |
+  A vague or diffuse prior reflects little specific information about the unknown variable. A flat prior, which assigns equal prior plausibility to all possible values of the variable, is a special case.
 Variance var: |
   Variance is the squared deviation from the mean of a random variable. The variance is also often defined as the square of the standard deviation. Variance is a measure of dispersion, meaning it is a measure of how far a set of numbers is spread out from their average value. It is the second central moment of a distribution, and the covariance of the random variable with itself, and it is often represented by `σ`, `σ^2`, VAR(x), var(x) or V(x). ([Wikipedia](https://en.wikipedia.org/wiki/Variance))
 VIF: |
@@ -929,6 +1054,8 @@ WebAssembly: |
   WebAssembly (also known as WASM) allows software that’s normally compiled for a specific computer system to instead run anywhere, including in web browsers. It is a binary instruction format for a stack-based virtual machine.
 webR: |
   WebR is a version of the open-source R interpreter compiled for WebAssembly, along with a supporting TypeScript library for interacting with the console and R objects from a JavaScript environment. By compiling R to WebAssembly, a user can visit a website and run R code directly within the web browser, without R installed on their device or a supporting computational R server. All that is required is a normal web server, including the type of cloud hosting service provided by GitHub Pages or Netlify. WebR makes it possible to run R code in the browser without the need for an R server to execute the code: the R interpreter runs directly on the user’s machine. WebR maintains compatibility with standard R, meaning most R code will work the same way in both environments, though with some performance and availability limitations in the browser context.
+Weibull model: |
+  The Weibull model is a statistical model where the response variable follows a Weibull distribution, which is appropriate for positive continuous data — particularly time-to-event data (survival times, failure times, lifetimes). (Brave-AI)
 Wald: |
   Wald test is the statistical test for comparing the value of the coefficient in linear or logistic regression to the hypothesized value of zero; the form is similar to a one-sample t-test, although some Wald tests use a t-statistic and others use a z-statistic as the test statistic. (SwR, Glossary)
 WASM: |
